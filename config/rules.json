@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "scope": {
+    "include": [
+      "电视剧",
+      "网剧",
+      "短剧",
+      "综艺",
+      "真人秀",
+      "晚会",
+      "明星公开动态",
+      "官宣",
+      "定档",
+      "开机",
+      "杀青",
+      "选角",
+      "红毯",
+      "奖项",
+      "娱乐活动",
+      "公开争议",
+      "回应",
+      "道歉",
+      "法律事件",
+      "收视率",
+      "播放热度",
+      "口碑表现"
+    ],
+    "exclude": [
+      "普通社会新闻",
+      "政治",
+      "体育",
+      "游戏",
+      "数码",
+      "科研",
+      "开源",
+      "纯粉丝签到",
+      "无来源隐私爆料"
+    ]
+  },
+  "categories": [
+    "drama",
+    "variety",
+    "celebrity",
+    "relationship",
+    "industry",
+    "award_event",
+    "controversy",
+    "rating_performance",
+    "entertainment_event"
+  ],
+  "verification_statuses": [
+    "official",
+    "confirmed",
+    "reported",
+    "unverified",
+    "refuted"
+  ],
+  "limits": {
+    "latest_items": 200,
+    "category_items": 100,
+    "images_per_item": 5,
+    "videos_per_item": 3,
+    "file_max_bytes": 1000000
+  },
+  "cleanup": {
+    "timezone": "Asia/Shanghai",
+    "local_time": "23:00",
+    "mode": "daily_reset",
+    "clear_items": true,
+    "preserve_structure": true
+  }
+}
