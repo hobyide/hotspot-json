@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "feed": "entertainment-events",
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "items": [],
+  "source_status": [],
+  "cleanup": {
+    "last_run_at": null,
+    "status": "pending"
+  }
+}
