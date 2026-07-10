@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "scope": {
     "include": [
       "电视剧",
@@ -56,11 +56,13 @@
     "refuted"
   ],
   "limits": {
-    "latest_items": 200,
-    "category_items": 100,
+    "latest_items": 100,
+    "category_items": 50,
     "images_per_item": 5,
     "videos_per_item": 3,
-    "file_max_bytes": 1000000
+    "file_max_bytes": 5000000,
+    "full_text_max_chars_per_source": 20000,
+    "full_text_sources_per_item": 3
   },
   "cleanup": {
     "timezone": "Asia/Shanghai",
@@ -68,5 +70,37 @@
     "mode": "daily_reset",
     "clear_items": true,
     "preserve_structure": true
+  },
+  "content_policy": {
+    "normalized_content": {
+      "required": true,
+      "fields": [
+        "overview",
+        "key_points",
+        "timeline"
+      ],
+      "rule": "Every item must be understandable without opening the source URL."
+    },
+    "source_content": {
+      "full_text_when": [
+        "source explicitly permits republication",
+        "public domain",
+        "Creative Commons license permits it",
+        "official API terms permit retention",
+        "user-owned content"
+      ],
+      "otherwise": [
+        "write a detailed original summary",
+        "store key facts",
+        "store only a short source excerpt",
+        "keep the source URL"
+      ],
+      "never": [
+        "copy paywalled text",
+        "bypass access controls",
+        "mirror restricted articles",
+        "present rumor as fact"
+      ]
+    }
   }
 }
