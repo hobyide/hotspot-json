@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "project": "hobyide/hotspot-json",
+  "timezone": "Asia/Shanghai",
+  "status": "initialized",
+  "last_check_at": null,
+  "next_check_at": null,
+  "last_cleanup_at": null,
+  "automations": {
+    "hotspot_check": "pending",
+    "daily_cleanup": "pending"
+  },
+  "counts": {
+    "all": 0,
+    "drama": 0,
+    "variety": 0,
+    "celebrity": 0,
+    "entertainment_events": 0
+  },
+  "errors": []
+}
