@@ -1,13 +1,12 @@
 {
   "schema_version": "1.1",
   "feed": "entertainment-events",
-  "generated_at": null,
+  "generated_at": "2026-07-11T04:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
   "items": [],
-  "source_status": [],
-  "cleanup": {
-    "last_run_at": null,
-    "status": "pending"
-  }
+  "source_status": [
+    {"platform":"Configured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"本轮未取得符合24小时、可核验和Schema要求的娱乐事件条目"}
+  ],
+  "cleanup": {"last_run_at": null, "status": "pending"}
 }
