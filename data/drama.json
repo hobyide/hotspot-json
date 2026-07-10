@@ -1,13 +1,57 @@
 {
   "schema_version": "1.1",
   "feed": "drama",
-  "generated_at": null,
+  "generated_at": "2026-07-11T04:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
-  "items": [],
-  "source_status": [],
-  "cleanup": {
-    "last_run_at": null,
-    "status": "pending"
-  }
+  "items": [
+    {
+      "id": "20260711-austin-bbc-return",
+      "topic": "英澳家庭喜剧《Austin》回归BBC One播出",
+      "summary": "英国媒体7月10日报道，Ben Miller、Sally Phillips和Michael Theo主演的家庭喜剧《Austin》回归BBC One，新一季继续围绕作家Julian与Austin寻找生父的故事展开。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GB",
+      "hot_score": 45,
+      "first_seen_at": "2026-07-11T04:00:00+08:00",
+      "last_seen_at": "2026-07-11T04:00:00+08:00",
+      "trend": {"status": "new", "cross_platform_count": 1},
+      "entities": {"shows": ["Austin"], "celebrities": ["Ben Miller", "Sally Phillips", "Michael Theo"]},
+      "content": {
+        "overview": "英国《卫报》在2026年7月10日的电视节目推荐中将《Austin》的回归列为当晚重点。该剧是一部英国与澳大利亚联合制作的家庭喜剧，故事围绕脾气古怪的儿童文学作家Julian和神经多样性青年Austin展开。剧情中，DNA检测显示Julian并非Austin的亲生父亲，但两人没有因此中断关系，而是继续寻找Austin的生父。Sally Phillips饰演Julian的妻子Ingrid，人物在家庭关系和寻找真相的过程中承担重要戏剧功能。该节目于当晚在BBC One播出。",
+        "key_points": ["《Austin》于2026年7月10日回归BBC One。", "Ben Miller、Sally Phillips和Michael Theo继续担任主要演员。", "新剧情延续Julian与Austin寻找Austin亲生父亲的主线。", "现有报道来自可靠媒体节目指南，尚未取得BBC页面的直接验证。"],
+        "timeline": [
+          {"time": "2026-07-10", "event": "《卫报》发布当日电视推荐，报道《Austin》回归BBC One。"},
+          {"time": "2026-07-10 23:10 Europe/London", "event": "报道所列的BBC One播出时间。"}
+        ]
+      },
+      "verification": {"status": "reported", "level": 3, "official_source": null, "evidence_urls": ["https://www.theguardian.com/tv-and-radio/2026/jul/10/tv-tonight-the-return-of-sally-phillips-and-ben-millers-family-sitcom"]},
+      "sources": [
+        {
+          "platform": "The Guardian",
+          "source_type": "media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "TV tonight: the return of Sally Phillips and Ben Miller's family sitcom",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/jul/10/tv-tonight-the-return-of-sally-phillips-and-ben-millers-family-sitcom",
+          "captured_at": "2026-07-11T04:00:00+08:00",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "该节目指南报道家庭喜剧《Austin》回归BBC One。文章介绍Julian与Austin之间的亲子疑问：DNA检测不匹配后，两人继续寻找Austin真正的父亲；同时提到Ben Miller、Michael Theo和Sally Phillips的主要角色。",
+            "excerpt": null,
+            "language": "en-GB",
+            "license": {"status": "restricted", "name": null, "url": null},
+            "retrieved_at": "2026-07-11T04:00:00+08:00"
+          }
+        }
+      ],
+      "media": {"images": [], "videos": []}
+    }
+  ],
+  "source_status": [
+    {"platform":"The Guardian","status":"ok","item_count":1,"checked_at":"2026-07-11T04:00:00+08:00","error":null},
+    {"platform":"Configured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"本轮未取得可核验的结构化榜单条目"}
+  ],
+  "cleanup": {"last_run_at": null, "status": "pending"}
 }
