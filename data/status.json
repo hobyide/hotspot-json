@@ -2,13 +2,13 @@
   "schema_version": "1.0",
   "project": "hobyide/hotspot-json",
   "timezone": "Asia/Shanghai",
-  "status": "initialized",
+  "status": "ready",
   "last_check_at": null,
-  "next_check_at": null,
+  "next_check_at": "2026-07-11T04:00:00+08:00",
   "last_cleanup_at": null,
   "automations": {
-    "hotspot_check": "pending",
-    "daily_cleanup": "pending"
+    "hotspot_check": "enabled",
+    "daily_cleanup": "enabled"
   },
   "counts": {
     "all": 0,
