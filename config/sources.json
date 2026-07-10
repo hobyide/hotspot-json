@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "timezone": "Asia/Shanghai",
+  "check_interval_hours": 4,
+  "platforms": [
+    {
+      "id": "weibo",
+      "name": "微博",
+      "region": "CN",
+      "kinds": [
+        "hot_search",
+        "celebrity",
+        "entertainment"
+      ],
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "id": "baidu",
+      "name": "百度热搜",
+      "region": "CN",
+      "kinds": [
+        "hot_search",
+        "drama",
+        "variety"
+      ],
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "region": "CN",
+      "kinds": [
+        "hot_words",
+        "hot_video",
+        "film_tv_variety"
+      ],
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "id": "tencent_video",
+      "name": "腾讯视频",
+      "region": "CN",
+      "kinds": [
+        "drama",
+        "variety",
+        "celebrity"
+      ],
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "region": "CN",
+      "kinds": [
+        "drama",
+        "variety",
+        "rising"
+      ],
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "region": "CN",
+      "kinds": [
+        "film_tv",
+        "variety",
+        "entertainment"
+      ],
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "id": "mango_tv",
+      "name": "芒果TV",
+      "region": "CN",
+      "kinds": [
+        "variety",
+        "drama"
+      ],
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "id": "youku",
+      "name": "优酷",
+      "region": "CN",
+      "kinds": [
+        "drama",
+        "variety"
+      ],
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "id": "google_trends",
+      "name": "Google Trends",
+      "region": "GLOBAL",
+      "kinds": [
+        "entertainment_trends"
+      ],
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "region": "GLOBAL",
+      "kinds": [
+        "entertainment_video",
+        "tv"
+      ],
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB",
+      "region": "GLOBAL",
+      "kinds": [
+        "tv",
+        "people"
+      ],
+      "priority": 2,
+      "enabled": true
+    }
+  ]
+}
