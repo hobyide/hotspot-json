@@ -46,5 +46,13 @@
   },
   "last_event_generated_at": "2026-07-11T12:00:00+08:00",
   "last_source_store_generated_at": "2026-07-11T12:00:00+08:00",
-  "last_archive_at": null
+  "last_archive_at": "2026-07-11T23:00:00+08:00",
+  "last_archive_path": "archive/2026/07/11",
+  "last_archive_counts": {
+    "events": 2,
+    "sources": 4,
+    "expired_events_removed": 0,
+    "expired_sources_removed": 0,
+    "expired_archives_removed": 0
+  }
 }
