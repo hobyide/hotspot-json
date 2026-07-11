@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/hobyide/hotspot-json/main/schema/hotspot-v1.2.schema.json",
+  "title": "Evidence-linked Entertainment Hotspot Feed v1.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "feed",
+    "generated_at",
+    "timezone",
+    "window_hours",
+    "pipeline",
+    "items",
+    "source_status",
+    "cleanup"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.2"},
+    "feed": {"enum": ["all", "drama", "variety", "celebrity", "entertainment-events"]},
+    "generated_at": {"type": ["string", "null"], "format": "date-time"},
+    "timezone": {"const": "Asia/Shanghai"},
+    "window_hours": {"const": 24},
+    "pipeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_store", "facts_required", "citation_validation"],
+      "properties": {
+        "source_store": {"const": "data/sources.json"},
+        "facts_required": {"const": true},
+        "citation_validation": {"enum": ["passed", "failed", "partial"]}
+      }
+    },
+    "items": {
+      "type": "array",
+      "maxItems": 200,
+      "items": {"$ref": "#/$defs/event"}
+    },
+    "source_status": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["platform", "status", "item_count", "checked_at", "error"],
+        "properties": {
+          "platform": {"type": "string", "minLength": 1, "maxLength": 100},
+          "status": {"enum": ["ok", "degraded", "failed", "not_checked"]},
+          "item_count": {"type": "integer", "minimum": 0},
+          "checked_at": {"type": ["string", "null"], "format": "date-time"},
+          "error": {"type": ["string", "null"], "maxLength": 1000}
+        }
+      }
+    },
+    "cleanup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["last_run_at", "status", "mode"],
+      "properties": {
+        "last_run_at": {"type": ["string", "null"], "format": "date-time"},
+        "status": {"enum": ["pending", "completed", "failed"]},
+        "mode": {"const": "archive_then_expire"},
+        "last_archive_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    }
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "topic",
+        "summary",
+        "category",
+        "language",
+        "region",
+        "hot_score",
+        "heat_signals",
+        "first_seen_at",
+        "last_seen_at",
+        "trend",
+        "entities",
+        "content",
+        "verification",
+        "source_ids",
+        "sources",
+        "facts",
+        "conflicts",
+        "risk_flags",
+        "media"
+      ],
+      "properties": {
+        "id": {"type": "string", "minLength": 8, "maxLength": 128},
+        "topic": {"type": "string", "minLength": 1, "maxLength": 300},
+        "summary": {"type": "string", "minLength": 1, "maxLength": 2000},
+        "category": {
+          "enum": [
+            "drama",
+            "variety",
+            "celebrity",
+            "relationship",
+            "industry",
+            "award_event",
+            "controversy",
+            "rating_performance",
+            "entertainment_event"
+          ]
+        },
+        "language": {"type": "string", "minLength": 2, "maxLength": 16},
+        "region": {"type": "string", "minLength": 2, "maxLength": 16},
+        "hot_score": {"type": "number", "minimum": 0, "maximum": 100},
+        "heat_signals": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "independent_source_count",
+            "official_source_count",
+            "cross_platform_count",
+            "best_rank",
+            "spread_velocity",
+            "engagement"
+          ],
+          "properties": {
+            "independent_source_count": {"type": "integer", "minimum": 1},
+            "official_source_count": {"type": "integer", "minimum": 0},
+            "cross_platform_count": {"type": "integer", "minimum": 1},
+            "best_rank": {"type": ["integer", "null"], "minimum": 1},
+            "spread_velocity": {"type": ["number", "null"], "minimum": 0},
+            "engagement": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["likes", "comments", "shares", "views"],
+              "properties": {
+                "likes": {"type": ["integer", "null"], "minimum": 0},
+                "comments": {"type": ["integer", "null"], "minimum": 0},
+                "shares": {"type": ["integer", "null"], "minimum": 0},
+                "views": {"type": ["integer", "null"], "minimum": 0}
+              }
+            }
+          }
+        },
+        "first_seen_at": {"type": "string", "format": "date-time"},
+        "last_seen_at": {"type": "string", "format": "date-time"},
+        "trend": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "cross_platform_count"],
+          "properties": {
+            "status": {"enum": ["new", "rising", "stable", "falling", "reappeared"]},
+            "cross_platform_count": {"type": "integer", "minimum": 1}
+          }
+        },
+        "entities": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["shows", "celebrities", "organizations"],
+          "properties": {
+            "shows": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+            "celebrities": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+            "organizations": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+          }
+        },
+        "content": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["overview", "key_points", "timeline"],
+          "properties": {
+            "overview": {"type": "string", "minLength": 1, "maxLength": 5000},
+            "key_points": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 12,
+              "items": {"type": "string", "minLength": 1, "maxLength": 500}
+            },
+            "timeline": {
+              "type": "array",
+              "maxItems": 20,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["time", "event", "source_ids"],
+                "properties": {
+                  "time": {"type": ["string", "null"], "maxLength": 100},
+                  "event": {"type": "string", "minLength": 1, "maxLength": 500},
+                  "source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+                }
+              }
+            }
+          }
+        },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "level", "official_source_ids", "evidence_urls"],
+          "properties": {
+            "status": {"enum": ["official", "confirmed", "reported", "unverified", "refuted"]},
+            "level": {"type": "integer", "minimum": 1, "maximum": 5},
+            "official_source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+            "evidence_urls": {"type": "array", "uniqueItems": true, "maxItems": 20, "items": {"type": "string", "format": "uri"}}
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^S[0-9A-Za-z_-]{6,64}$"}
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source_id", "platform", "source_type", "title", "url", "captured_at", "content_hash", "content"],
+            "properties": {
+              "source_id": {"type": "string"},
+              "platform": {"type": "string", "minLength": 1},
+              "source_type": {"type": "string", "minLength": 1},
+              "rank": {"type": ["integer", "null"], "minimum": 1},
+              "heat_raw": {"type": ["string", "number", "null"]},
+              "title": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "format": "uri"},
+              "captured_at": {"type": "string", "format": "date-time"},
+              "content_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+              "content": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["mode", "summary", "excerpt", "language", "license", "retrieved_at"],
+                "properties": {
+                  "mode": {"enum": ["full_text", "excerpt_and_summary", "summary_only", "metadata_only"]},
+                  "text": {"type": ["string", "null"], "maxLength": 20000},
+                  "summary": {"type": "string", "maxLength": 5000},
+                  "excerpt": {"type": ["string", "null"], "maxLength": 1000},
+                  "language": {"type": "string", "minLength": 2, "maxLength": 16},
+                  "license": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["status", "name", "url"],
+                    "properties": {
+                      "status": {"enum": ["allowed", "public_domain", "creative_commons", "api_permitted", "unknown", "restricted"]},
+                      "name": {"type": ["string", "null"]},
+                      "url": {"type": ["string", "null"], "format": "uri"}
+                    }
+                  },
+                  "retrieved_at": {"type": "string", "format": "date-time"}
+                }
+              }
+            }
+          }
+        },
+        "facts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 30,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["fact_id", "statement", "source_ids", "evidence_status", "fact_type", "can_use_as_fact"],
+            "properties": {
+              "fact_id": {"type": "string", "pattern": "^F[0-9A-Za-z_-]{2,64}$"},
+              "statement": {"type": "string", "minLength": 1, "maxLength": 1500},
+              "source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+              "evidence_status": {
+                "enum": ["confirmed", "cross_confirmed", "single_source", "unconfirmed", "conflicting", "opinion", "unsupported", "refuted"]
+              },
+              "fact_type": {
+                "enum": ["date", "number", "quote", "casting", "release", "broadcast", "relationship", "legal", "statement", "ranking", "performance", "other"]
+              },
+              "can_use_as_fact": {"type": "boolean"}
+            }
+          }
+        },
+        "conflicts": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["claim", "source_ids", "status"],
+            "properties": {
+              "claim": {"type": "string", "minLength": 1, "maxLength": 1500},
+              "source_ids": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string"}},
+              "status": {"enum": ["unresolved", "resolved", "partially_resolved"]},
+              "resolution": {"type": ["string", "null"], "maxLength": 1500}
+            }
+          }
+        },
+        "risk_flags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "rumor",
+              "single_source",
+              "source_conflict",
+              "privacy",
+              "legal_sensitivity",
+              "minor_involved",
+              "graphic_content",
+              "copyright_restriction",
+              "stale_information",
+              "none"
+            ]
+          }
+        },
+        "media": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["images", "videos"],
+          "properties": {
+            "images": {"type": "array", "maxItems": 5, "items": {"type": "string", "format": "uri"}},
+            "videos": {"type": "array", "maxItems": 3, "items": {"type": "string", "format": "uri"}}
+          }
+        }
+      }
+    }
+  }
+}
