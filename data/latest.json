@@ -1,10 +1,84 @@
 {
   "schema_version": "1.1",
   "feed": "all",
-  "generated_at": "2026-07-11T04:00:00+08:00",
+  "generated_at": "2026-07-11T08:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
   "items": [
+    {
+      "id": "20260711-big-brother-28-reality-veterans",
+      "topic": "《Big Brother》第28季首播加入两名真人秀旧将",
+      "summary": "《Big Brother》第28季于7月9日在CBS首播，首播环节确认《Survivor》选手Rick Devens和《Big Brother》第26季选手Angela Murray进入本季阵容，成为时间旅行主题赛制中的意外成员。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "US",
+      "hot_score": 58,
+      "first_seen_at": "2026-07-11T08:00:00+08:00",
+      "last_seen_at": "2026-07-11T08:00:00+08:00",
+      "trend": {"status": "new", "cross_platform_count": 2},
+      "entities": {"shows": ["Big Brother Season 28", "Survivor"], "celebrities": ["Rick Devens", "Angela Murray", "Julie Chen Moonves"]},
+      "content": {
+        "overview": "美国真人秀《Big Brother》第28季在2026年7月9日首播。本季以时间旅行为主题，并在首播竞赛中设置了由获胜选手引入其他真人秀人物的环节。多家娱乐媒体在7月10日报道，《Survivor: Edge of Extinction》及《Survivor 50》参赛者Rick Devens，以及曾参加《Big Brother》第26季的Angela Murray，已正式进入本季节目。媒体还讨论了其他潜在加入者，但相关猜测尚未得到可靠确认，因此本条只记录已经在节目中出现并被多家来源确认的两人。",
+        "key_points": [
+          "《Big Brother》第28季于2026年7月9日在CBS首播。",
+          "本季采用时间旅行主题，并在首播中设置引入真人秀旧将的赛制变化。",
+          "Rick Devens和Angela Murray已被多家媒体确认加入本季阵容。",
+          "关于其他可能参赛者的网络猜测未作为确定事实收录。"
+        ],
+        "timeline": [
+          {"time": "2026-07-09", "event": "《Big Brother》第28季在CBS首播，节目展示时间旅行主题与新增成员机制。"},
+          {"time": "2026-07-10", "event": "多家娱乐媒体报道Rick Devens和Angela Murray已进入本季节目。"}
+        ]
+      },
+      "verification": {
+        "status": "confirmed",
+        "level": 4,
+        "official_source": null,
+        "evidence_urls": [
+          "https://decider.com/2026/07/10/dee-valladares-survivor-big-brother-cast-2026-rick-deves-angela-murray/",
+          "https://www.cosmopolitan.com/entertainment/tv/a71896540/big-brother-season-28-cast-eliminations/"
+        ]
+      },
+      "sources": [
+        {
+          "platform": "Decider",
+          "source_type": "media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Reality Stars Rick Devens, Angela Murray Join 'Big Brother' 2026 Cast",
+          "url": "https://decider.com/2026/07/10/dee-valladares-survivor-big-brother-cast-2026-rick-deves-angela-murray/",
+          "captured_at": "2026-07-11T08:00:00+08:00",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "报道介绍《Big Brother》第28季首播的赛制变化，并确认Rick Devens与Angela Murray通过首播环节进入节目。文章同时提及另一位可能加入的真人秀选手，但将其明确描述为尚未确认的推测。",
+            "excerpt": null,
+            "language": "en-US",
+            "license": {"status": "restricted", "name": null, "url": null},
+            "retrieved_at": "2026-07-11T08:00:00+08:00"
+          }
+        },
+        {
+          "platform": "Cosmopolitan",
+          "source_type": "media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Your Full Guide to the 'Big Brother' Season 28 Cast",
+          "url": "https://www.cosmopolitan.com/entertainment/tv/a71896540/big-brother-season-28-cast-eliminations/",
+          "captured_at": "2026-07-11T08:00:00+08:00",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "演员阵容指南确认第28季由Julie Chen Moonves主持，并列出Angela Murray和Rick Devens等已经进入节目的人物，为首播后的阵容变化提供第二来源验证。",
+            "excerpt": null,
+            "language": "en-US",
+            "license": {"status": "restricted", "name": null, "url": null},
+            "retrieved_at": "2026-07-11T08:00:00+08:00"
+          }
+        }
+      ],
+      "media": {"images": [], "videos": []}
+    },
     {
       "id": "20260711-austin-bbc-return",
       "topic": "英澳家庭喜剧《Austin》回归BBC One播出",
@@ -12,44 +86,20 @@
       "category": "drama",
       "language": "zh-CN",
       "region": "GB",
-      "hot_score": 45,
+      "hot_score": 43,
       "first_seen_at": "2026-07-11T04:00:00+08:00",
-      "last_seen_at": "2026-07-11T04:00:00+08:00",
-      "trend": {
-        "status": "new",
-        "cross_platform_count": 1
-      },
-      "entities": {
-        "shows": ["Austin"],
-        "celebrities": ["Ben Miller", "Sally Phillips", "Michael Theo"]
-      },
+      "last_seen_at": "2026-07-11T08:00:00+08:00",
+      "trend": {"status": "stable", "cross_platform_count": 1},
+      "entities": {"shows": ["Austin"], "celebrities": ["Ben Miller", "Sally Phillips", "Michael Theo"]},
       "content": {
-        "overview": "英国《卫报》在2026年7月10日的电视节目推荐中将《Austin》的回归列为当晚重点。该剧是一部英国与澳大利亚联合制作的家庭喜剧，故事围绕脾气古怪的儿童文学作家Julian和神经多样性青年Austin展开。剧情中，DNA检测显示Julian并非Austin的亲生父亲，但两人没有因此中断关系，而是继续寻找Austin的生父。Sally Phillips饰演Julian的妻子Ingrid，人物在家庭关系和寻找真相的过程中承担重要戏剧功能。该节目于当晚在BBC One播出。",
-        "key_points": [
-          "《Austin》于2026年7月10日回归BBC One。",
-          "Ben Miller、Sally Phillips和Michael Theo继续担任主要演员。",
-          "新剧情延续Julian与Austin寻找Austin亲生父亲的主线。",
-          "现有报道来自可靠媒体节目指南，尚未取得BBC页面的直接验证。"
-        ],
+        "overview": "英国《卫报》在2026年7月10日的电视节目推荐中将《Austin》的回归列为当晚重点。该剧是一部英国与澳大利亚联合制作的家庭喜剧，故事围绕儿童文学作家Julian和青年Austin展开。DNA检测显示Julian并非Austin的亲生父亲，但两人继续寻找Austin的生父。Sally Phillips饰演Julian的妻子Ingrid。该节目于当晚在BBC One播出。",
+        "key_points": ["《Austin》于2026年7月10日回归BBC One。", "Ben Miller、Sally Phillips和Michael Theo继续担任主要演员。", "新剧情延续寻找Austin亲生父亲的主线。", "现有报道来自可靠媒体节目指南，尚未取得BBC页面的直接验证。"],
         "timeline": [
-          {
-            "time": "2026-07-10",
-            "event": "《卫报》发布当日电视推荐，报道《Austin》回归BBC One。"
-          },
-          {
-            "time": "2026-07-10 23:10 Europe/London",
-            "event": "报道所列的BBC One播出时间。"
-          }
+          {"time": "2026-07-10", "event": "《卫报》发布当日电视推荐，报道《Austin》回归BBC One。"},
+          {"time": "2026-07-10 23:10 Europe/London", "event": "报道所列的BBC One播出时间。"}
         ]
       },
-      "verification": {
-        "status": "reported",
-        "level": 3,
-        "official_source": null,
-        "evidence_urls": [
-          "https://www.theguardian.com/tv-and-radio/2026/jul/10/tv-tonight-the-return-of-sally-phillips-and-ben-millers-family-sitcom"
-        ]
-      },
+      "verification": {"status": "reported", "level": 3, "official_source": null, "evidence_urls": ["https://www.theguardian.com/tv-and-radio/2026/jul/10/tv-tonight-the-return-of-sally-phillips-and-ben-millers-family-sitcom"]},
       "sources": [
         {
           "platform": "The Guardian",
@@ -62,40 +112,32 @@
           "content": {
             "mode": "summary_only",
             "text": null,
-            "summary": "该节目指南报道家庭喜剧《Austin》回归BBC One。文章介绍Julian与Austin之间的亲子疑问：DNA检测不匹配后，两人继续寻找Austin真正的父亲；同时提到Ben Miller、Michael Theo和Sally Phillips的主要角色。",
+            "summary": "节目指南报道家庭喜剧《Austin》回归BBC One，并介绍Julian与Austin继续寻找Austin亲生父亲的剧情。",
             "excerpt": null,
             "language": "en-GB",
-            "license": {
-              "status": "restricted",
-              "name": null,
-              "url": null
-            },
+            "license": {"status": "restricted", "name": null, "url": null},
             "retrieved_at": "2026-07-11T04:00:00+08:00"
           }
         }
       ],
-      "media": {
-        "images": [],
-        "videos": []
-      }
+      "media": {"images": [], "videos": []}
     }
   ],
   "source_status": [
-    {"platform":"微博","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"公开搜索未返回可核验的近24小时娱乐榜单条目"},
-    {"platform":"百度热搜","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"公开搜索未返回可核验的近24小时娱乐榜单条目"},
-    {"platform":"抖音","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可验证公开榜单数据"},
-    {"platform":"腾讯视频","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可验证公开榜单数据"},
-    {"platform":"爱奇艺","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可验证公开榜单数据"},
-    {"platform":"哔哩哔哩","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可验证公开榜单数据"},
-    {"platform":"芒果TV","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可验证公开榜单数据"},
-    {"platform":"优酷","status":"failed","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可验证公开榜单数据"},
-    {"platform":"Google Trends","status":"degraded","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得结构化娱乐趋势榜单"},
-    {"platform":"YouTube","status":"degraded","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未取得可核验的地区娱乐趋势榜单"},
-    {"platform":"TMDB","status":"degraded","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"未调用官方API，未写入趋势数据"},
-    {"platform":"The Guardian","status":"ok","item_count":1,"checked_at":"2026-07-11T04:00:00+08:00","error":null}
+    {"platform":"微博","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"公开搜索未返回可核验的近24小时娱乐榜单条目"},
+    {"platform":"百度热搜","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"公开搜索未返回可核验的近24小时娱乐榜单条目"},
+    {"platform":"抖音","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可验证公开榜单数据"},
+    {"platform":"腾讯视频","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可验证公开榜单数据"},
+    {"platform":"爱奇艺","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可验证公开榜单数据"},
+    {"platform":"哔哩哔哩","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可验证公开榜单数据"},
+    {"platform":"芒果TV","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可验证公开榜单数据"},
+    {"platform":"优酷","status":"failed","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可验证公开榜单数据"},
+    {"platform":"Google Trends","status":"degraded","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得结构化娱乐趋势榜单"},
+    {"platform":"YouTube","status":"degraded","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未取得可核验的地区娱乐趋势榜单"},
+    {"platform":"TMDB","status":"degraded","item_count":0,"checked_at":"2026-07-11T08:00:00+08:00","error":"未调用官方API，未写入趋势数据"},
+    {"platform":"Decider","status":"ok","item_count":1,"checked_at":"2026-07-11T08:00:00+08:00","error":null},
+    {"platform":"Cosmopolitan","status":"ok","item_count":1,"checked_at":"2026-07-11T08:00:00+08:00","error":null},
+    {"platform":"The Guardian","status":"ok","item_count":1,"checked_at":"2026-07-11T08:00:00+08:00","error":null}
   ],
-  "cleanup": {
-    "last_run_at": null,
-    "status": "pending"
-  }
+  "cleanup": {"last_run_at": null, "status": "pending"}
 }
