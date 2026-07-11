@@ -4,9 +4,9 @@
   "timezone": "Asia/Shanghai",
   "status": "degraded",
   "last_check_at": "2026-07-11T12:00:00+08:00",
-  "next_check_at": "2026-07-11T18:00:00+08:00",
-  "last_cleanup_at": null,
-  "last_archive_at": null,
+  "next_check_at": "2026-07-12T00:00:00+08:00",
+  "last_cleanup_at": "2026-07-11T23:00:00+08:00",
+  "last_archive_at": "2026-07-11T23:00:00+08:00",
   "automations": {
     "hotspot_check": "enabled_every_6_hours",
     "daily_archive_cleanup": "enabled_at_23_00"
@@ -18,6 +18,15 @@
     "celebrity": 0,
     "entertainment_events": 0,
     "source_records": 4
+  },
+  "archive": {
+    "path": "archive/2026/07/11",
+    "events": 2,
+    "sources": 4,
+    "validation": "passed",
+    "expired_events_removed": 0,
+    "expired_sources_removed": 0,
+    "expired_archives_removed": 0
   },
   "errors": [
     "微博、百度、抖音及主要国内视频平台本轮未返回可核验的结构化近24小时娱乐榜单数据",
