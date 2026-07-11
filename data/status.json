@@ -21,15 +21,14 @@
   },
   "errors": [
     "微博、百度、抖音及主要国内视频平台本轮未返回可核验的结构化近24小时娱乐榜单数据",
-    "Google Trends、YouTube和TMDB未取得可直接写入的官方结构化趋势数据",
-    "现有事件Feed仍为1.1兼容数据；下一次成功抓取必须迁移到事件Schema 1.2"
+    "Google Trends、YouTube和TMDB未取得可直接写入的官方结构化趋势数据"
   ],
   "content_model": "fixed_source_pool_with_source_snapshots_fact_table_and_citation_validation",
   "pipeline": {
     "source_store": "data/sources.json",
     "event_schema": "schema/hotspot-v1.2.schema.json",
     "source_schema": "schema/source-record.schema.json",
-    "migration_status": "source_store_initialized_event_feed_pending_next_successful_scrape"
+    "migration_status": "complete"
   },
   "retention": {
     "current_event_window_hours": 24,
