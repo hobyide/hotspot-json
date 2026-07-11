@@ -2,7 +2,7 @@
 
 自动聚合国内外电视剧、网剧、短剧、综艺、明星和娱乐圈热点，并以可追溯、带证据引用的 JSON 格式供其他脚本读取。
 
-本项目不再采用“搜索一下直接写文章”的模式，而是执行：
+本项目执行：
 
 `固定信源池 → 原始素材落库 → URL/正文指纹去重 → 同一事件聚合 → 事实表 → 引用核验 → 风险检查 → 事件 Feed`
 
@@ -15,7 +15,7 @@
 - 数据清单：`https://raw.githubusercontent.com/hobyide/hotspot-json/main/data/manifest.json`
 - 运行状态：`https://raw.githubusercontent.com/hobyide/hotspot-json/main/data/status.json`
 
-### 分类兼容地址
+### 分类地址
 
 - 剧集热点：`https://raw.githubusercontent.com/hobyide/hotspot-json/main/data/drama.json`
 - 综艺热点：`https://raw.githubusercontent.com/hobyide/hotspot-json/main/data/variety.json`
@@ -74,16 +74,9 @@
     "summary": "清洗后的原创摘要",
     "excerpt": null,
     "key_facts": [],
-    "license": {
-      "status": "restricted",
-      "name": null,
-      "url": null
-    }
+    "license": {"status": "restricted", "name": null, "url": null}
   },
-  "media": {
-    "images": [],
-    "videos": []
-  }
+  "media": {"images": [], "videos": []}
 }
 ```
 
@@ -91,7 +84,7 @@
 
 ## 事件与事实引用
 
-事件 Feed 的目标版本为 `1.2`。每个事件必须包含：
+当前全部事件 Feed 已迁移为 `schema_version: 1.2`。每个事件必须包含：
 
 - `source_ids`：指向原始素材库
 - `facts`：逐条事实表
@@ -128,17 +121,7 @@
 
 ## 热度计算
 
-热度由可解释指标计算，不由模型凭感觉判断：
-
-- 独立来源数量
-- 官方来源数量
-- 跨平台数量
-- 可核验的榜单排名
-- 传播速度
-- 可获得的点赞、评论、转发和播放量
-- 与娱乐领域的相关度
-
-无法获得的数据必须写为 `null`，不得估算。
+热度由独立来源数、官方来源数、跨平台数、可核验榜单排名、传播速度、可获得的互动量和领域相关度计算。无法获得的数据必须写为 `null`，不得估算。
 
 ## 归档与清理
 
@@ -148,19 +131,10 @@
 - 当天来源：`archive/YYYY/MM/DD/sources.json`
 - 归档清单：`archive/YYYY/MM/DD/manifest.json`
 
-保留策略：
-
-- 当前事件窗口：24 小时
-- 在线来源快照：7 天
-- 历史归档：30 天
-- 失败日志：14 天
-
-不再每天无条件清空全部热点。只移除已过期、无热度且不再被引用的事件和来源。
+保留策略：当前事件 24 小时、在线来源快照 7 天、历史归档 30 天、失败日志 14 天。不再每天无条件清空全部热点，只移除已过期、无热度且不再被引用的事件和来源。
 
 ## Schema
 
-- 兼容事件 Schema：`schema/hotspot.schema.json`
-- 新事件 Schema：`schema/hotspot-v1.2.schema.json`
+- 旧版兼容 Schema：`schema/hotspot.schema.json`
+- 当前事件 Schema：`schema/hotspot-v1.2.schema.json`
 - 原始素材 Schema：`schema/source-record.schema.json`
-
-下一次成功抓取应将事件文件迁移为 `schema_version: 1.2`。
