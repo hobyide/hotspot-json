@@ -1,133 +1,185 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "timezone": "Asia/Shanghai",
-  "check_interval_hours": 4,
-  "platforms": [
+  "check_interval_hours": 6,
+  "scheduled_local_times": ["00:00", "06:00", "12:00", "18:00"],
+  "retrieval_priority": [
+    "official_api_or_rss",
+    "fixed_page_parser",
+    "search_api",
+    "browser_search_fallback"
+  ],
+  "source_tiers": {
+    "tier_1_official": {
+      "trust_level": 5,
+      "can_confirm_alone": true,
+      "description": "节目组、电视台、视频平台、制作公司、经纪公司、明星或工作室、品牌、法院、警方及其他正式发布主体"
+    },
+    "tier_2_platform_trend": {
+      "trust_level": 3,
+      "can_confirm_alone": false,
+      "description": "用于计算热度和发现选题，不单独证明事件事实"
+    },
+    "tier_3_industry_media": {
+      "trust_level": 3,
+      "can_confirm_alone": false,
+      "description": "白名单影视娱乐媒体；重要结论需要交叉验证"
+    },
+    "tier_4_search_fallback": {
+      "trust_level": 1,
+      "can_confirm_alone": false,
+      "description": "仅在固定信源未覆盖时补源，必须经过域名、作者、时间、转载链和独立来源检查"
+    }
+  },
+  "sources": [
     {
-      "id": "weibo",
-      "name": "微博",
+      "id": "weibo_hot",
+      "name": "微博热搜与娱乐榜",
       "region": "CN",
-      "kinds": [
-        "hot_search",
-        "celebrity",
-        "entertainment"
-      ],
-      "priority": 1,
-      "enabled": true
+      "tier": "tier_2_platform_trend",
+      "source_type": "platform_trend",
+      "adapter": "fixed_page_or_search_fallback",
+      "kinds": ["hot_search", "celebrity", "drama", "variety"],
+      "enabled": true,
+      "fact_policy": "discovery_and_heat_only"
     },
     {
-      "id": "baidu",
+      "id": "baidu_hot",
       "name": "百度热搜",
       "region": "CN",
-      "kinds": [
-        "hot_search",
-        "drama",
-        "variety"
-      ],
-      "priority": 1,
-      "enabled": true
+      "tier": "tier_2_platform_trend",
+      "source_type": "platform_trend",
+      "adapter": "fixed_page_parser",
+      "kinds": ["hot_search", "drama", "variety", "celebrity"],
+      "enabled": true,
+      "fact_policy": "discovery_and_heat_only"
     },
     {
-      "id": "douyin",
-      "name": "抖音",
+      "id": "douyin_hot",
+      "name": "抖音热点",
       "region": "CN",
-      "kinds": [
-        "hot_words",
-        "hot_video",
-        "film_tv_variety"
-      ],
-      "priority": 1,
-      "enabled": true
+      "tier": "tier_2_platform_trend",
+      "source_type": "platform_trend",
+      "adapter": "fixed_page_or_search_fallback",
+      "kinds": ["hot_words", "hot_video", "film_tv_variety"],
+      "enabled": true,
+      "fact_policy": "discovery_and_heat_only"
+    },
+    {
+      "id": "bilibili_entertainment",
+      "name": "哔哩哔哩影视娱乐热门",
+      "region": "CN",
+      "tier": "tier_2_platform_trend",
+      "source_type": "platform_trend",
+      "adapter": "official_api_or_fixed_page",
+      "kinds": ["film_tv", "variety", "entertainment_video"],
+      "enabled": true,
+      "fact_policy": "discovery_and_heat_only"
     },
     {
       "id": "tencent_video",
-      "name": "腾讯视频",
+      "name": "腾讯视频官方内容与榜单",
       "region": "CN",
-      "kinds": [
-        "drama",
-        "variety",
-        "celebrity"
-      ],
-      "priority": 1,
-      "enabled": true
+      "tier": "tier_1_official",
+      "source_type": "official_platform",
+      "adapter": "fixed_page_parser",
+      "kinds": ["drama", "variety", "official_announcement"],
+      "enabled": true,
+      "fact_policy": "official_pages_can_confirm"
     },
     {
       "id": "iqiyi",
-      "name": "爱奇艺",
+      "name": "爱奇艺官方内容与榜单",
       "region": "CN",
-      "kinds": [
-        "drama",
-        "variety",
-        "rising"
-      ],
-      "priority": 1,
-      "enabled": true
-    },
-    {
-      "id": "bilibili",
-      "name": "哔哩哔哩",
-      "region": "CN",
-      "kinds": [
-        "film_tv",
-        "variety",
-        "entertainment"
-      ],
-      "priority": 2,
-      "enabled": true
+      "tier": "tier_1_official",
+      "source_type": "official_platform",
+      "adapter": "fixed_page_parser",
+      "kinds": ["drama", "variety", "official_announcement"],
+      "enabled": true,
+      "fact_policy": "official_pages_can_confirm"
     },
     {
       "id": "mango_tv",
-      "name": "芒果TV",
+      "name": "芒果TV官方内容与榜单",
       "region": "CN",
-      "kinds": [
-        "variety",
-        "drama"
-      ],
-      "priority": 2,
-      "enabled": true
+      "tier": "tier_1_official",
+      "source_type": "official_platform",
+      "adapter": "fixed_page_parser",
+      "kinds": ["drama", "variety", "official_announcement"],
+      "enabled": true,
+      "fact_policy": "official_pages_can_confirm"
     },
     {
       "id": "youku",
-      "name": "优酷",
+      "name": "优酷官方内容与榜单",
       "region": "CN",
-      "kinds": [
-        "drama",
-        "variety"
-      ],
-      "priority": 2,
-      "enabled": true
+      "tier": "tier_1_official",
+      "source_type": "official_platform",
+      "adapter": "fixed_page_parser",
+      "kinds": ["drama", "variety", "official_announcement"],
+      "enabled": true,
+      "fact_policy": "official_pages_can_confirm"
+    },
+    {
+      "id": "youtube_trending",
+      "name": "YouTube官方频道与趋势内容",
+      "region": "GLOBAL",
+      "tier": "tier_2_platform_trend",
+      "source_type": "platform_trend",
+      "adapter": "official_api_or_search_fallback",
+      "kinds": ["entertainment_video", "tv", "official_channel"],
+      "enabled": true,
+      "fact_policy": "official_channel_posts_can_confirm_otherwise_heat_only"
     },
     {
       "id": "google_trends",
-      "name": "Google Trends",
+      "name": "Google Trends娱乐趋势",
       "region": "GLOBAL",
-      "kinds": [
-        "entertainment_trends"
-      ],
-      "priority": 2,
-      "enabled": true
-    },
-    {
-      "id": "youtube",
-      "name": "YouTube",
-      "region": "GLOBAL",
-      "kinds": [
-        "entertainment_video",
-        "tv"
-      ],
-      "priority": 2,
-      "enabled": true
+      "tier": "tier_2_platform_trend",
+      "source_type": "platform_trend",
+      "adapter": "official_page_or_search_fallback",
+      "kinds": ["entertainment_trends"],
+      "enabled": true,
+      "fact_policy": "heat_only"
     },
     {
       "id": "tmdb",
-      "name": "TMDB",
+      "name": "TMDB趋势与作品元数据",
       "region": "GLOBAL",
-      "kinds": [
-        "tv",
-        "people"
-      ],
-      "priority": 2,
-      "enabled": true
+      "tier": "tier_2_platform_trend",
+      "source_type": "official_api",
+      "adapter": "official_api",
+      "kinds": ["tv", "movie", "people", "trending"],
+      "enabled": true,
+      "fact_policy": "metadata_and_heat_only"
+    },
+    {
+      "id": "official_accounts_dynamic",
+      "name": "事件相关官方账号动态池",
+      "region": "GLOBAL",
+      "tier": "tier_1_official",
+      "source_type": "official_account",
+      "adapter": "entity_resolved_fixed_account",
+      "kinds": ["studio", "celebrity", "show", "broadcaster", "production_company", "agency", "brand", "authority"],
+      "enabled": true,
+      "fact_policy": "can_confirm_scope_owned_claims"
+    },
+    {
+      "id": "industry_media_whitelist",
+      "name": "影视娱乐行业媒体白名单",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "source_type": "media",
+      "adapter": "rss_or_fixed_page_or_search_api",
+      "kinds": ["drama", "variety", "celebrity", "industry", "awards"],
+      "enabled": true,
+      "fact_policy": "requires_cross_check_unless_direct_interview_or_document"
     }
-  ]
+  ],
+  "failure_policy": {
+    "retry_count": 2,
+    "fallback_to_next_adapter": true,
+    "record_source_status": true,
+    "never_replace_valid_feed_with_empty_on_total_failure": true
+  }
 }
