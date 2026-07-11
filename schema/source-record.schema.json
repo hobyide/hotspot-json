@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/hobyide/hotspot-json/main/schema/source-record.schema.json",
+  "title": "Entertainment Source Snapshot Store",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "timezone", "records", "source_status"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "generated_at": {"type": ["string", "null"], "format": "date-time"},
+    "timezone": {"const": "Asia/Shanghai"},
+    "records": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "title",
+          "url",
+          "normalized_url",
+          "source",
+          "source_type",
+          "tier",
+          "author",
+          "published_at",
+          "fetched_at",
+          "content_hash",
+          "fetch_status",
+          "content",
+          "media"
+        ],
+        "properties": {
+          "source_id": {"type": "string", "pattern": "^S[0-9A-Za-z_-]{6,64}$"},
+          "title": {"type": "string", "minLength": 1, "maxLength": 500},
+          "url": {"type": "string", "format": "uri"},
+          "normalized_url": {"type": "string", "format": "uri"},
+          "source": {"type": "string", "minLength": 1, "maxLength": 200},
+          "source_type": {
+            "enum": [
+              "official_account",
+              "official_platform",
+              "official_api",
+              "official_rss",
+              "platform_trend",
+              "industry_media",
+              "media",
+              "community",
+              "search_fallback"
+            ]
+          },
+          "tier": {
+            "enum": [
+              "tier_1_official",
+              "tier_2_platform_trend",
+              "tier_3_industry_media",
+              "tier_4_search_fallback"
+            ]
+          },
+          "author": {"type": ["string", "null"], "maxLength": 300},
+          "published_at": {"type": ["string", "null"], "format": "date-time"},
+          "fetched_at": {"type": "string", "format": "date-time"},
+          "content_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+          "fetch_status": {"enum": ["success", "partial", "failed", "blocked"]},
+          "rank": {"type": ["integer", "null"], "minimum": 1},
+          "heat_raw": {"type": ["string", "number", "null"]},
+          "content": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["mode", "text", "summary", "excerpt", "language", "license", "key_facts"],
+            "properties": {
+              "mode": {"enum": ["full_text", "excerpt_and_summary", "summary_only", "metadata_only"]},
+              "text": {"type": ["string", "null"], "maxLength": 20000},
+              "summary": {"type": "string", "maxLength": 5000},
+              "excerpt": {"type": ["string", "null"], "maxLength": 1000},
+              "language": {"type": "string", "minLength": 2, "maxLength": 16},
+              "key_facts": {
+                "type": "array",
+                "maxItems": 30,
+                "items": {"type": "string", "minLength": 1, "maxLength": 1000}
+              },
+              "license": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["status", "name", "url"],
+                "properties": {
+                  "status": {"enum": ["allowed", "public_domain", "creative_commons", "api_permitted", "unknown", "restricted"]},
+                  "name": {"type": ["string", "null"], "maxLength": 200},
+                  "url": {"type": ["string", "null"], "format": "uri"}
+                }
+              }
+            }
+          },
+          "media": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["images", "videos"],
+            "properties": {
+              "images": {
+                "type": "array",
+                "maxItems": 10,
+                "items": {"type": "string", "format": "uri"}
+              },
+              "videos": {
+                "type": "array",
+                "maxItems": 5,
+                "items": {"type": "string", "format": "uri"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "source_status": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "status", "checked_at", "error"],
+        "properties": {
+          "source": {"type": "string", "minLength": 1, "maxLength": 200},
+          "status": {"enum": ["ok", "degraded", "failed", "not_checked"]},
+          "checked_at": {"type": ["string", "null"], "format": "date-time"},
+          "error": {"type": ["string", "null"], "maxLength": 1000}
+        }
+      }
+    }
+  }
+}
