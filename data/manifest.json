@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "project": "hobyide/hotspot-json",
+  "timezone": "Asia/Shanghai",
+  "schedule": {
+    "scrape_interval_hours": 6,
+    "scrape_local_times": ["00:00", "06:00", "12:00", "18:00"],
+    "archive_local_time": "23:00"
+  },
+  "canonical_files": {
+    "event_feed": "data/latest.json",
+    "source_store": "data/sources.json",
+    "status": "data/status.json",
+    "event_schema_v1_2": "schema/hotspot-v1.2.schema.json",
+    "source_schema": "schema/source-record.schema.json"
+  },
+  "compatibility_feeds": {
+    "drama": "data/drama.json",
+    "variety": "data/variety.json",
+    "celebrity": "data/celebrity.json",
+    "entertainment_events": "data/entertainment-events.json"
+  },
+  "pipeline": [
+    "fixed_source_pool",
+    "source_snapshot",
+    "deduplication",
+    "event_clustering",
+    "fact_table",
+    "citation_validation",
+    "risk_check",
+    "event_feed"
+  ],
+  "retention": {
+    "current_event_window_hours": 24,
+    "online_source_snapshot_days": 7,
+    "archive_days": 30,
+    "failed_log_days": 14,
+    "archive_path_template": "archive/YYYY/MM/DD"
+  },
+  "migration": {
+    "current_event_files": "1.1-compatible",
+    "target_event_schema": "1.2",
+    "source_store_initialized": true,
+    "next_successful_scrape_must_write_v1_2": true
+  },
+  "last_event_generated_at": "2026-07-11T12:00:00+08:00",
+  "last_source_store_generated_at": "2026-07-11T12:00:00+08:00",
+  "last_archive_at": null
+}
