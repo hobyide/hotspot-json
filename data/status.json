@@ -1,25 +1,40 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "project": "hobyide/hotspot-json",
   "timezone": "Asia/Shanghai",
   "status": "degraded",
   "last_check_at": "2026-07-11T12:00:00+08:00",
-  "next_check_at": "2026-07-11T16:00:00+08:00",
+  "next_check_at": "2026-07-11T18:00:00+08:00",
   "last_cleanup_at": null,
+  "last_archive_at": null,
   "automations": {
-    "hotspot_check": "enabled",
-    "daily_cleanup": "enabled"
+    "hotspot_check": "enabled_every_6_hours",
+    "daily_archive_cleanup": "enabled_at_23_00"
   },
   "counts": {
     "all": 2,
     "drama": 1,
     "variety": 1,
     "celebrity": 0,
-    "entertainment_events": 0
+    "entertainment_events": 0,
+    "source_records": 4
   },
   "errors": [
     "微博、百度、抖音及主要国内视频平台本轮未返回可核验的结构化近24小时娱乐榜单数据",
-    "Google Trends、YouTube和TMDB未取得可直接写入的官方结构化趋势数据"
+    "Google Trends、YouTube和TMDB未取得可直接写入的官方结构化趋势数据",
+    "现有事件Feed仍为1.1兼容数据；下一次成功抓取必须迁移到事件Schema 1.2"
   ],
-  "content_model": "normalized_content_with_licensed_source_text"
+  "content_model": "fixed_source_pool_with_source_snapshots_fact_table_and_citation_validation",
+  "pipeline": {
+    "source_store": "data/sources.json",
+    "event_schema": "schema/hotspot-v1.2.schema.json",
+    "source_schema": "schema/source-record.schema.json",
+    "migration_status": "source_store_initialized_event_feed_pending_next_successful_scrape"
+  },
+  "retention": {
+    "current_event_window_hours": 24,
+    "online_source_snapshot_days": 7,
+    "archive_days": 30,
+    "failed_log_days": 14
+  }
 }
