@@ -1,12 +1,13 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "feed": "celebrity",
   "generated_at": "2026-07-11T04:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
+  "pipeline": {"source_store": "data/sources.json", "facts_required": true, "citation_validation": "passed"},
   "items": [],
   "source_status": [
-    {"platform":"Configured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-11T04:00:00+08:00","error":"本轮未取得符合24小时、可核验和Schema要求的明星条目"}
+    {"platform": "Configured trend platforms", "status": "degraded", "item_count": 0, "checked_at": "2026-07-11T04:00:00+08:00", "error": "本轮未取得符合24小时、可核验和Schema要求的明星条目"}
   ],
-  "cleanup": {"last_run_at": null, "status": "pending"}
+  "cleanup": {"last_run_at": null, "status": "pending", "mode": "archive_then_expire", "last_archive_at": null}
 }
