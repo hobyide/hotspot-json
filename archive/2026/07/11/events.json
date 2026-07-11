@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.2",
+  "feed": "all",
+  "generated_at": "2026-07-11T23:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "pipeline": {
+    "source_store": "archive/2026/07/11/sources.json",
+    "facts_required": true,
+    "citation_validation": "passed"
+  },
+  "items": [
+    {
+      "id": "20260711-big-brother-28-reality-veterans",
+      "topic": "《Big Brother》第28季真人秀旧将阵容更新",
+      "summary": "多家媒体确认Rick Devens和Angela Murray进入第28季；Entertainment Weekly单独报道Dee Valladares被揭晓为新增选手，后者仍需官方页面或第二来源交叉确认。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "US",
+      "hot_score": 61,
+      "heat_signals": {"independent_source_count": 3, "official_source_count": 0, "cross_platform_count": 3, "best_rank": null, "spread_velocity": null, "engagement": {"likes": null, "comments": null, "shares": null, "views": null}},
+      "first_seen_at": "2026-07-11T08:00:00+08:00",
+      "last_seen_at": "2026-07-11T12:00:00+08:00",
+      "trend": {"status": "rising", "cross_platform_count": 3},
+      "entities": {"shows": ["Big Brother Season 28", "Big Brother: Unlocked", "Survivor"], "celebrities": ["Rick Devens", "Angela Murray", "Dee Valladares", "Julie Chen Moonves"], "organizations": ["CBS", "Entertainment Weekly", "Decider", "Cosmopolitan"]},
+      "content": {
+        "overview": "Decider与Cosmopolitan共同支持Rick Devens和Angela Murray进入《Big Brother》第28季。Entertainment Weekly另行报道Dee Valladares被揭晓为新增选手；当前缺少官方页面或第二个独立来源直接确认该部分。",
+        "key_points": ["Rick Devens和Angela Murray得到两个独立媒体来源支持。", "Dee Valladares相关信息目前只有一个独立媒体来源。", "没有可核验榜单排名或互动数据。"],
+        "timeline": [
+          {"time": "2026-07-09", "event": "媒体报道第28季首播及Rick Devens、Angela Murray进入节目。", "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28"]},
+          {"time": "2026-07-10", "event": "Entertainment Weekly报道Dee Valladares被揭晓为新增选手。", "source_ids": ["S20260711_EW_BB28"]}
+        ]
+      },
+      "verification": {"status": "reported", "level": 3, "official_source_ids": [], "evidence_urls": ["https://decider.com/2026/07/10/dee-valladares-survivor-big-brother-cast-2026-rick-deves-angela-murray/", "https://www.cosmopolitan.com/entertainment/tv/a71896540/big-brother-season-28-cast-eliminations/", "https://ew.com/survivor-winner-dee-valladares-revealed-final-big-brother-28-player-12016242"]},
+      "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28", "S20260711_EW_BB28"],
+      "sources": [
+        {"source_id": "S20260711_DECIDER_BB28", "platform": "Decider", "source_type": "media", "rank": null, "heat_raw": null, "title": "Reality Stars Rick Devens, Angela Murray Join 'Big Brother' 2026 Cast", "url": "https://decider.com/2026/07/10/dee-valladares-survivor-big-brother-cast-2026-rick-deves-angela-murray/", "captured_at": "2026-07-11T08:00:00+08:00", "content_hash": "sha256:ee6475c8db43b201b40a496d4a3bf2097078853a08377b3fed429e03d4c607f8", "content": {"mode": "summary_only", "text": null, "summary": "报道确认Rick Devens与Angela Murray进入节目；发布时Dee Valladares仍被列为可能人选。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T08:00:00+08:00"}},
+        {"source_id": "S20260711_COSMO_BB28", "platform": "Cosmopolitan", "source_type": "media", "rank": null, "heat_raw": null, "title": "Your Full Guide to the 'Big Brother' Season 28 Cast", "url": "https://www.cosmopolitan.com/entertainment/tv/a71896540/big-brother-season-28-cast-eliminations/", "captured_at": "2026-07-11T08:00:00+08:00", "content_hash": "sha256:71f22fdac6bd7d18786d82e794fdbfc12dadb1d31893565148faed35ff8ca055", "content": {"mode": "summary_only", "text": null, "summary": "阵容指南确认Rick Devens、Angela Murray等成员。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T08:00:00+08:00"}},
+        {"source_id": "S20260711_EW_BB28", "platform": "Entertainment Weekly", "source_type": "media", "rank": null, "heat_raw": null, "title": "'Survivor' winner Dee Valladares officially revealed as final 'Big Brother' season 28 player", "url": "https://ew.com/survivor-winner-dee-valladares-revealed-final-big-brother-28-player-12016242", "captured_at": "2026-07-11T12:00:00+08:00", "content_hash": "sha256:54e2b4988e406f3cdce6fb549000b0cc5f3e7d42f30ca57d605e8583fa73b34b", "content": {"mode": "summary_only", "text": null, "summary": "报道Dee Valladares在《Big Brother: Unlocked》中被揭晓为新增选手。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T12:00:00+08:00"}}
+      ],
+      "facts": [
+        {"fact_id": "F_BB28_001", "statement": "《Big Brother》第28季于2026年7月9日首播。", "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28"], "evidence_status": "cross_confirmed", "fact_type": "broadcast", "can_use_as_fact": true},
+        {"fact_id": "F_BB28_002", "statement": "Rick Devens和Angela Murray进入第28季阵容。", "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28"], "evidence_status": "cross_confirmed", "fact_type": "casting", "can_use_as_fact": true},
+        {"fact_id": "F_BB28_003", "statement": "Entertainment Weekly报道Dee Valladares被揭晓为新增选手。", "source_ids": ["S20260711_EW_BB28"], "evidence_status": "single_source", "fact_type": "casting", "can_use_as_fact": false}
+      ],
+      "conflicts": [],
+      "risk_flags": ["single_source", "copyright_restriction"],
+      "media": {"images": [], "videos": []}
+    },
+    {
+      "id": "20260711-austin-bbc-return",
+      "topic": "《Austin》回归BBC One的媒体节目指南信息",
+      "summary": "The Guardian在2026年7月10日的电视节目指南中报道家庭喜剧《Austin》回归BBC One；当前只有单一媒体来源。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GB",
+      "hot_score": 36,
+      "heat_signals": {"independent_source_count": 1, "official_source_count": 0, "cross_platform_count": 1, "best_rank": null, "spread_velocity": null, "engagement": {"likes": null, "comments": null, "shares": null, "views": null}},
+      "first_seen_at": "2026-07-11T04:00:00+08:00",
+      "last_seen_at": "2026-07-11T08:00:00+08:00",
+      "trend": {"status": "stable", "cross_platform_count": 1},
+      "entities": {"shows": ["Austin"], "celebrities": ["Ben Miller", "Sally Phillips", "Michael Theo"], "organizations": ["BBC One", "The Guardian"]},
+      "content": {"overview": "The Guardian节目指南报道《Austin》回归BBC One并介绍相关剧情。当前没有BBC官方页面或第二个独立来源。", "key_points": ["当前只有The Guardian一个来源。", "尚未保存BBC官方页面。", "没有可核验榜单排名或互动数据。"], "timeline": [{"time": "2026-07-10", "event": "The Guardian节目指南报道《Austin》回归BBC One。", "source_ids": ["S20260711_GUARDIAN_AUSTIN"]}]},
+      "verification": {"status": "reported", "level": 2, "official_source_ids": [], "evidence_urls": ["https://www.theguardian.com/tv-and-radio/2026/jul/10/tv-tonight-the-return-of-sally-phillips-and-ben-millers-family-sitcom"]},
+      "source_ids": ["S20260711_GUARDIAN_AUSTIN"],
+      "sources": [{"source_id": "S20260711_GUARDIAN_AUSTIN", "platform": "The Guardian", "source_type": "media", "rank": null, "heat_raw": null, "title": "TV tonight: the return of Sally Phillips and Ben Miller's family sitcom", "url": "https://www.theguardian.com/tv-and-radio/2026/jul/10/tv-tonight-the-return-of-sally-phillips-and-ben-millers-family-sitcom", "captured_at": "2026-07-11T04:00:00+08:00", "content_hash": "sha256:fb7109348aeba20e1397abdc8640c3734ac0c21643d86e4aba7e1f6173107678", "content": {"mode": "summary_only", "text": null, "summary": "节目指南报道家庭喜剧《Austin》回归BBC One，并介绍寻找Austin生父的剧情。", "excerpt": null, "language": "en-GB", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T04:00:00+08:00"}}],
+      "facts": [{"fact_id": "F_AUSTIN_001", "statement": "The Guardian在2026年7月10日的节目指南中报道《Austin》回归BBC One。", "source_ids": ["S20260711_GUARDIAN_AUSTIN"], "evidence_status": "single_source", "fact_type": "broadcast", "can_use_as_fact": false}],
+      "conflicts": [],
+      "risk_flags": ["single_source", "copyright_restriction"],
+      "media": {"images": [], "videos": []}
+    }
+  ],
+  "source_status": [],
+  "cleanup": {"last_run_at": "2026-07-11T23:00:00+08:00", "status": "completed", "mode": "archive_then_expire", "last_archive_at": "2026-07-11T23:00:00+08:00"}
+}
