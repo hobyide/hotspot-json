@@ -3,8 +3,8 @@
   "project": "hobyide/hotspot-json",
   "timezone": "Asia/Shanghai",
   "status": "degraded",
-  "last_check_at": "2026-07-11T08:00:00+08:00",
-  "next_check_at": "2026-07-11T12:00:00+08:00",
+  "last_check_at": "2026-07-11T12:00:00+08:00",
+  "next_check_at": "2026-07-11T16:00:00+08:00",
   "last_cleanup_at": null,
   "automations": {
     "hotspot_check": "enabled",
