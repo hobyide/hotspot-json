@@ -3,8 +3,8 @@
   "project": "hobyide/hotspot-json",
   "timezone": "Asia/Shanghai",
   "status": "degraded",
-  "last_check_at": "2026-07-12T00:00:00+08:00",
-  "next_check_at": "2026-07-12T06:00:00+08:00",
+  "last_check_at": "2026-07-12T06:00:00+08:00",
+  "next_check_at": "2026-07-12T12:00:00+08:00",
   "last_cleanup_at": "2026-07-11T23:00:00+08:00",
   "last_archive_at": "2026-07-11T23:00:00+08:00",
   "automations": {
@@ -30,8 +30,8 @@
   },
   "errors": [
     "微博、百度、抖音及主要国内视频平台本轮未返回可核验的结构化近24小时娱乐榜单数据",
-    "Google Trends、YouTube和TMDB未取得可直接写入的官方结构化趋势数据",
-    "行业媒体发现Ariana Grande退出《American Horror Story》第13季的交叉报道，但固定信源配置未列出可执行白名单域名或抓取端点，本轮未将搜索发现结果越权写入固定信源素材库"
+    "Google Trends、YouTube和TMDB本轮未取得可直接写入的官方结构化趋势数据",
+    "固定信源定向检索未发现可满足官方一手来源或两个独立可靠来源门槛的新事件；为避免越权使用未配置来源，本轮保留上一版有效Feed"
   ],
   "content_model": "fixed_source_pool_with_source_snapshots_fact_table_and_citation_validation",
   "pipeline": {
