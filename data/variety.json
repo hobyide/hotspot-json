@@ -1,48 +1,61 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "feed": "variety",
   "generated_at": "2026-07-11T12:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
+  "pipeline": {"source_store": "data/sources.json", "facts_required": true, "citation_validation": "passed"},
   "items": [
     {
       "id": "20260711-big-brother-28-reality-veterans",
-      "topic": "《Big Brother》第28季确认三名真人秀旧将加入",
-      "summary": "《Big Brother》第28季在首播及配套节目中确认Rick Devens、Angela Murray和《Survivor》第45季冠军Dee Valladares加入本季阵容；此前关于Dee的猜测现已由节目播出内容和可靠媒体报道证实。",
+      "topic": "《Big Brother》第28季真人秀旧将阵容更新",
+      "summary": "多家媒体确认Rick Devens和Angela Murray进入第28季；Entertainment Weekly单独报道Dee Valladares被揭晓为新增选手，后者仍需官方页面或第二来源交叉确认。",
       "category": "variety",
       "language": "zh-CN",
       "region": "US",
-      "hot_score": 67,
+      "hot_score": 61,
+      "heat_signals": {
+        "independent_source_count": 3,
+        "official_source_count": 0,
+        "cross_platform_count": 3,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {"likes": null, "comments": null, "shares": null, "views": null}
+      },
       "first_seen_at": "2026-07-11T08:00:00+08:00",
       "last_seen_at": "2026-07-11T12:00:00+08:00",
       "trend": {"status": "rising", "cross_platform_count": 3},
-      "entities": {"shows": ["Big Brother Season 28", "Survivor"], "celebrities": ["Rick Devens", "Angela Murray", "Dee Valladares", "Julie Chen Moonves"]},
+      "entities": {
+        "shows": ["Big Brother Season 28", "Big Brother: Unlocked", "Survivor"],
+        "celebrities": ["Rick Devens", "Angela Murray", "Dee Valladares", "Julie Chen Moonves"],
+        "organizations": ["CBS", "Entertainment Weekly", "Decider", "Cosmopolitan"]
+      },
       "content": {
-        "overview": "美国真人秀《Big Brother》第28季于2026年7月9日在CBS首播，本季采用时间旅行主题，并通过首播竞赛和配套节目陆续引入其他真人秀节目的旧将。Rick Devens和Angela Murray已在首播环节进入节目。随后在7月10日播出的《Big Brother: Unlocked》中，《Survivor》第45季冠军Dee Valladares被正式揭晓为最终新增选手，取代节目剧情中被淘汰的Rachel Reilly。Dee此前还参加过《Survivor 50》和《The Challenge》，她公开表示希望成为首位同时赢得《Survivor》和《Big Brother》的选手。此前媒体仅将她列为潜在人选，本次节目播出后该信息已从推测升级为确认事实。",
+        "overview": "Decider与Cosmopolitan共同支持Rick Devens和Angela Murray已经进入《Big Brother》第28季。Entertainment Weekly另行报道Dee Valladares在《Big Brother: Unlocked》中被揭晓为新增选手；当前素材库尚无CBS官方页面或第二个独立来源直接确认该部分，因此保留为单一来源报道。",
         "key_points": [
-          "《Big Brother》第28季于2026年7月9日在CBS首播。",
-          "Rick Devens和Angela Murray通过首播设置加入本季阵容。",
-          "Dee Valladares于2026年7月10日播出的《Big Brother: Unlocked》中正式揭晓为最终新增选手。",
-          "此前关于Dee加入节目的报道属于推测，现已被节目播出内容和可靠媒体确认。"
+          "Rick Devens和Angela Murray得到两个独立媒体来源支持。",
+          "Dee Valladares相关信息目前只有一个独立媒体来源。",
+          "没有可核验榜单排名或互动数据。"
         ],
         "timeline": [
-          {"time": "2026-07-09", "event": "《Big Brother》第28季首播，Rick Devens和Angela Murray进入节目。"},
-          {"time": "2026-07-10", "event": "《Big Brother: Unlocked》正式揭晓Dee Valladares为最终新增选手。"},
-          {"time": "2026-07-11T12:00:00+08:00", "event": "本数据条目根据最新可靠报道将Dee的状态由未确认推测更新为已确认。"}
+          {"time": "2026-07-09", "event": "媒体报道第28季首播及Rick Devens、Angela Murray进入节目。", "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28"]},
+          {"time": "2026-07-10", "event": "Entertainment Weekly报道Dee Valladares被揭晓为新增选手。", "source_ids": ["S20260711_EW_BB28"]}
         ]
       },
       "verification": {
-        "status": "confirmed",
-        "level": 4,
-        "official_source": "Big Brother: Unlocked",
+        "status": "reported",
+        "level": 3,
+        "official_source_ids": [],
         "evidence_urls": [
           "https://decider.com/2026/07/10/dee-valladares-survivor-big-brother-cast-2026-rick-deves-angela-murray/",
           "https://www.cosmopolitan.com/entertainment/tv/a71896540/big-brother-season-28-cast-eliminations/",
           "https://ew.com/survivor-winner-dee-valladares-revealed-final-big-brother-28-player-12016242"
         ]
       },
+      "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28", "S20260711_EW_BB28"],
       "sources": [
         {
+          "source_id": "S20260711_DECIDER_BB28",
           "platform": "Decider",
           "source_type": "media",
           "rank": null,
@@ -50,9 +63,11 @@
           "title": "Reality Stars Rick Devens, Angela Murray Join 'Big Brother' 2026 Cast",
           "url": "https://decider.com/2026/07/10/dee-valladares-survivor-big-brother-cast-2026-rick-deves-angela-murray/",
           "captured_at": "2026-07-11T08:00:00+08:00",
-          "content": {"mode": "summary_only", "text": null, "summary": "报道介绍第28季首播赛制变化，并确认Rick Devens与Angela Murray进入节目；发布时Dee Valladares仍被列为可能加入的人选。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T08:00:00+08:00"}
+          "content_hash": "sha256:ee6475c8db43b201b40a496d4a3bf2097078853a08377b3fed429e03d4c607f8",
+          "content": {"mode": "summary_only", "text": null, "summary": "报道确认Rick Devens与Angela Murray进入节目；发布时Dee Valladares仍被列为可能人选。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T08:00:00+08:00"}
         },
         {
+          "source_id": "S20260711_COSMO_BB28",
           "platform": "Cosmopolitan",
           "source_type": "media",
           "rank": null,
@@ -60,9 +75,11 @@
           "title": "Your Full Guide to the 'Big Brother' Season 28 Cast",
           "url": "https://www.cosmopolitan.com/entertainment/tv/a71896540/big-brother-season-28-cast-eliminations/",
           "captured_at": "2026-07-11T08:00:00+08:00",
-          "content": {"mode": "summary_only", "text": null, "summary": "演员阵容指南确认第28季主持人与首播后已进入节目的Rick Devens、Angela Murray等成员。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T08:00:00+08:00"}
+          "content_hash": "sha256:71f22fdac6bd7d18786d82e794fdbfc12dadb1d31893565148faed35ff8ca055",
+          "content": {"mode": "summary_only", "text": null, "summary": "阵容指南确认Rick Devens、Angela Murray等成员。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T08:00:00+08:00"}
         },
         {
+          "source_id": "S20260711_EW_BB28",
           "platform": "Entertainment Weekly",
           "source_type": "media",
           "rank": null,
@@ -70,17 +87,25 @@
           "title": "'Survivor' winner Dee Valladares officially revealed as final 'Big Brother' season 28 player",
           "url": "https://ew.com/survivor-winner-dee-valladares-revealed-final-big-brother-28-player-12016242",
           "captured_at": "2026-07-11T12:00:00+08:00",
-          "content": {"mode": "summary_only", "text": null, "summary": "报道确认《Survivor》第45季冠军Dee Valladares已在《Big Brother: Unlocked》中正式揭晓为第28季最终新增选手。她加入Rick Devens、Angela Murray等真人秀旧将，并表示希望成为首位同时赢得《Survivor》和《Big Brother》的参赛者。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T12:00:00+08:00"}
+          "content_hash": "sha256:54e2b4988e406f3cdce6fb549000b0cc5f3e7d42f30ca57d605e8583fa73b34b",
+          "content": {"mode": "summary_only", "text": null, "summary": "报道Dee Valladares在《Big Brother: Unlocked》中被揭晓为新增选手。", "excerpt": null, "language": "en-US", "license": {"status": "restricted", "name": null, "url": null}, "retrieved_at": "2026-07-11T12:00:00+08:00"}
         }
       ],
+      "facts": [
+        {"fact_id": "F_BB28_001", "statement": "《Big Brother》第28季于2026年7月9日首播。", "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28"], "evidence_status": "cross_confirmed", "fact_type": "broadcast", "can_use_as_fact": true},
+        {"fact_id": "F_BB28_002", "statement": "Rick Devens和Angela Murray进入第28季阵容。", "source_ids": ["S20260711_DECIDER_BB28", "S20260711_COSMO_BB28"], "evidence_status": "cross_confirmed", "fact_type": "casting", "can_use_as_fact": true},
+        {"fact_id": "F_BB28_003", "statement": "Entertainment Weekly报道Dee Valladares被揭晓为新增选手。", "source_ids": ["S20260711_EW_BB28"], "evidence_status": "single_source", "fact_type": "casting", "can_use_as_fact": false}
+      ],
+      "conflicts": [],
+      "risk_flags": ["single_source", "copyright_restriction"],
       "media": {"images": [], "videos": []}
     }
   ],
   "source_status": [
-    {"platform":"Decider","status":"ok","item_count":1,"checked_at":"2026-07-11T12:00:00+08:00","error":null},
-    {"platform":"Cosmopolitan","status":"ok","item_count":1,"checked_at":"2026-07-11T12:00:00+08:00","error":null},
-    {"platform":"Entertainment Weekly","status":"ok","item_count":1,"checked_at":"2026-07-11T12:00:00+08:00","error":null},
-    {"platform":"Configured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-11T12:00:00+08:00","error":"未取得可核验的结构化综艺榜单；本条由可靠娱乐媒体及已播节目内容确认"}
+    {"platform": "Decider", "status": "ok", "item_count": 1, "checked_at": "2026-07-11T12:00:00+08:00", "error": null},
+    {"platform": "Cosmopolitan", "status": "ok", "item_count": 1, "checked_at": "2026-07-11T12:00:00+08:00", "error": null},
+    {"platform": "Entertainment Weekly", "status": "ok", "item_count": 1, "checked_at": "2026-07-11T12:00:00+08:00", "error": null},
+    {"platform": "Configured trend platforms", "status": "degraded", "item_count": 0, "checked_at": "2026-07-11T12:00:00+08:00", "error": "未取得可核验的结构化综艺榜单"}
   ],
-  "cleanup": {"last_run_at": null, "status": "pending"}
+  "cleanup": {"last_run_at": null, "status": "pending", "mode": "archive_then_expire", "last_archive_at": null}
 }
