@@ -14,7 +14,7 @@
     "event_schema_v1_2": "schema/hotspot-v1.2.schema.json",
     "source_schema": "schema/source-record.schema.json"
   },
-  "compatibility_feeds": {
+  "category_feeds": {
     "drama": "data/drama.json",
     "variety": "data/variety.json",
     "celebrity": "data/celebrity.json",
@@ -38,10 +38,11 @@
     "archive_path_template": "archive/YYYY/MM/DD"
   },
   "migration": {
-    "current_event_files": "1.1-compatible",
-    "target_event_schema": "1.2",
+    "event_schema": "1.2",
+    "source_store_schema": "1.0",
+    "all_current_feeds_migrated": true,
     "source_store_initialized": true,
-    "next_successful_scrape_must_write_v1_2": true
+    "citation_fields_required": true
   },
   "last_event_generated_at": "2026-07-11T12:00:00+08:00",
   "last_source_store_generated_at": "2026-07-11T12:00:00+08:00",
