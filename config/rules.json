@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0",
   "scope": {
     "include": [
       "电视剧",
@@ -37,6 +37,18 @@
       "无来源隐私爆料"
     ]
   },
+  "pipeline": [
+    "collect_from_fixed_source_pool",
+    "store_source_snapshot",
+    "normalize_url_and_content",
+    "deduplicate_by_url_and_content_hash",
+    "cluster_same_event",
+    "build_fact_table",
+    "verify_fact_citations",
+    "calculate_heat_score",
+    "write_event_feed",
+    "risk_check"
+  ],
   "categories": [
     "drama",
     "variety",
@@ -55,31 +67,105 @@
     "unverified",
     "refuted"
   ],
+  "fact_evidence_statuses": [
+    "confirmed",
+    "cross_confirmed",
+    "single_source",
+    "unconfirmed",
+    "conflicting",
+    "opinion",
+    "unsupported",
+    "refuted"
+  ],
+  "fact_rules": {
+    "every_fact_requires_source_ids": true,
+    "numbers_dates_quotes_require_exact_support": true,
+    "important_claim_requires": "one_official_source_or_two_independent_reliable_sources",
+    "conflicting_sources_must_be_preserved": true,
+    "unsupported_claims_must_not_enter_summary": true,
+    "writing_model_may_only_use_stored_material": true,
+    "allowed_as_deterministic_fact": ["confirmed", "cross_confirmed"],
+    "rumor_wording_required_for": ["single_source", "unconfirmed"]
+  },
+  "event_clustering": {
+    "signals": [
+      "normalized_title_similarity",
+      "shared_people_and_show_entities",
+      "keyword_overlap",
+      "semantic_similarity",
+      "time_proximity"
+    ],
+    "never_merge_when": [
+      "different_people_with_same_name",
+      "different_seasons_or_editions_without_shared_event",
+      "source_conflict_cannot_be_resolved"
+    ]
+  },
+  "heat_score": {
+    "range": [0, 100],
+    "inputs": [
+      "independent_source_count",
+      "official_source_count",
+      "cross_platform_count",
+      "best_available_rank",
+      "spread_velocity",
+      "available_engagement",
+      "domain_relevance"
+    ],
+    "missing_values": "null_not_estimated",
+    "penalties": [
+      "duplicate_reposts",
+      "low_trust_sources",
+      "rumor_risk",
+      "stale_event"
+    ]
+  },
   "limits": {
     "latest_items": 100,
     "category_items": 50,
+    "source_records_online": 1000,
     "images_per_item": 5,
     "videos_per_item": 3,
     "file_max_bytes": 5000000,
     "full_text_max_chars_per_source": 20000,
-    "full_text_sources_per_item": 3
+    "full_text_sources_per_item": 3,
+    "facts_per_event": 30,
+    "sources_per_event": 20
   },
-  "cleanup": {
+  "retention": {
     "timezone": "Asia/Shanghai",
-    "local_time": "23:00",
-    "mode": "daily_reset",
-    "clear_items": true,
-    "preserve_structure": true
+    "daily_archive_time": "23:00",
+    "current_event_window_hours": 24,
+    "online_source_snapshot_days": 7,
+    "archive_days": 30,
+    "failed_log_days": 14,
+    "archive_before_cleanup": true,
+    "daily_reset": false,
+    "remove_only_expired_unreferenced_records": true,
+    "archive_path_template": "archive/YYYY/MM/DD"
   },
   "content_policy": {
     "normalized_content": {
       "required": true,
-      "fields": [
-        "overview",
-        "key_points",
-        "timeline"
-      ],
+      "fields": ["overview", "key_points", "timeline"],
       "rule": "Every item must be understandable without opening the source URL."
+    },
+    "source_snapshot": {
+      "required_fields": [
+        "source_id",
+        "title",
+        "url",
+        "source",
+        "source_type",
+        "author",
+        "published_at",
+        "fetched_at",
+        "content_hash",
+        "content",
+        "license",
+        "fetch_status"
+      ],
+      "dedupe_keys": ["normalized_url", "content_hash"]
     },
     "source_content": {
       "full_text_when": [
@@ -91,7 +177,7 @@
       ],
       "otherwise": [
         "write a detailed original summary",
-        "store key facts",
+        "store structured key facts",
         "store only a short source excerpt",
         "keep the source URL"
       ],
@@ -99,8 +185,18 @@
         "copy paywalled text",
         "bypass access controls",
         "mirror restricted articles",
-        "present rumor as fact"
+        "present rumor as fact",
+        "invent rank engagement publish time or media URL"
       ]
     }
+  },
+  "validation": {
+    "json_parse": true,
+    "schema": true,
+    "source_id_referential_integrity": true,
+    "fact_citation_support_check": true,
+    "content_hash_deduplication": true,
+    "file_size": true,
+    "no_partial_commit_on_failure": true
   }
 }
