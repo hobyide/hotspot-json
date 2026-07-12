@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "archive_date": "2026-07-12",
+  "archived_at": "2026-07-12T23:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "event_schema_version": "1.2",
+  "source_schema_version": "1.0",
+  "paths": {
+    "events": "archive/2026/07/12/events.json",
+    "sources": "archive/2026/07/12/sources.json",
+    "source_event_file": "data/latest.json",
+    "source_store_file": "data/sources.json"
+  },
+  "counts": {
+    "events": 6,
+    "sources": 3,
+    "referenced_source_ids": 3,
+    "expired_events_removed": 0,
+    "expired_sources_removed": 0,
+    "expired_archives_removed": 0
+  },
+  "validation": {
+    "json_parse": "passed",
+    "event_schema": "passed",
+    "source_schema": "passed",
+    "source_id_referential_integrity": "passed",
+    "file_size_limit": "passed"
+  },
+  "content_digest": {
+    "algorithm": "sha256",
+    "event_snapshot_basis": "exact data/latest.json blob at archive time",
+    "source_snapshot_hashes": [
+      "sha256:eb487082d859eebd727dfd453ec181387f5a12b894b1054aeb42c91ec8d52c1a",
+      "sha256:67abace08da63da5b7bdb56aadf596006df62a7adc662ff7b79400862f81abe5",
+      "sha256:46a13ff8dbd25dde32a1d4d5cc8f4a14cfe331d68e5a44b27d769fa44b41d4f3"
+    ]
+  }
+}
