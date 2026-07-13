@@ -44,23 +44,34 @@ jobs:
       - name: Collect candidate feeds
         id: collect
         continue-on-error: true
-        run: python scripts/collect_hotspots.py
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/collect_hotspots.py 2>&1 | tee /tmp/collect.log
 
       - name: Apply semantic quality gate
         id: quality
         if: steps.collect.outcome == 'success'
-        run: python scripts/quality_gate.py
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/quality_gate.py 2>&1 | tee /tmp/quality.log
 
       - name: Apply sensitive-claim evidence gate
         id: sensitive
         if: steps.quality.outcome == 'success'
-        run: python scripts/sensitive_gate.py
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/sensitive_gate.py 2>&1 | tee /tmp/sensitive.log
 
       - name: Verify JSON, schemas and publishability
         id: verify
         if: steps.sensitive.outcome == 'success'
+        shell: bash
         run: |
-          python - <<'PY'
+          set -o pipefail
+          python - <<'PY' 2>&1 | tee /tmp/verify.log
           import json
           from pathlib import Path
           from jsonschema import Draft202012Validator, FormatChecker
@@ -146,8 +157,28 @@ jobs:
           git commit -m "data: refresh fully gated entertainment hotspots"
           git push
 
-      - name: Reject unvalidated output
+      - name: Save diagnostics and reject unvalidated output
         if: steps.collect.outcome == 'failure' || steps.quality.outcome == 'failure' || steps.sensitive.outcome == 'failure' || steps.verify.outcome == 'failure'
+        shell: bash
         run: |
+          mkdir -p logs
+          {
+            echo "checked_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "collect=${{ steps.collect.outcome }}"
+            echo "quality=${{ steps.quality.outcome }}"
+            echo "sensitive=${{ steps.sensitive.outcome }}"
+            echo "verify=${{ steps.verify.outcome }}"
+            for file in /tmp/collect.log /tmp/quality.log /tmp/sensitive.log /tmp/verify.log; do
+              echo
+              echo "===== ${file} ====="
+              if [ -f "${file}" ]; then cat "${file}"; else echo "not generated"; fi
+            done
+          } > logs/last-gate-failure.txt
+          git restore --worktree --staged data || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logs/last-gate-failure.txt
+          git commit -m "logs: record hotspot gate failure" || true
+          git push || true
           echo "Collector output was not committed because one or more mandatory gates failed."
           exit 1
