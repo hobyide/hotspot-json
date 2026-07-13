@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-07-13T23:24:38+08:00",
+  "generated_at": "2026-07-13T23:28:36+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
   "pipeline": {
@@ -13,63 +13,63 @@
       "platform": "Google News 中文剧集聚合",
       "status": "ok",
       "item_count": 20,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文综艺聚合",
       "status": "ok",
-      "item_count": 19,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "item_count": 18,
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文娱乐聚合",
       "status": "ok",
       "item_count": 24,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Google News 全球影视娱乐聚合",
       "status": "ok",
       "item_count": 20,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "BBC Entertainment & Arts RSS",
       "status": "ok",
       "item_count": 2,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "The Guardian TV & Radio RSS",
       "status": "ok",
       "item_count": 0,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "The Guardian Film RSS",
       "status": "ok",
       "item_count": 4,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Variety RSS",
       "status": "ok",
       "item_count": 2,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Deadline RSS",
       "status": "ok",
       "item_count": 5,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     }
   ],
@@ -80,115 +80,5 @@
     "last_archive_at": "2026-07-12T23:00:00+08:00"
   },
   "feed": "entertainment-events",
-  "items": [
-    {
-      "id": "20260713-44e89cae51bd4364",
-      "topic": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动",
-      "summary": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
-      "category": "entertainment_event",
-      "language": "zh-CN",
-      "region": "CN",
-      "hot_score": 68,
-      "heat_signals": {
-        "independent_source_count": 1,
-        "official_source_count": 0,
-        "cross_platform_count": 1,
-        "best_rank": null,
-        "spread_velocity": null,
-        "engagement": {
-          "likes": null,
-          "comments": null,
-          "shares": null,
-          "views": null
-        }
-      },
-      "first_seen_at": "2026-07-13T23:24:38+08:00",
-      "last_seen_at": "2026-07-13T23:24:38+08:00",
-      "trend": {
-        "status": "new",
-        "cross_platform_count": 1
-      },
-      "entities": {
-        "shows": [],
-        "celebrities": [],
-        "organizations": [
-          "武汉纺织大学"
-        ]
-      },
-      "content": {
-        "overview": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。 传媒学院师生赴长沙竖店短剧影视城开展实习实践活动 武汉纺织大学",
-        "key_points": [
-          "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
-          "当前未保存不可核验的排名或互动量。"
-        ],
-        "timeline": [
-          {
-            "time": "2026-07-13T18:38:13+08:00",
-            "event": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
-            "source_ids": [
-              "Sbab8777a8d4e1ba93530"
-            ]
-          }
-        ]
-      },
-      "verification": {
-        "status": "reported",
-        "level": 2,
-        "official_source_ids": [],
-        "evidence_urls": [
-          "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MWEhWUmJwYzM4cmh4b2JjcjlOd0ozWmZtQzNRSFNPUE52dGd4eUZQNFg3U3BidGp0cTE5am5FeXIzVkpYeEZYWkpPRU5kSWJ1VlJLT0FFWQ?oc=5"
-        ]
-      },
-      "source_ids": [
-        "Sbab8777a8d4e1ba93530"
-      ],
-      "sources": [
-        {
-          "source_id": "Sbab8777a8d4e1ba93530",
-          "platform": "武汉纺织大学",
-          "source_type": "search_fallback",
-          "rank": null,
-          "heat_raw": null,
-          "title": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MWEhWUmJwYzM4cmh4b2JjcjlOd0ozWmZtQzNRSFNPUE52dGd4eUZQNFg3U3BidGp0cTE5am5FeXIzVkpYeEZYWkpPRU5kSWJ1VlJLT0FFWQ?oc=5",
-          "captured_at": "2026-07-13T23:24:38+08:00",
-          "content_hash": "sha256:ea05dce20d28fb8f2953136167830224c3929ce3ae4dd53950a908dff134b339",
-          "content": {
-            "mode": "summary_only",
-            "text": null,
-            "summary": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动 武汉纺织大学",
-            "excerpt": null,
-            "language": "zh-CN",
-            "license": {
-              "status": "unknown",
-              "name": null,
-              "url": null
-            },
-            "retrieved_at": "2026-07-13T23:24:38+08:00"
-          }
-        }
-      ],
-      "facts": [
-        {
-          "fact_id": "F44e89cae51bd43647e",
-          "statement": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
-          "source_ids": [
-            "Sbab8777a8d4e1ba93530"
-          ],
-          "evidence_status": "single_source",
-          "fact_type": "statement",
-          "can_use_as_fact": true
-        }
-      ],
-      "conflicts": [],
-      "risk_flags": [
-        "single_source",
-        "copyright_restriction"
-      ],
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    }
-  ]
+  "items": []
 }

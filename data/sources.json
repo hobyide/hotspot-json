@@ -1,43 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-13T23:24:38+08:00",
+  "generated_at": "2026-07-13T23:28:36+08:00",
   "timezone": "Asia/Shanghai",
   "records": [
-    {
-      "source_id": "Sea45ea3ab6306e9a40fc",
-      "title": "综艺 现在就出发",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CeFFHZjctblc5emNBS1czb1lvLVBiR2JkTm9fNjNnalZROUxTUlVvTEJaU0RQaGZTR2VqNm5PUkN0bWhvb2ZMUlpsOERiVWU3QXpEa1JWMUlyZ0pYWU1MYlp4UDZaQTBaWHByRlpxem9vOW8?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CeFFHZjctblc5emNBS1czb1lvLVBiR2JkTm9fNjNnalZROUxTUlVvTEJaU0RQaGZTR2VqNm5PUkN0bWhvb2ZMUlpsOERiVWU3QXpEa1JWMUlyZ0pYWU1MYlp4UDZaQTBaWHByRlpxem9vOW8?oc=5",
-      "source": "新浪网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T23:20:42+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:d918605b89f2718b31d8a2c54609456be27c24be8a9271942a57cfa9cc519a78",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "综艺 现在就出发 新浪网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据新浪网页面，综艺 现在就出发。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
     {
       "source_id": "S77b2d5c863e99efa9f26",
       "title": "NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle",
@@ -48,7 +13,7 @@
       "tier": "tier_3_industry_media",
       "author": null,
       "published_at": "2026-07-13T23:20:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
+      "fetched_at": "2026-07-13T23:28:36+08:00",
       "content_hash": "sha256:6a7815606ca48afe631925e324ca89347e037470ce1493aa3a2deccff2724c04",
       "fetch_status": "success",
       "rank": null,
@@ -83,7 +48,7 @@
       "tier": "tier_3_industry_media",
       "author": null,
       "published_at": "2026-07-13T23:11:46+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
+      "fetched_at": "2026-07-13T23:28:36+08:00",
       "content_hash": "sha256:229d5d9b48940781ac81e40efe93003d278c4fc52cd2f4e6134ecb000aafb028",
       "fetch_status": "success",
       "rank": null,
@@ -109,531 +74,6 @@
       }
     },
     {
-      "source_id": "Sd42d59c37a9acf0a4466",
-      "title": "Monopoly Series Passes ‘Go’ at Netflix",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSFFLa1loMHJtTmY4bE5WRUFBcElhRHVLMGZROVI1TDIxTXJHNnRlbTZTSzJKT0VxM3BfTkVNN0FIT281YjhWeWJ4OVRjUkFENlZSZ0tSVHk1QnNLaUZhVW1iSEZCZXh2QWExVE5keHZzQ0p5WGRlMTRsOFlBeFY1OFRqOGZDekFMVUE?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSFFLa1loMHJtTmY4bE5WRUFBcElhRHVLMGZROVI1TDIxTXJHNnRlbTZTSzJKT0VxM3BfTkVNN0FIT281YjhWeWJ4OVRjUkFENlZSZ0tSVHk1QnNLaUZhVW1iSEZCZXh2QWExVE5keHZzQ0p5WGRlMTRsOFlBeFY1OFRqOGZDekFMVUE?oc=5",
-      "source": "Netflix",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T23:02:04+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:238afc1a446dc35e2e71eff9796409154f4247b664360ecc31d37a9d3da592e8",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Monopoly Series Passes ‘Go’ at Netflix Netflix",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据Netflix页面，Monopoly Series Passes ‘Go’ at Netflix。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "Sabd61bcbaebc56dc3c64",
-      "title": "Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzJ3aGtRS3JBb2JqeGxwYjd1NFdUTVFJdEtodURRcEpSeTlSYUdCYzFLSFVxbVdfQnZiX0VvaTNXeDUxYnVuYVhfX1V5VGd0TUE5NXd6N05HZ3hWZWd1XzdTb1B3akowOW50Ukp0dzJyVjdmc2FlVW1pOURBRk82S01OcTBiS1UxckZrTGFOdGY3Wlk?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzJ3aGtRS3JBb2JqeGxwYjd1NFdUTVFJdEtodURRcEpSeTlSYUdCYzFLSFVxbVdfQnZiX0VvaTNXeDUxYnVuYVhfX1V5VGd0TUE5NXd6N05HZ3hWZWd1XzdTb1B3akowOW50Ukp0dzJyVjdmc2FlVW1pOURBRk82S01OcTBiS1UxckZrTGFOdGY3Wlk?oc=5",
-      "source": "Deadline",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T23:00:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:cc4b9b81bd441a1c0caa56493782744bf6c0f12b5fc0688cc744b421b6f39ee4",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line Deadline",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据Deadline页面，Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S17dbeacd1573f6473f36",
-      "title": "甘肃武威：公益露天电影点亮群众夜生活",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGl6S3FwT3JzRm5uVHB4OWwwYXRncVpvREFjeWN1Q0tYZkJoS09SUzhFYksyeGVfQlFWYThDaHE5ekFUa01OWUNDeWw3VlJ6ODJhZ25LUWtrQmp4YzdWMU1USGF1c1VDT09maEVCNnhXTnZ3MHJoWWxLRkNqRU5XS1V3MHhEYWNk?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGl6S3FwT3JzRm5uVHB4OWwwYXRncVpvREFjeWN1Q0tYZkJoS09SUzhFYksyeGVfQlFWYThDaHE5ekFUa01OWUNDeWw3VlJ6ODJhZ25LUWtrQmp4YzdWMU1USGF1c1VDT09maEVCNnhXTnZ3MHJoWWxLRkNqRU5XS1V3MHhEYWNk?oc=5",
-      "source": "搜狐网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T22:53:06+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:7a15ffb33623e6507a7749f774677863d6771a4dfdbb40b317d7754c21e16d63",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "甘肃武威：公益露天电影点亮群众夜生活 搜狐网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据搜狐网页面，甘肃武威：公益露天电影点亮群众夜生活。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S624394d5dc4a5409b848",
-      "title": "Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGdDRmVDcUFzWjgxTktZME9rMmIzYzBxczRiS0VqTWlqRC1IdS1NSHF0RjBFaUxlUDdLV09RNGYyaVRLcGFyQWlwSkd2OXNfX0RGanBtNE9sbDN2RFI3eWI5LWZUaVZpR1B6dldTNmRvVlRsZjFOMXB5a0I0NmNZLThjQnhWOHk2T2J1WkFfTUszdmpvZnA5c29ZSWtlOXU1U3J2WkJzbEp6LWJ2ZUZseVV0eUk?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGdDRmVDcUFzWjgxTktZME9rMmIzYzBxczRiS0VqTWlqRC1IdS1NSHF0RjBFaUxlUDdLV09RNGYyaVRLcGFyQWlwSkd2OXNfX0RGanBtNE9sbDN2RFI3eWI5LWZUaVZpR1B6dldTNmRvVlRsZjFOMXB5a0I0NmNZLThjQnhWOHk2T2J1WkFfTUszdmpvZnA5c29ZSWtlOXU1U3J2WkJzbEp6LWJ2ZUZseVV0eUk?oc=5",
-      "source": "Film Focus Online",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T22:34:48+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:9bd726919d34964bbadf16c8c5829543545bf47429d727939055503134f2034a",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger' Film Focus Online",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据Film Focus Online页面，Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S6dec3b4b06622ce754e2",
-      "title": "Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdUNERDlzWlVYSDlCei1LZG9sVjFHaXJQckJSTlRxdkJHdFlvMUdrRVEtdTV3czI3a2xwWDlLTEU1NE94aEVqemwyeWN5Y3pHTW90RERJLXlCR2lFcERUMzZJUEllNlktVFRxQWRELWpsV2QzQjRhUHZoUWctV3RTNmh5Vkx3cVZ2Y2Rv?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdUNERDlzWlVYSDlCei1LZG9sVjFHaXJQckJSTlRxdkJHdFlvMUdrRVEtdTV3czI3a2xwWDlLTEU1NE94aEVqemwyeWN5Y3pHTW90RERJLXlCR2lFcERUMzZJUEllNlktVFRxQWRELWpsV2QzQjRhUHZoUWctV3RTNmh5Vkx3cVZ2Y2Rv?oc=5",
-      "source": "Chattanoogan.com Breaking News",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T22:18:21+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:6ab38c4c254d5fb49bf2f35a6bed022b3cfdea26d70b81cfee6055e6f8cbee0d",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall Chattanoogan.com Breaking News",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据Chattanoogan.com Breaking News页面，Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S7c85dc59a1e172afc70a",
-      "title": "‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcFEta3JvR0JaOTVfWWdBSzBFNUlXcVZMVzNCR2tXYkhHUHVLVXg4dkc2SWROaXMyb090QVNHUEQyY05abXczY1pleXRyZ1RBTHZBcDBqZklWSXp2eUpFYlFsV2c2dDZGWFQwaXF0bWphTHJkNGlkZUEzQzg0OXZLdzVJanZrY2luSkFBSnRsVXpqNktnZmJRQUROM3kyMy1Dczc4bnBYMlFUUU0xNnc?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcFEta3JvR0JaOTVfWWdBSzBFNUlXcVZMVzNCR2tXYkhHUHVLVXg4dkc2SWROaXMyb090QVNHUEQyY05abXczY1pleXRyZ1RBTHZBcDBqZklWSXp2eUpFYlFsV2c2dDZGWFQwaXF0bWphTHJkNGlkZUEzQzg0OXZLdzVJanZrY2luSkFBSnRsVXpqNktnZmJRQUROM3kyMy1Dczc4bnBYMlFUUU0xNnc?oc=5",
-      "source": "Movie Vine",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:59:35+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:d7ee6deb9a8b4359f6cbc8215fa9b77fc65ff52b8c661bbaf6833d8596212d87",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date Movie Vine",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据Movie Vine页面，‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S989cfd0ce855cde2b232",
-      "title": "Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVV94ZEtNMURWVnlLNGtHUmQzWm93OVJaMzdyNnJ5OGZwUGM1eTBTanJfZDNVWjM2VVRIcGI1YU9PVFFzSEROVjhtbzJHQjlMSVREQnF5aDRSVml1LWVDUjdyV01BMDRGeEQ5LXZZQ1B1U3VLUGJfajJjU251QlpsRXoyaXU4N2FSczdLZ0JlcnR3Z0pNZDlETkdUdXlqYnc1cFdV?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVV94ZEtNMURWVnlLNGtHUmQzWm93OVJaMzdyNnJ5OGZwUGM1eTBTanJfZDNVWjM2VVRIcGI1YU9PVFFzSEROVjhtbzJHQjlMSVREQnF5aDRSVml1LWVDUjdyV01BMDRGeEQ5LXZZQ1B1U3VLUGJfajJjU251QlpsRXoyaXU4N2FSczdLZ0JlcnR3Z0pNZDlETkdUdXlqYnc1cFdV?oc=5",
-      "source": "FirstShowing.net",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:42:03+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:ef2a79957f8fa196dda451061028fb8e59a61ff7b4810ce55c307eb3d2f365eb",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer FirstShowing.net",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据FirstShowing.net页面，Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "Sc91b2a929d864fc6529a",
-      "title": "Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORl8weDFhOUdKNzJmNGZ4cW9pWGRUQjBYYmUtMFkzSjJkWmZWRXRfeHdUSnloajFyRnRFc0dnSnVxc0pNV2JDX0hqZkluU1FIYUV2bGl5OWVyaFZ3THVFQTJ0VGYxX0dQNnV0eERZNmNKS3FadmVqNDUzZkxUV3p1RGVyNENIdmZfalBMWmp0dnBnV1JOQzN3RS1xT2RLQnVjOHBR?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORl8weDFhOUdKNzJmNGZ4cW9pWGRUQjBYYmUtMFkzSjJkWmZWRXRfeHdUSnloajFyRnRFc0dnSnVxc0pNV2JDX0hqZkluU1FIYUV2bGl5OWVyaFZ3THVFQTJ0VGYxX0dQNnV0eERZNmNKS3FadmVqNDUzZkxUV3p1RGVyNENIdmZfalBMWmp0dnBnV1JOQzN3RS1xT2RLQnVjOHBR?oc=5",
-      "source": "People.com",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:32:43+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:45fe240d7e599391f94d36266f96a47d95aa2830bd2b37c602238c7097be3107",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger People.com",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据People.com页面，Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S8c914d94884320e3b132",
-      "title": "【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54X2JTZXljSTB5WHNoczVfRnNtNE1WdTN3TndJNTF3bzNBdUJ3YzNKRXdDM1g5UWNLZE42TXh0bThSUHBOdXBiNzhMaEwwTVdlUVN1Q2NPM3pYNEJHcjVaTXRQTFp5YkdFMzI0?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54X2JTZXljSTB5WHNoczVfRnNtNE1WdTN3TndJNTF3bzNBdUJ3YzNKRXdDM1g5UWNLZE42TXh0bThSUHBOdXBiNzhMaEwwTVdlUVN1Q2NPM3pYNEJHcjVaTXRQTFp5YkdFMzI0?oc=5",
-      "source": "流媒体网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:16:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:b052845c12a798f14602f45c58d36adbf9899ee6d079a38d4162e3262189993a",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标 流媒体网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据流媒体网页面，【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "Sa353e8db0e134eaf1d9e",
-      "title": "综艺股份：2026年上半年净利同比预增136.23%",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUUZBYTJocFlxODNnOUduQ1RoS1FXSEgxUkY1V0tUZVVOSFNWZEU1OWZNLTMtMWtsTkFKZkZuTEpuenpkcXR4ZmtYZVVyd0Q2bHVyRHlfZW1PTU14Y2FTcDRkYUk?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUUZBYTJocFlxODNnOUduQ1RoS1FXSEgxUkY1V0tUZVVOSFNWZEU1OWZNLTMtMWtsTkFKZkZuTEpuenpkcXR4ZmtYZVVyd0Q2bHVyRHlfZW1PTU14Y2FTcDRkYUk?oc=5",
-      "source": "东方财富",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:06:51+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:45953fc4eac416f7c92e4a4acc1f9e8292e898c8aa1ee485663a4826e2a62c3e",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "综艺股份：2026年上半年净利同比预增136.23% 东方财富",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S2f4538b9f012c633247c",
-      "title": "Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ01xNko2aHFnaUY5cVB5YlBVMkFsUTQ5Y3ZQRlRlZkFwanE3SzBmMVRuWTNKMTFMa0J5TlNsVll3bVV2b2EzMGd2SHdicDdmWU1lX2NyTVV3UjFpc0ItSnhYNzFPWjJUOUR0ZWJOUkFPSzlWT2VqMjZpblJRTno1Yk4xUlRYYktIWjEwdTU4dlN0UWx4N09uaVlGSVVnOXMwUnlNQXZUVUlobEVkeFE?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ01xNko2aHFnaUY5cVB5YlBVMkFsUTQ5Y3ZQRlRlZkFwanE3SzBmMVRuWTNKMTFMa0J5TlNsVll3bVV2b2EzMGd2SHdicDdmWU1lX2NyTVV3UjFpc0ItSnhYNzFPWjJUOUR0ZWJOUkFPSzlWT2VqMjZpblJRTno1Yk4xUlRYYktIWjEwdTU4dlN0UWx4N09uaVlGSVVnOXMwUnlNQXZUVUlobEVkeFE?oc=5",
-      "source": "The Film Stage",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:06:01+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:484132c9dc0ac0dd300ad8021ca8686417762f3e7166baff8faa691ddb47b4b9",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger The Film Stage",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据The Film Stage页面，Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S76beb12a1f592545cb2e",
-      "title": "Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OZUllTkZ1WDFzLXRfY1EzZXU5Rk9QQTYzTmlhMnVHVllQWXJ1YlN0QWFXX0VPY25QYmtZeHFXdkNNdlllOVNZdVlScUUxVmRITVZhb3o5Smk5aFhKNk1mVkVNczlNNzE3bUtTSkNyNERPY1hm?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OZUllTkZ1WDFzLXRfY1EzZXU5Rk9QQTYzTmlhMnVHVllQWXJ1YlN0QWFXX0VPY25QYmtZeHFXdkNNdlllOVNZdVlScUUxVmRITVZhb3o5Smk5aFhKNk1mVkVNczlNNzE3bUtTSkNyNERPY1hm?oc=5",
-      "source": "SlashFilm",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:02:28+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:10b3d8a8b931f432fe68dea8cce14f6ba58a2b73f9309f5ec5c858b4040d6266",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem SlashFilm",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据SlashFilm页面，Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S3141ae1be5cd05694584",
-      "title": "‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcTI2Wk5DaUJlTFE0eHNxVmZwM2VMaGw3MVlpSFJVRVlBZFhnY0c5WWhhMFNBdXBDVHo3M3JveXJKdjlYd3BFSW1SVFF3WkliMW1aVUNoLUc4eTlKZW9WaGJNa05ZX2dRempDR0wxQ05QR3F6dmhxdXpfWHBzdzdHMUhXZWpnUlIwNFUzLV91QzJRaWVYRjZWZC1MSWdueXM?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcTI2Wk5DaUJlTFE0eHNxVmZwM2VMaGw3MVlpSFJVRVlBZFhnY0c5WWhhMFNBdXBDVHo3M3JveXJKdjlYd3BFSW1SVFF3WkliMW1aVUNoLUc4eTlKZW9WaGJNa05ZX2dRempDR0wxQ05QR3F6dmhxdXpfWHBzdzdHMUhXZWpnUlIwNFUzLV91QzJRaWVYRjZWZC1MSWdueXM?oc=5",
-      "source": "Variety",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T21:00:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:bbfa2c569479f239ae0b9052b7f718887dc9380161511bd509116eba471feee1",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy Variety",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据Variety页面，‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S7020f431645c8f8cfbbe",
-      "title": "从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TU0YybzV2U0kySTdiQkJDOEhidVJzTGhSaVVNS3N3UEl5UGdNbzVmUHZMU05yTDNXSEZjMVJvRFZjSlNsY0ZGZ05nOW1TZElVVkphOUxSMUFMNHZpRGliMHBMTDVSazAtbklEVkdzN0w0Zw?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TU0YybzV2U0kySTdiQkJDOEhidVJzTGhSaVVNS3N3UEl5UGdNbzVmUHZMU05yTDNXSEZjMVJvRFZjSlNsY0ZGZ05nOW1TZElVVkphOUxSMUFMNHZpRGliMHBMTDVSazAtbklEVkdzN0w0Zw?oc=5",
-      "source": "荆楚网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T20:47:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:fd02506104d84a3b895cf16da9282a983a15a79006e7ad39e3affb584244462a",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿 荆楚网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据荆楚网页面，从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S9176fda9ac384941a747",
-      "title": "港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wOHhjSGxOQlJoelE5YU5LekxlUEhxWFA2Z2I1NVF4WG9wQTdKZ045c2lPWWZ5YWRZM1VkRHVobGlsVURMRVJ0UGhISVVtaUtEbWhBMmw3YkwzR3Ux?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wOHhjSGxOQlJoelE5YU5LekxlUEhxWFA2Z2I1NVF4WG9wQTdKZ045c2lPWWZ5YWRZM1VkRHVobGlsVURMRVJ0UGhISVVtaUtEbWhBMmw3YkwzR3Ux?oc=5",
-      "source": "证券时报",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T20:47:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:56a1822d92400cc32c431c084fda769b3177069a207754adb1d3ee45594b768d",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍 证券时报",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据证券时报页面，港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
       "source_id": "S563cb1553114a8f9b277",
       "title": "Sam Neill: A versatile actor whose roles went far beyond Jurassic Park",
       "url": "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss",
@@ -643,7 +83,7 @@
       "tier": "tier_3_industry_media",
       "author": null,
       "published_at": "2026-07-13T20:10:38+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
+      "fetched_at": "2026-07-13T23:28:36+08:00",
       "content_hash": "sha256:cb5a756d56059920aa1bf669f527419c099736cc9bfe1c180d78d6220c025ed3",
       "fetch_status": "success",
       "rank": null,
@@ -669,41 +109,6 @@
       }
     },
     {
-      "source_id": "Sacd3ba29c9544b91004a",
-      "title": "口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aYWNzeEVrUlJCYmJIdEozT0VCNzAyd2FKelNrN3B1U2NoUG9fejdQcVhPUy04YjRnaFQ1cEZTNzdmZDNFdkZmYkFpbW1fdw?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aYWNzeEVrUlJCYmJIdEozT0VCNzAyd2FKelNrN3B1U2NoUG9fejdQcVhPUy04YjRnaFQ1cEZTNzdmZDNFdkZmYkFpbW1fdw?oc=5",
-      "source": "川观新闻",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T19:25:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:873b28695dfe9c861f98873ed73d726ac34089388bbb0fb66001f1765e2ed205",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖” 川观新闻",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据川观新闻页面，口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
       "source_id": "S0270713b59f2b7a9afb8",
       "title": "Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’",
       "url": "https://www.theguardian.com/film/2026/jul/13/sam-neill-final-interview-readers-question-jurassic-park",
@@ -713,7 +118,7 @@
       "tier": "tier_3_industry_media",
       "author": null,
       "published_at": "2026-07-13T19:08:36+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
+      "fetched_at": "2026-07-13T23:28:36+08:00",
       "content_hash": "sha256:6d1feb8ea2e9c4fd5a9442ed11cc4e3091f7dbe65c1208f229eb8c7da99862a6",
       "fetch_status": "success",
       "rank": null,
@@ -737,376 +142,61 @@
         "images": [],
         "videos": []
       }
-    },
-    {
-      "source_id": "Sbab8777a8d4e1ba93530",
-      "title": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MWEhWUmJwYzM4cmh4b2JjcjlOd0ozWmZtQzNRSFNPUE52dGd4eUZQNFg3U3BidGp0cTE5am5FeXIzVkpYeEZYWkpPRU5kSWJ1VlJLT0FFWQ?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MWEhWUmJwYzM4cmh4b2JjcjlOd0ozWmZtQzNRSFNPUE52dGd4eUZQNFg3U3BidGp0cTE5am5FeXIzVkpYeEZYWkpPRU5kSWJ1VlJLT0FFWQ?oc=5",
-      "source": "武汉纺织大学",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T18:38:13+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:ea05dce20d28fb8f2953136167830224c3929ce3ae4dd53950a908dff134b339",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动 武汉纺织大学",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S252952cb30d275d7e87b",
-      "title": "直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40LWVXUFRaVmVKNldyem9CTTNSNnVNNEU3c2lteUNMeHBKU0tpV0Q2YjB2aUp4SHVnU0VnYk9UeDI1NUt4a2hDNi0ycTJsLWJHYjZNdVhUYVo0LWkwVlE?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40LWVXUFRaVmVKNldyem9CTTNSNnVNNEU3c2lteUNMeHBKU0tpV0Q2YjB2aUp4SHVnU0VnYk9UeDI1NUt4a2hDNi0ycTJsLWJHYjZNdVhUYVo0LWkwVlE?oc=5",
-      "source": "thepaper.cn",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T18:35:06+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:d0a1fb93d2d9a91e71b48a3d6e965f4454709a1fe2213364ac5538aeb789a830",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper thepaper.cn",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据thepaper.cn页面，直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S3c5b8d1bd4146c61221a",
-      "title": "Hide The Kids – Horror FilM Buddy Gets Teaser Trailer",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpSnlNa2xoN3dsN25GSmVIWC1RYURSU3ZzcFJLT2pxeVI3N1g4THhjOENPbkVEa1gyWmFXc09NTEM2cHpnMF9xV0MtcjVYd29oUzU3djNBU3R3UnVDWThvRjZrMA?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpSnlNa2xoN3dsN25GSmVIWC1RYURSU3ZzcFJLT2pxeVI3N1g4THhjOENPbkVEa1gyWmFXc09NTEM2cHpnMF9xV0MtcjVYd29oUzU3djNBU3R3UnVDWThvRjZrMA?oc=5",
-      "source": "SciFiNow",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T18:00:19+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:bd0cdc012efeb79c5714ffea3dd90744d2e62dc8eaec46de969472f97bc982ae",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "Hide The Kids – Horror FilM Buddy Gets Teaser Trailer SciFiNow",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据SciFiNow页面，Hide The Kids – Horror FilM Buddy Gets Teaser Trailer。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "Se36897bc983cd8617575",
-      "title": "兴安盟3000余场红色电影送到群众家门口",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUdGpuampOV1NsenV3SVlNSzBDY1RtcGEwUy1Ca051MERBSzNmVjk3S1JJeFhLX2tVOVZuYlJ0RnN5NzBEM1UzdjdUMnZ6YW5YLXBWdjN6TmtjcFo2b1RpNGFUdlBYSWZoNHNsNy1STUlfQk0?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUdGpuampOV1NsenV3SVlNSzBDY1RtcGEwUy1Ca051MERBSzNmVjk3S1JJeFhLX2tVOVZuYlJ0RnN5NzBEM1UzdjdUMnZ6YW5YLXBWdjN6TmtjcFo2b1RpNGFUdlBYSWZoNHNsNy1STUlfQk0?oc=5",
-      "source": "央广网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T17:18:34+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:63be5b179ed67eaf3394adcd0b8763daf3599ff719e20e2c94e1b768b69eafef",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "兴安盟3000余场红色电影送到群众家门口 央广网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据央广网页面，兴安盟3000余场红色电影送到群众家门口。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S2a4ed6705c307710d1a5",
-      "title": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ualR0ZzVrZmx5ZVhOSTRWTnF4YmxETWI0cS1LbUM4My0xX0xjV0lESFlYcHhSU0F0LUpqLVZpeFV4dHN5cmNmTzE2dVMyT3cxakRwRUN3VVVOaEFaXzR2c2JfQmpJYTcxUXpWQw?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ualR0ZzVrZmx5ZVhOSTRWTnF4YmxETWI0cS1LbUM4My0xX0xjV0lESFlYcHhSU0F0LUpqLVZpeFV4dHN5cmNmTzE2dVMyT3cxakRwRUN3VVVOaEFaXzR2c2JfQmpJYTcxUXpWQw?oc=5",
-      "source": "大江网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T17:11:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:7cc81523e6a36c282a45890d6d1aebb415822d343f5097be5c01d66e345bf65c",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会 大江网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S0c6bcdf0346db2683273",
-      "title": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YazlrV0JtdVRKU3IwVG5LZHJLREtHTm11RU9Sa3FfTjduZ3o2MzJMTV9hTGhGbmxIZmpsZmRBYVBmcFpQNkxfdWNRaURGbjIyTGRjNEdn?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YazlrV0JtdVRKU3IwVG5LZHJLREtHTm11RU9Sa3FfTjduZ3o2MzJMTV9hTGhGbmxIZmpsZmRBYVBmcFpQNkxfdWNRaURGbjIyTGRjNEdn?oc=5",
-      "source": "中财网",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T17:10:46+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:9ea82192325575ce2f21c5d6a1fdc9e7b4c7be092539076805c32308996ffdf1",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告 中财网",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "Sf2092e0810d642e4a349",
-      "title": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XOU1WZy1lclpBZzJDUGlPWFV4VjNYRU5HSmtzeWI3Wk04RWVjU2dKNjE5UllHenlRcVhWMXdFTWxtQ0xDYkwzbTVrVldPa1hXNTdXSnJhM3c1bFc2LXJob2l1YVRjclZM?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XOU1WZy1lclpBZzJDUGlPWFV4VjNYRU5HSmtzeWI3Wk04RWVjU2dKNjE5UllHenlRcVhWMXdFTWxtQ0xDYkwzbTVrVldPa1hXNTdXSnJhM3c1bFc2LXJob2l1YVRjclZM?oc=5",
-      "source": "rmzxw.com.cn",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T17:02:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:3b153e4467efdbd8f4f5bfbe20c8d3e35c210ac58edcf2950351d9cf2b85cea5",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会 rmzxw.com.cn",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "Sf55cdb281c598fa34f93",
-      "title": "《特种兵学校》微短剧项目发布会在石家庄举办",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJSXBQUzRobXZEVlBFQlpiOElqdlUwZkc3RXRSdnNoX2FLcDhkNmlLYzJLOWxhZ1NNb0JzYlMwcW1lSlItLVpvT0hiVk5hS1RZT21zcElDMFVzVU9BVHJ1MG9PMWhEdGl1?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJSXBQUzRobXZEVlBFQlpiOElqdlUwZkc3RXRSdnNoX2FLcDhkNmlLYzJLOWxhZ1NNb0JzYlMwcW1lSlItLVpvT0hiVk5hS1RZT21zcElDMFVzVU9BVHJ1MG9PMWhEdGl1?oc=5",
-      "source": "heb.chinanews.com.cn",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T16:59:26+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:93965ed45a9a5bca6d358d766a6ba96b7e9dbf1bfe79dd9cee5bc7471d36107a",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "《特种兵学校》微短剧项目发布会在石家庄举办 heb.chinanews.com.cn",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据heb.chinanews.com.cn页面，《特种兵学校》微短剧项目发布会在石家庄举办。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S81302f55e034818deedf",
-      "title": "明星讨债，导演跑路，内部人士独家爆料",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcHZkM2dwa0kyM0U4WjNRcWJJSXlXbUxHTnFWTmZBT3l3d0tBRXZzX1BYZVlESUZZOXpQa0JQaUhnUWh1cFlQc3lVaDI0cHM5UVZkMno0M2FMY2tMaUE?oc=5",
-      "normalized_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcHZkM2dwa0kyM0U4WjNRcWJJSXlXbUxHTnFWTmZBT3l3d0tBRXZzX1BYZVlESUZZOXpQa0JQaUhnUWh1cFlQc3lVaDI0cHM5UVZkMno0M2FMY2tMaUE?oc=5",
-      "source": "inewsweek.cn",
-      "source_type": "search_fallback",
-      "tier": "tier_4_search_fallback",
-      "author": null,
-      "published_at": "2026-07-13T16:24:00+08:00",
-      "fetched_at": "2026-07-13T23:24:38+08:00",
-      "content_hash": "sha256:b295470c101fe1df41e341a96f30f3b2805e2362de6b4bb4999a1ec4dcb37312",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "明星讨债，导演跑路，内部人士独家爆料 inewsweek.cn",
-        "excerpt": null,
-        "language": "zh-CN",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
     }
   ],
   "source_status": [
     {
       "source": "Google News 中文剧集聚合",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "Google News 中文综艺聚合",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "Google News 中文娱乐聚合",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "Google News 全球影视娱乐聚合",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "BBC Entertainment & Arts RSS",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "The Guardian TV & Radio RSS",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "The Guardian Film RSS",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "Variety RSS",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "source": "Deadline RSS",
       "status": "ok",
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     }
   ]

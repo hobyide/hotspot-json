@@ -2,17 +2,18 @@
   "schema_version": "2.0",
   "project": "hobyide/hotspot-json",
   "timezone": "Asia/Shanghai",
-  "status": "ready",
-  "last_check_at": "2026-07-13T23:24:38+08:00",
-  "next_check_at": "2026-07-14T05:24:38+08:00",
+  "status": "partial",
+  "last_check_at": "2026-07-13T23:28:36+08:00",
+  "next_check_at": "2026-07-14T05:28:36+08:00",
   "publishability": {
     "can_publish": true,
-    "mode": "full",
-    "publishable_event_count": 30,
-    "publishable_fact_count": 30,
-    "distinct_publisher_count": 30,
-    "max_single_publisher_share": 0.0333,
-    "primary_gate": "config/health-gate.json"
+    "mode": "attributed_only",
+    "publishable_event_count": 4,
+    "publishable_fact_count": 4,
+    "distinct_publisher_count": 4,
+    "max_single_publisher_share": 0.25,
+    "primary_gate": "config/health-gate.json",
+    "semantic_quality_gate": "scripts/quality_gate.py"
   },
   "validation": {
     "overall": "passed",
@@ -20,83 +21,86 @@
     "source_reference_integrity": "passed",
     "fact_support": "passed",
     "deduplication": "passed",
-    "errors": []
+    "errors": [],
+    "content_quality": "passed"
   },
   "counts": {
-    "all": 30,
-    "drama": 22,
-    "variety": 5,
-    "celebrity": 2,
-    "entertainment_events": 1,
-    "source_records": 30,
-    "distinct_publishers": 30
+    "all": 4,
+    "drama": 3,
+    "variety": 0,
+    "celebrity": 1,
+    "entertainment_events": 0,
+    "source_records": 4,
+    "distinct_publishers": 4
   },
   "source_status": [
     {
       "platform": "Google News 中文剧集聚合",
       "status": "ok",
       "item_count": 20,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文综艺聚合",
       "status": "ok",
-      "item_count": 19,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "item_count": 18,
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文娱乐聚合",
       "status": "ok",
       "item_count": 24,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Google News 全球影视娱乐聚合",
       "status": "ok",
       "item_count": 20,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "BBC Entertainment & Arts RSS",
       "status": "ok",
       "item_count": 2,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "The Guardian TV & Radio RSS",
       "status": "ok",
       "item_count": 0,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "The Guardian Film RSS",
       "status": "ok",
       "item_count": 4,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Variety RSS",
       "status": "ok",
       "item_count": 2,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     },
     {
       "platform": "Deadline RSS",
       "status": "ok",
       "item_count": 5,
-      "checked_at": "2026-07-13T23:24:38+08:00",
+      "checked_at": "2026-07-13T23:28:36+08:00",
       "error": null
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "quality_gate: removed 26 low-information candidates and kept 4"
+  ],
   "errors": [],
   "content_model": "multi_source_rss_plus_news_aggregation_with_attribution",
   "pipeline": {
@@ -105,5 +109,83 @@
     "source_store": "data/sources.json",
     "event_schema": "schema/hotspot-v1.2.schema.json",
     "source_schema": "schema/source-record.schema.json"
+  },
+  "quality_gate": {
+    "removed_low_information_candidates": 26,
+    "kept_events": 4,
+    "rejection_examples": [
+      {
+        "id": "20260713-e75622a350585016",
+        "topic": "《十日终焉》杀青后无缝进组？肖战诸葛亮剧照曝光，事业火爆",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-b13d57b9c259ccb7",
+        "topic": "Monopoly Series Passes ‘Go’ at Netflix",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-5ab5d761a5ad5567",
+        "topic": "Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-f620084c5913203a",
+        "topic": "甘肃武威：公益露天电影点亮群众夜生活",
+        "reasons": [
+          "no_action_and_no_detail",
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-1e9483107a135320",
+        "topic": "Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-809bfeb2a3537464",
+        "topic": "Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-ac6f64f23cc3ee3f",
+        "topic": "‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-3ff4b308c01d6af8",
+        "topic": "Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-5faeec32160e0a11",
+        "topic": "Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260713-9ee0fd9765f1d883",
+        "topic": "【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标",
+        "reasons": [
+          "no_action_and_no_detail",
+          "summary_repeats_title_only"
+        ]
+      }
+    ]
   }
 }
