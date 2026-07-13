@@ -6,8 +6,10 @@ on:
     branches: [main]
     paths:
       - "scripts/collect_hotspots.py"
+      - "scripts/quality_gate.py"
       - "config/runtime-sources.json"
       - "config/health-gate.json"
+      - "schema/**"
       - ".github/workflows/collect-hotspots.yml"
   schedule:
     # GitHub cron uses UTC. These are 00:00, 06:00, 12:00 and 18:00 Asia/Shanghai.
@@ -35,17 +37,27 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect and validate feeds
+      - name: Install validation dependency
+        run: python -m pip install --disable-pip-version-check "jsonschema>=4.22,<5"
+
+      - name: Collect candidate feeds
         id: collect
         continue-on-error: true
         run: python scripts/collect_hotspots.py
 
-      - name: Verify generated JSON files
-        if: always()
+      - name: Apply semantic quality gate
+        id: quality
+        if: steps.collect.outcome == 'success'
+        run: python scripts/quality_gate.py
+
+      - name: Verify JSON, schemas and publishability
+        id: verify
+        if: steps.quality.outcome == 'success'
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+          from jsonschema import Draft202012Validator, FormatChecker
 
           required = [
               "data/latest.json",
@@ -57,19 +69,63 @@ jobs:
               "data/manifest.json",
               "data/status.json",
           ]
+          documents = {}
           for name in required:
               path = Path(name)
               if not path.exists():
                   raise SystemExit(f"missing required file: {name}")
-              json.loads(path.read_text("utf-8"))
-          status = json.loads(Path("data/status.json").read_text("utf-8"))
-          if status.get("validation", {}).get("overall") == "failed":
-              raise SystemExit("generated data failed validation")
-          print(json.dumps(status.get("publishability", {}), ensure_ascii=False))
+              documents[name] = json.loads(path.read_text("utf-8"))
+
+          event_schema = json.loads(Path("schema/hotspot-v1.2.schema.json").read_text("utf-8"))
+          source_schema = json.loads(Path("schema/source-record.schema.json").read_text("utf-8"))
+          event_validator = Draft202012Validator(event_schema, format_checker=FormatChecker())
+          source_validator = Draft202012Validator(source_schema, format_checker=FormatChecker())
+
+          feed_files = [
+              "data/latest.json",
+              "data/drama.json",
+              "data/variety.json",
+              "data/celebrity.json",
+              "data/entertainment-events.json",
+          ]
+          errors = []
+          for name in feed_files:
+              for error in event_validator.iter_errors(documents[name]):
+                  location = "/".join(str(part) for part in error.absolute_path)
+                  errors.append(f"{name}:{location}: {error.message}")
+          for error in source_validator.iter_errors(documents["data/sources.json"]):
+              location = "/".join(str(part) for part in error.absolute_path)
+              errors.append(f"data/sources.json:{location}: {error.message}")
+          if errors:
+              raise SystemExit("schema validation failed:\n" + "\n".join(errors[:50]))
+
+          status = documents["data/status.json"]
+          validation = status.get("validation", {})
+          publishability = status.get("publishability", {})
+          if validation.get("overall") != "passed":
+              raise SystemExit("overall validation is not passed")
+          if validation.get("content_quality") != "passed":
+              raise SystemExit("semantic content-quality validation is not passed")
+          if not publishability.get("can_publish", False):
+              raise SystemExit("feed is not publishable")
+          if publishability.get("publishable_event_count", 0) != len(documents["data/latest.json"].get("items", [])):
+              raise SystemExit("publishable event count does not match latest feed")
+
+          source_ids = {record["source_id"] for record in documents["data/sources.json"].get("records", [])}
+          for event in documents["data/latest.json"].get("items", []):
+              missing = set(event.get("source_ids", [])) - source_ids
+              if missing:
+                  raise SystemExit(f"event {event.get('id')} has missing source ids: {sorted(missing)}")
+
+          print(json.dumps({
+              "status": status.get("status"),
+              "publishability": publishability,
+              "quality_gate": status.get("quality_gate", {}),
+          }, ensure_ascii=False))
           PY
 
-      - name: Commit validated data
-        if: always()
+      - name: Commit only fully validated data
+        if: steps.verify.outcome == 'success'
         run: |
           if git diff --quiet -- data; then
             echo "No data changes"
@@ -78,17 +134,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git commit -m "data: refresh entertainment hotspots"
+          git commit -m "data: refresh quality-gated entertainment hotspots"
           git push
 
-      - name: Fail workflow only when no publishable feed exists
-        if: steps.collect.outcome == 'failure'
+      - name: Reject unvalidated output
+        if: steps.collect.outcome == 'failure' || steps.quality.outcome == 'failure' || steps.verify.outcome == 'failure'
         run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          status = json.loads(Path("data/status.json").read_text("utf-8"))
-          if not status.get("publishability", {}).get("can_publish", False):
-              raise SystemExit("No publishable current or cached feed")
-          print("Collector had source failures, but a validated publishable feed is preserved.")
-          PY
+          echo "Collector output was not committed because one or more mandatory gates failed."
+          exit 1
