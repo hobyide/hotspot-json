@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "timezone": "Asia/Shanghai",
   "principle": "Overall pipeline health is determined by whether the feed is usable for downstream writing, not by whether every ranking endpoint succeeded.",
   "overall_status_values": ["ready", "partial", "failed"],
@@ -15,7 +15,9 @@
       "schema_passed",
       "source_reference_integrity_passed",
       "fact_support_passed",
-      "deduplication_passed"
+      "deduplication_passed",
+      "content_quality_passed",
+      "sensitive_claims_passed"
     ]
   },
   "partial": {
@@ -26,14 +28,29 @@
     "maximum_single_publisher_share": 0.67,
     "maximum_feed_age_hours": 36,
     "required_mode": "attributed_writing_only",
+    "required_checks": [
+      "json_parse_passed",
+      "schema_passed",
+      "source_reference_integrity_passed",
+      "fact_support_passed",
+      "deduplication_passed",
+      "content_quality_passed",
+      "sensitive_claims_passed"
+    ],
     "forbidden_topics": [
-      "relationship_claims",
-      "privacy_claims",
-      "legal_accusations",
-      "injury_or_death_claims",
-      "minor_related_claims",
-      "serious_negative_controversies"
-    ]
+      "single_source_or_unverified_relationship_claims",
+      "single_source_or_unverified_privacy_claims",
+      "single_source_or_unverified_legal_accusations",
+      "single_source_or_unverified_injury_or_death_claims",
+      "single_source_or_unverified_minor_related_claims",
+      "single_source_or_unverified_serious_negative_controversies"
+    ],
+    "sensitive_fact_requirement": {
+      "verification_status_any": ["official", "confirmed"],
+      "minimum_independent_sources_when_confirmed": 2,
+      "fact_evidence_status_any": ["confirmed", "cross_confirmed"],
+      "must_have_source_attribution": true
+    }
   },
   "failed": {
     "can_publish": false,
@@ -42,6 +59,8 @@
       "json_or_schema_failure",
       "broken_source_references",
       "all_candidate_facts_unsupported",
+      "content_quality_failure",
+      "sensitive_claim_validation_failure",
       "feed_older_than_36_hours_without_refresh"
     ]
   },
@@ -57,7 +76,8 @@
     "multiple_urls_from_the_same_syndicated_copy_count_as_one_independent_source": true,
     "publisher_diversity_is_required": true,
     "missing_rank_or_engagement_must_be_null_not_estimated": true,
-    "status_ready_must_not_be_set_only_to_bypass_downstream_gate": true
+    "status_ready_must_not_be_set_only_to_bypass_downstream_gate": true,
+    "sensitive_events_must_be_clustered_before_source_counting": true
   },
   "downstream_gate": {
     "primary_field": "publishability.can_publish",
@@ -65,9 +85,12 @@
       "publishability.mode",
       "publishability.publishable_event_count",
       "publishability.distinct_publisher_count",
-      "validation.overall"
+      "validation.overall",
+      "validation.content_quality",
+      "validation.sensitive_claims"
     ],
-    "must_not_block_when": "overall status is partial but publishability.can_publish is true",
-    "must_block_when": "publishability.can_publish is false or validation.overall is failed"
+    "must_not_block_when": "overall status is partial but publishability.can_publish is true and all required validations passed",
+    "must_block_when": "publishability.can_publish is false or any required validation is failed",
+    "sensitive_event_rule": "allow only official facts or confirmed events with at least two independent sources and confirmed/cross_confirmed facts"
   }
 }
