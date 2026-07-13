@@ -1,1 +1,109 @@
-{"schema_version":"1.2","project":"hobyide/hotspot-json","timezone":"Asia/Shanghai","status":"degraded","last_check_at":"2026-07-13T18:00:00+08:00","next_check_at":"2026-07-14T00:00:00+08:00","last_cleanup_at":"2026-07-13T23:01:37+08:00","last_archive_at":"2026-07-13T23:01:37+08:00","automations":{"hotspot_check":"enabled_every_6_hours","daily_archive_cleanup":"enabled_at_23_00"},"counts":{"all":6,"drama":2,"variety":3,"celebrity":0,"entertainment_events":1,"source_records":1},"archive":{"path":"archive/2026/07/13","events":6,"sources":1,"validation":"passed","expired_events_removed":0,"expired_sources_removed":0,"expired_archives_removed":0,"expired_failed_logs_removed":0},"errors":["结构化趋势入口未稳定返回可解析榜单","已通过The Guardian当日电视指南补充6条近24小时事件"],"content_model":"fixed_source_pool_plus_search_fallback_with_single_source_attribution","pipeline":{"source_store":"data/sources.json","event_schema":"schema/hotspot-v1.2.schema.json","source_schema":"schema/source-record.schema.json","migration_status":"complete"},"retention":{"current_event_window_hours":24,"online_source_snapshot_days":7,"archive_days":30,"failed_log_days":14}}
+{
+  "schema_version": "2.0",
+  "project": "hobyide/hotspot-json",
+  "timezone": "Asia/Shanghai",
+  "status": "ready",
+  "last_check_at": "2026-07-13T23:24:38+08:00",
+  "next_check_at": "2026-07-14T05:24:38+08:00",
+  "publishability": {
+    "can_publish": true,
+    "mode": "full",
+    "publishable_event_count": 30,
+    "publishable_fact_count": 30,
+    "distinct_publisher_count": 30,
+    "max_single_publisher_share": 0.0333,
+    "primary_gate": "config/health-gate.json"
+  },
+  "validation": {
+    "overall": "passed",
+    "json_parse": "passed",
+    "source_reference_integrity": "passed",
+    "fact_support": "passed",
+    "deduplication": "passed",
+    "errors": []
+  },
+  "counts": {
+    "all": 30,
+    "drama": 22,
+    "variety": 5,
+    "celebrity": 2,
+    "entertainment_events": 1,
+    "source_records": 30,
+    "distinct_publishers": 30
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 19,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 24,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 4,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 5,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "content_model": "multi_source_rss_plus_news_aggregation_with_attribution",
+  "pipeline": {
+    "runtime_sources": "config/runtime-sources.json",
+    "health_gate": "config/health-gate.json",
+    "source_store": "data/sources.json",
+    "event_schema": "schema/hotspot-v1.2.schema.json",
+    "source_schema": "schema/source-record.schema.json"
+  }
+}

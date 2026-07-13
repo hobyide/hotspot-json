@@ -1,1 +1,630 @@
-{"schema_version":"1.2","feed":"variety","generated_at":"2026-07-13T18:00:00+08:00","timezone":"Asia/Shanghai","window_hours":24,"pipeline":{"source_store":"data/sources.json","facts_required":true,"citation_validation":"passed"},"items":[{"id":"20260713-evolution-bbc-two","topic":"Chris Packham新系列《Evolution》在BBC Two首播","summary":"据The Guardian当日电视指南，Chris Packham主持的《Evolution》于7月13日21:00在BBC Two首播。","category":"variety","language":"zh-CN","region":"GB","hot_score":51,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["Evolution"],"celebrities":["Chris Packham"],"organizations":["BBC Two","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，《Evolution》于7月13日21:00在BBC Two首播。","key_points":["播出时间为21:00。","当前为单一可靠媒体来源。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《Evolution》在BBC Two首播。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出多档当日电视节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_evolution_bbc_two","statement":"据The Guardian 2026年7月13日电视指南，《Evolution》于当日21:00在BBC Two首播。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-24-hours-ae-return","topic":"《24 Hours in A&E》回归Channel 4","summary":"据The Guardian当日电视指南，《24 Hours in A&E》于7月13日21:00回归Channel 4。","category":"variety","language":"zh-CN","region":"GB","hot_score":47,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["24 Hours in A&E"],"celebrities":[],"organizations":["Channel 4","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，《24 Hours in A&E》于7月13日21:00回归Channel 4。","key_points":["播出时间为21:00。","当前为单一可靠媒体来源。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《24 Hours in A&E》回归Channel 4。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出多档当日电视节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_24_hours_ae_return","statement":"据The Guardian 2026年7月13日电视指南，《24 Hours in A&E》于当日21:00在Channel 4回归。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-property-ladder-channel4","topic":"Channel 4播出住房专题节目","summary":"据The Guardian当日电视指南，《How to Trick Your Way onto the Property Ladder》于7月13日22:00在Channel 4播出。","category":"variety","language":"zh-CN","region":"GB","hot_score":42,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["How to Trick Your Way onto the Property Ladder"],"celebrities":["Oobah Butler"],"organizations":["Channel 4","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，该节目于7月13日22:00在Channel 4播出。","key_points":["播出时间为22:00。","当前为单一可靠媒体来源。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"住房专题节目在Channel 4播出。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出多档当日电视节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_property_ladder_channel4","statement":"据The Guardian 2026年7月13日电视指南，《How to Trick Your Way onto the Property Ladder》于当日22:00在Channel 4播出。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}}],"source_status":[{"platform":"The Guardian","status":"ok","item_count":6,"checked_at":"2026-07-13T18:00:00+08:00","error":null},{"platform":"Configured structured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-13T18:00:00+08:00","error":"未取得稳定结构化榜单，已使用可靠媒体搜索补源"}],"cleanup":{"last_run_at":"2026-07-12T23:00:00+08:00","status":"completed","mode":"archive_then_expire","last_archive_at":"2026-07-12T23:00:00+08:00"}}
+{
+  "schema_version": "1.2",
+  "generated_at": "2026-07-13T23:24:38+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "pipeline": {
+    "source_store": "data/sources.json",
+    "facts_required": true,
+    "citation_validation": "passed"
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 19,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 24,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 4,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 5,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    }
+  ],
+  "cleanup": {
+    "last_run_at": "2026-07-12T23:00:00+08:00",
+    "status": "completed",
+    "mode": "archive_then_expire",
+    "last_archive_at": "2026-07-12T23:00:00+08:00"
+  },
+  "feed": "variety",
+  "items": [
+    {
+      "id": "20260713-9ff2bc5a00975c8d",
+      "topic": "综艺 现在就出发",
+      "summary": "据新浪网页面，综艺 现在就出发。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "新浪网"
+        ]
+      },
+      "content": {
+        "overview": "据新浪网页面，综艺 现在就出发。 综艺 现在就出发 新浪网",
+        "key_points": [
+          "据新浪网页面，综艺 现在就出发。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T23:20:42+08:00",
+            "event": "据新浪网页面，综艺 现在就出发。",
+            "source_ids": [
+              "Sea45ea3ab6306e9a40fc"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CeFFHZjctblc5emNBS1czb1lvLVBiR2JkTm9fNjNnalZROUxTUlVvTEJaU0RQaGZTR2VqNm5PUkN0bWhvb2ZMUlpsOERiVWU3QXpEa1JWMUlyZ0pYWU1MYlp4UDZaQTBaWHByRlpxem9vOW8?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sea45ea3ab6306e9a40fc"
+      ],
+      "sources": [
+        {
+          "source_id": "Sea45ea3ab6306e9a40fc",
+          "platform": "新浪网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "综艺 现在就出发",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CeFFHZjctblc5emNBS1czb1lvLVBiR2JkTm9fNjNnalZROUxTUlVvTEJaU0RQaGZTR2VqNm5PUkN0bWhvb2ZMUlpsOERiVWU3QXpEa1JWMUlyZ0pYWU1MYlp4UDZaQTBaWHByRlpxem9vOW8?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:d918605b89f2718b31d8a2c54609456be27c24be8a9271942a57cfa9cc519a78",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "综艺 现在就出发 新浪网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F9ff2bc5a00975c8dd3",
+          "statement": "据新浪网页面，综艺 现在就出发。",
+          "source_ids": [
+            "Sea45ea3ab6306e9a40fc"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-f8c80046f56fa32f",
+      "topic": "综艺股份：2026年上半年净利同比预增136.23%",
+      "summary": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "东方财富"
+        ]
+      },
+      "content": {
+        "overview": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。 综艺股份：2026年上半年净利同比预增136.23% 东方财富",
+        "key_points": [
+          "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:06:51+08:00",
+            "event": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+            "source_ids": [
+              "Sa353e8db0e134eaf1d9e"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUUZBYTJocFlxODNnOUduQ1RoS1FXSEgxUkY1V0tUZVVOSFNWZEU1OWZNLTMtMWtsTkFKZkZuTEpuenpkcXR4ZmtYZVVyd0Q2bHVyRHlfZW1PTU14Y2FTcDRkYUk?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sa353e8db0e134eaf1d9e"
+      ],
+      "sources": [
+        {
+          "source_id": "Sa353e8db0e134eaf1d9e",
+          "platform": "东方财富",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "综艺股份：2026年上半年净利同比预增136.23%",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUUZBYTJocFlxODNnOUduQ1RoS1FXSEgxUkY1V0tUZVVOSFNWZEU1OWZNLTMtMWtsTkFKZkZuTEpuenpkcXR4ZmtYZVVyd0Q2bHVyRHlfZW1PTU14Y2FTcDRkYUk?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:45953fc4eac416f7c92e4a4acc1f9e8292e898c8aa1ee485663a4826e2a62c3e",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "综艺股份：2026年上半年净利同比预增136.23% 东方财富",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Ff8c80046f56fa32fde",
+          "statement": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+          "source_ids": [
+            "Sa353e8db0e134eaf1d9e"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-6f4d1a36a04e79a6",
+      "topic": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会",
+      "summary": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "大江网"
+        ]
+      },
+      "content": {
+        "overview": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。 工商银行宜春分行举行第四届“最美家庭” 颁奖晚会 大江网",
+        "key_points": [
+          "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:11:00+08:00",
+            "event": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+            "source_ids": [
+              "S2a4ed6705c307710d1a5"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ualR0ZzVrZmx5ZVhOSTRWTnF4YmxETWI0cS1LbUM4My0xX0xjV0lESFlYcHhSU0F0LUpqLVZpeFV4dHN5cmNmTzE2dVMyT3cxakRwRUN3VVVOaEFaXzR2c2JfQmpJYTcxUXpWQw?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S2a4ed6705c307710d1a5"
+      ],
+      "sources": [
+        {
+          "source_id": "S2a4ed6705c307710d1a5",
+          "platform": "大江网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ualR0ZzVrZmx5ZVhOSTRWTnF4YmxETWI0cS1LbUM4My0xX0xjV0lESFlYcHhSU0F0LUpqLVZpeFV4dHN5cmNmTzE2dVMyT3cxakRwRUN3VVVOaEFaXzR2c2JfQmpJYTcxUXpWQw?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:7cc81523e6a36c282a45890d6d1aebb415822d343f5097be5c01d66e345bf65c",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会 大江网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F6f4d1a36a04e79a6ab",
+          "statement": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+          "source_ids": [
+            "S2a4ed6705c307710d1a5"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-ecbf46b7b0c4171f",
+      "topic": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告",
+      "summary": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "中财网"
+        ]
+      },
+      "content": {
+        "overview": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。 [业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告 中财网",
+        "key_points": [
+          "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:10:46+08:00",
+            "event": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+            "source_ids": [
+              "S0c6bcdf0346db2683273"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YazlrV0JtdVRKU3IwVG5LZHJLREtHTm11RU9Sa3FfTjduZ3o2MzJMTV9hTGhGbmxIZmpsZmRBYVBmcFpQNkxfdWNRaURGbjIyTGRjNEdn?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S0c6bcdf0346db2683273"
+      ],
+      "sources": [
+        {
+          "source_id": "S0c6bcdf0346db2683273",
+          "platform": "中财网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YazlrV0JtdVRKU3IwVG5LZHJLREtHTm11RU9Sa3FfTjduZ3o2MzJMTV9hTGhGbmxIZmpsZmRBYVBmcFpQNkxfdWNRaURGbjIyTGRjNEdn?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:9ea82192325575ce2f21c5d6a1fdc9e7b4c7be092539076805c32308996ffdf1",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告 中财网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fecbf46b7b0c4171f40",
+          "statement": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+          "source_ids": [
+            "S0c6bcdf0346db2683273"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-04224247f0946215",
+      "topic": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会",
+      "summary": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "rmzxw.com.cn"
+        ]
+      },
+      "content": {
+        "overview": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。 “新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会 rmzxw.com.cn",
+        "key_points": [
+          "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:02:00+08:00",
+            "event": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+            "source_ids": [
+              "Sf2092e0810d642e4a349"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XOU1WZy1lclpBZzJDUGlPWFV4VjNYRU5HSmtzeWI3Wk04RWVjU2dKNjE5UllHenlRcVhWMXdFTWxtQ0xDYkwzbTVrVldPa1hXNTdXSnJhM3c1bFc2LXJob2l1YVRjclZM?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sf2092e0810d642e4a349"
+      ],
+      "sources": [
+        {
+          "source_id": "Sf2092e0810d642e4a349",
+          "platform": "rmzxw.com.cn",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XOU1WZy1lclpBZzJDUGlPWFV4VjNYRU5HSmtzeWI3Wk04RWVjU2dKNjE5UllHenlRcVhWMXdFTWxtQ0xDYkwzbTVrVldPa1hXNTdXSnJhM3c1bFc2LXJob2l1YVRjclZM?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:3b153e4467efdbd8f4f5bfbe20c8d3e35c210ac58edcf2950351d9cf2b85cea5",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会 rmzxw.com.cn",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F04224247f0946215a1",
+          "statement": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+          "source_ids": [
+            "Sf2092e0810d642e4a349"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    }
+  ]
+}

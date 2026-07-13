@@ -1,1 +1,3355 @@
-{"schema_version":"1.2","feed":"all","generated_at":"2026-07-13T18:00:00+08:00","timezone":"Asia/Shanghai","window_hours":24,"pipeline":{"source_store":"data/sources.json","facts_required":true,"citation_validation":"passed"},"items":[{"id":"20260713-evolution-bbc-two","topic":"Chris Packham新系列《Evolution》在BBC Two首播","summary":"据The Guardian当日电视指南，Chris Packham主持的五集自然纪录系列《Evolution》于7月13日21:00在BBC Two首播。","category":"variety","language":"zh-CN","region":"GB","hot_score":51,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["Evolution"],"celebrities":["Chris Packham"],"organizations":["BBC Two","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，Chris Packham主持的五集自然纪录系列《Evolution》于7月13日21:00在BBC Two首播。 当前仅保存The Guardian当日电视指南，按单一来源归因。","key_points":["《Evolution》于当日21:00在BBC Two首播。","当前为单一可靠媒体来源。","未取得官方节目页面或可核验互动数据。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《Evolution》于当日21:00在BBC Two首播。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出BBC Two新系列《Evolution》、Sky One英国首播《Animal Control》、Channel 4《24 Hours in A&E》回归、Sky Atlantic《House of the Dragon》新集、U&W《Outback Terror: The Falconio Murder》以及Channel 4住房专题节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_evolution_bbc_two","statement":"据The Guardian 2026年7月13日电视指南，《Evolution》于当日21:00在BBC Two首播。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-animal-control-sky-one","topic":"《Animal Control》登陆英国Sky One","summary":"据The Guardian当日电视指南，美国情景喜剧《Animal Control》于7月13日18:00在Sky One开启英国播出。","category":"drama","language":"zh-CN","region":"GB","hot_score":44,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["Animal Control"],"celebrities":[],"organizations":["Sky One","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，美国情景喜剧《Animal Control》于7月13日18:00在Sky One开启英国播出。 当前仅保存The Guardian当日电视指南，按单一来源归因。","key_points":["《Animal Control》于当日18:00在Sky One英国首播。","当前为单一可靠媒体来源。","未取得官方节目页面或可核验互动数据。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《Animal Control》于当日18:00在Sky One英国首播。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出BBC Two新系列《Evolution》、Sky One英国首播《Animal Control》、Channel 4《24 Hours in A&E》回归、Sky Atlantic《House of the Dragon》新集、U&W《Outback Terror: The Falconio Murder》以及Channel 4住房专题节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_animal_control_sky_one","statement":"据The Guardian 2026年7月13日电视指南，《Animal Control》于当日18:00在Sky One英国首播。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-24-hours-ae-return","topic":"《24 Hours in A&E》回归Channel 4","summary":"据The Guardian当日电视指南，《24 Hours in A&E》于7月13日21:00回归Channel 4，本集地点为诺丁汉Queen's Medical Centre。","category":"variety","language":"zh-CN","region":"GB","hot_score":47,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["24 Hours in A&E"],"celebrities":[],"organizations":["Channel 4","Queen's Medical Centre","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，《24 Hours in A&E》于7月13日21:00回归Channel 4，本集地点为诺丁汉Queen's Medical Centre。 当前仅保存The Guardian当日电视指南，按单一来源归因。","key_points":["《24 Hours in A&E》于当日21:00在Channel 4回归。","当前为单一可靠媒体来源。","未取得官方节目页面或可核验互动数据。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《24 Hours in A&E》于当日21:00在Channel 4回归。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出BBC Two新系列《Evolution》、Sky One英国首播《Animal Control》、Channel 4《24 Hours in A&E》回归、Sky Atlantic《House of the Dragon》新集、U&W《Outback Terror: The Falconio Murder》以及Channel 4住房专题节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_24_hours_ae_return","statement":"据The Guardian 2026年7月13日电视指南，《24 Hours in A&E》于当日21:00在Channel 4回归。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-house-of-dragon-sky","topic":"《House of the Dragon》在Sky Atlantic播出新集","summary":"据The Guardian当日电视指南，《House of the Dragon》于7月13日21:00在Sky Atlantic播出。","category":"drama","language":"zh-CN","region":"GB","hot_score":55,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["House of the Dragon"],"celebrities":[],"organizations":["Sky Atlantic","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，《House of the Dragon》于7月13日21:00在Sky Atlantic播出。 当前仅保存The Guardian当日电视指南，按单一来源归因。","key_points":["《House of the Dragon》于当日21:00在Sky Atlantic播出。","当前为单一可靠媒体来源。","未取得官方节目页面或可核验互动数据。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《House of the Dragon》于当日21:00在Sky Atlantic播出。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出BBC Two新系列《Evolution》、Sky One英国首播《Animal Control》、Channel 4《24 Hours in A&E》回归、Sky Atlantic《House of the Dragon》新集、U&W《Outback Terror: The Falconio Murder》以及Channel 4住房专题节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_house_of_dragon_sky","statement":"据The Guardian 2026年7月13日电视指南，《House of the Dragon》于当日21:00在Sky Atlantic播出。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-outback-terror","topic":"《Outback Terror: The Falconio Murder》在U&W开播","summary":"据The Guardian当日电视指南，两集纪录节目《Outback Terror: The Falconio Murder》于7月13日21:00在U&W播出。","category":"entertainment_event","language":"zh-CN","region":"GB","hot_score":40,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["Outback Terror: The Falconio Murder"],"celebrities":[],"organizations":["U&W","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，两集纪录节目《Outback Terror: The Falconio Murder》于7月13日21:00在U&W播出。 当前仅保存The Guardian当日电视指南，按单一来源归因。","key_points":["《Outback Terror: The Falconio Murder》于当日21:00在U&W播出。","当前为单一可靠媒体来源。","未取得官方节目页面或可核验互动数据。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《Outback Terror: The Falconio Murder》于当日21:00在U&W播出。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出BBC Two新系列《Evolution》、Sky One英国首播《Animal Control》、Channel 4《24 Hours in A&E》回归、Sky Atlantic《House of the Dragon》新集、U&W《Outback Terror: The Falconio Murder》以及Channel 4住房专题节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_outback_terror","statement":"据The Guardian 2026年7月13日电视指南，《Outback Terror: The Falconio Murder》于当日21:00在U&W播出。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260713-property-ladder-channel4","topic":"Channel 4播出住房专题《How to Trick Your Way onto the Property Ladder》","summary":"据The Guardian当日电视指南，Oobah Butler主持的住房专题节目于7月13日22:00在Channel 4播出。","category":"variety","language":"zh-CN","region":"GB","hot_score":42,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T18:00:00+08:00","last_seen_at":"2026-07-13T18:00:00+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["How to Trick Your Way onto the Property Ladder"],"celebrities":["Oobah Butler","Andy Burnham"],"organizations":["Channel 4","The Guardian"]},"content":{"overview":"据The Guardian当日电视指南，Oobah Butler主持的住房专题节目于7月13日22:00在Channel 4播出。 当前仅保存The Guardian当日电视指南，按单一来源归因。","key_points":["《How to Trick Your Way onto the Property Ladder》于当日22:00在Channel 4播出。","当前为单一可靠媒体来源。","未取得官方节目页面或可核验互动数据。"],"timeline":[{"time":"2026-07-13T18:00:00+08:00","event":"《How to Trick Your Way onto the Property Ladder》于当日22:00在Channel 4播出。","source_ids":["S20260713_GUARDIAN_TV"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution"]},"source_ids":["S20260713_GUARDIAN_TV"],"sources":[{"source_id":"S20260713_GUARDIAN_TV","platform":"The Guardian","source_type":"media","rank":null,"heat_raw":null,"title":"TV tonight: Chris Packham’s wondrous series about evolution","url":"https://www.theguardian.com/tv-and-radio/2026/jul/13/tv-tonight-chris-packhams-wondrous-series-about-evolution","captured_at":"2026-07-13T18:00:00+08:00","content_hash":"sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be","content":{"mode":"summary_only","text":null,"summary":"The Guardian 7月13日电视指南列出BBC Two新系列《Evolution》、Sky One英国首播《Animal Control》、Channel 4《24 Hours in A&E》回归、Sky Atlantic《House of the Dragon》新集、U&W《Outback Terror: The Falconio Murder》以及Channel 4住房专题节目。","excerpt":null,"language":"en-GB","license":{"status":"restricted","name":null,"url":null},"retrieved_at":"2026-07-13T18:00:00+08:00"}}],"facts":[{"fact_id":"F_20260713_property_ladder_channel4","statement":"据The Guardian 2026年7月13日电视指南，《How to Trick Your Way onto the Property Ladder》于当日22:00在Channel 4播出。","source_ids":["S20260713_GUARDIAN_TV"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["single_source","copyright_restriction"],"media":{"images":[],"videos":[]}}],"source_status":[{"platform":"The Guardian","status":"ok","item_count":6,"checked_at":"2026-07-13T18:00:00+08:00","error":null},{"platform":"Configured structured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-13T18:00:00+08:00","error":"未取得稳定结构化榜单，已使用可靠媒体搜索补源"}],"cleanup":{"last_run_at":"2026-07-12T23:00:00+08:00","status":"completed","mode":"archive_then_expire","last_archive_at":"2026-07-12T23:00:00+08:00"}}
+{
+  "schema_version": "1.2",
+  "generated_at": "2026-07-13T23:24:38+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "pipeline": {
+    "source_store": "data/sources.json",
+    "facts_required": true,
+    "citation_validation": "passed"
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 19,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 24,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 4,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 5,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    }
+  ],
+  "cleanup": {
+    "last_run_at": "2026-07-12T23:00:00+08:00",
+    "status": "completed",
+    "mode": "archive_then_expire",
+    "last_archive_at": "2026-07-12T23:00:00+08:00"
+  },
+  "feed": "all",
+  "items": [
+    {
+      "id": "20260713-9ff2bc5a00975c8d",
+      "topic": "综艺 现在就出发",
+      "summary": "据新浪网页面，综艺 现在就出发。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "新浪网"
+        ]
+      },
+      "content": {
+        "overview": "据新浪网页面，综艺 现在就出发。 综艺 现在就出发 新浪网",
+        "key_points": [
+          "据新浪网页面，综艺 现在就出发。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T23:20:42+08:00",
+            "event": "据新浪网页面，综艺 现在就出发。",
+            "source_ids": [
+              "Sea45ea3ab6306e9a40fc"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CeFFHZjctblc5emNBS1czb1lvLVBiR2JkTm9fNjNnalZROUxTUlVvTEJaU0RQaGZTR2VqNm5PUkN0bWhvb2ZMUlpsOERiVWU3QXpEa1JWMUlyZ0pYWU1MYlp4UDZaQTBaWHByRlpxem9vOW8?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sea45ea3ab6306e9a40fc"
+      ],
+      "sources": [
+        {
+          "source_id": "Sea45ea3ab6306e9a40fc",
+          "platform": "新浪网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "综艺 现在就出发",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CeFFHZjctblc5emNBS1czb1lvLVBiR2JkTm9fNjNnalZROUxTUlVvTEJaU0RQaGZTR2VqNm5PUkN0bWhvb2ZMUlpsOERiVWU3QXpEa1JWMUlyZ0pYWU1MYlp4UDZaQTBaWHByRlpxem9vOW8?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:d918605b89f2718b31d8a2c54609456be27c24be8a9271942a57cfa9cc519a78",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "综艺 现在就出发 新浪网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F9ff2bc5a00975c8dd3",
+          "statement": "据新浪网页面，综艺 现在就出发。",
+          "source_ids": [
+            "Sea45ea3ab6306e9a40fc"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-fb8d02d01a31e01c",
+      "topic": "NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle",
+      "summary": "据variety.com页面，NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "variety.com"
+        ]
+      },
+      "content": {
+        "overview": "据variety.com页面，NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle。 Jimmy Fallon and Seth Meyers on Monday evening start several weeks of late-night broadcasts aimed at reaching summer audiences, one of TV’s smallest pools of viewership. And yet, the two hosts have a giant opportunity ahead of them. Fallon will launch NBC’s “Tonight Show” on Monday without any regular competitors — a throwback to the […]",
+        "key_points": [
+          "据variety.com页面，NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T23:20:00+08:00",
+            "event": "据variety.com页面，NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle。",
+            "source_ids": [
+              "S77b2d5c863e99efa9f26"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://variety.com/2026/tv/news/nbc-jimmy-fallon-seth-meyers-late-night-boost-summer-tv-1236809641/"
+        ]
+      },
+      "source_ids": [
+        "S77b2d5c863e99efa9f26"
+      ],
+      "sources": [
+        {
+          "source_id": "S77b2d5c863e99efa9f26",
+          "platform": "variety.com",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle",
+          "url": "https://variety.com/2026/tv/news/nbc-jimmy-fallon-seth-meyers-late-night-boost-summer-tv-1236809641/",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:6a7815606ca48afe631925e324ca89347e037470ce1493aa3a2deccff2724c04",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Jimmy Fallon and Seth Meyers on Monday evening start several weeks of late-night broadcasts aimed at reaching summer audiences, one of TV’s smallest pools of viewership. And yet, the two hosts have a giant opportunity ahead of them. Fallon will launch NBC’s “Tonight Show” on Monday without any regular competitors — a throwback to the […]",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Ffb8d02d01a31e01c27",
+          "statement": "据variety.com页面，NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle。",
+          "source_ids": [
+            "S77b2d5c863e99efa9f26"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-e2aa98e3906d0a76",
+      "topic": "Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup",
+      "summary": "据deadline.com页面，Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "deadline.com"
+        ]
+      },
+      "content": {
+        "overview": "据deadline.com页面，Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup。 EXCLUSIVE: The lineup for the 2026 edition of HollyShorts features a host of big names in front of and behind the camera including Renée Zellweger, whose directorial debut They is in the lineup, alongside projects featuring Judi Dench, Michael Keaton, Martin Freeman, Alexandra Shipp, Vincent Cassel, Jordan Peele and Michael Caine. High-profile exec producers on […]",
+        "key_points": [
+          "据deadline.com页面，Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T23:11:46+08:00",
+            "event": "据deadline.com页面，Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup。",
+            "source_ids": [
+              "Sc9d792074eb5c3cbad76"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://deadline.com/2026/07/hollyshorts-2026-renee-zellweger-michael-keaton-judi-dench-1236980764/"
+        ]
+      },
+      "source_ids": [
+        "Sc9d792074eb5c3cbad76"
+      ],
+      "sources": [
+        {
+          "source_id": "Sc9d792074eb5c3cbad76",
+          "platform": "deadline.com",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup",
+          "url": "https://deadline.com/2026/07/hollyshorts-2026-renee-zellweger-michael-keaton-judi-dench-1236980764/",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:229d5d9b48940781ac81e40efe93003d278c4fc52cd2f4e6134ecb000aafb028",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "EXCLUSIVE: The lineup for the 2026 edition of HollyShorts features a host of big names in front of and behind the camera including Renée Zellweger, whose directorial debut They is in the lineup, alongside projects featuring Judi Dench, Michael Keaton, Martin Freeman, Alexandra Shipp, Vincent Cassel, Jordan Peele and Michael Caine. High-profile exec producers on […]",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fe2aa98e3906d0a7663",
+          "statement": "据deadline.com页面，Renée Zellweger, Michael Keaton & Judi Dench Projects Make 2026 HollyShorts Lineup。",
+          "source_ids": [
+            "Sc9d792074eb5c3cbad76"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-b13d57b9c259ccb7",
+      "topic": "Monopoly Series Passes ‘Go’ at Netflix",
+      "summary": "据Netflix页面，Monopoly Series Passes ‘Go’ at Netflix。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "Netflix"
+        ]
+      },
+      "content": {
+        "overview": "据Netflix页面，Monopoly Series Passes ‘Go’ at Netflix。 Monopoly Series Passes ‘Go’ at Netflix Netflix",
+        "key_points": [
+          "据Netflix页面，Monopoly Series Passes ‘Go’ at Netflix。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T23:02:04+08:00",
+            "event": "据Netflix页面，Monopoly Series Passes ‘Go’ at Netflix。",
+            "source_ids": [
+              "Sd42d59c37a9acf0a4466"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSFFLa1loMHJtTmY4bE5WRUFBcElhRHVLMGZROVI1TDIxTXJHNnRlbTZTSzJKT0VxM3BfTkVNN0FIT281YjhWeWJ4OVRjUkFENlZSZ0tSVHk1QnNLaUZhVW1iSEZCZXh2QWExVE5keHZzQ0p5WGRlMTRsOFlBeFY1OFRqOGZDekFMVUE?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sd42d59c37a9acf0a4466"
+      ],
+      "sources": [
+        {
+          "source_id": "Sd42d59c37a9acf0a4466",
+          "platform": "Netflix",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Monopoly Series Passes ‘Go’ at Netflix",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSFFLa1loMHJtTmY4bE5WRUFBcElhRHVLMGZROVI1TDIxTXJHNnRlbTZTSzJKT0VxM3BfTkVNN0FIT281YjhWeWJ4OVRjUkFENlZSZ0tSVHk1QnNLaUZhVW1iSEZCZXh2QWExVE5keHZzQ0p5WGRlMTRsOFlBeFY1OFRqOGZDekFMVUE?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:238afc1a446dc35e2e71eff9796409154f4247b664360ecc31d37a9d3da592e8",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Monopoly Series Passes ‘Go’ at Netflix Netflix",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fb13d57b9c259ccb722",
+          "statement": "据Netflix页面，Monopoly Series Passes ‘Go’ at Netflix。",
+          "source_ids": [
+            "Sd42d59c37a9acf0a4466"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-5ab5d761a5ad5567",
+      "topic": "Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line",
+      "summary": "据Deadline页面，Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "Deadline"
+        ]
+      },
+      "content": {
+        "overview": "据Deadline页面，Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line。 Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line Deadline",
+        "key_points": [
+          "据Deadline页面，Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T23:00:00+08:00",
+            "event": "据Deadline页面，Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line。",
+            "source_ids": [
+              "Sabd61bcbaebc56dc3c64"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzJ3aGtRS3JBb2JqeGxwYjd1NFdUTVFJdEtodURRcEpSeTlSYUdCYzFLSFVxbVdfQnZiX0VvaTNXeDUxYnVuYVhfX1V5VGd0TUE5NXd6N05HZ3hWZWd1XzdTb1B3akowOW50Ukp0dzJyVjdmc2FlVW1pOURBRk82S01OcTBiS1UxckZrTGFOdGY3Wlk?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sabd61bcbaebc56dc3c64"
+      ],
+      "sources": [
+        {
+          "source_id": "Sabd61bcbaebc56dc3c64",
+          "platform": "Deadline",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVzJ3aGtRS3JBb2JqeGxwYjd1NFdUTVFJdEtodURRcEpSeTlSYUdCYzFLSFVxbVdfQnZiX0VvaTNXeDUxYnVuYVhfX1V5VGd0TUE5NXd6N05HZ3hWZWd1XzdTb1B3akowOW50Ukp0dzJyVjdmc2FlVW1pOURBRk82S01OcTBiS1UxckZrTGFOdGY3Wlk?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:cc4b9b81bd441a1c0caa56493782744bf6c0f12b5fc0688cc744b421b6f39ee4",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line Deadline",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F5ab5d761a5ad5567cc",
+          "statement": "据Deadline页面，Netflix’s ‘Monopoly’ Reality Series Kicks Off Casting With $2M Prize On The Line。",
+          "source_ids": [
+            "Sabd61bcbaebc56dc3c64"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-f620084c5913203a",
+      "topic": "甘肃武威：公益露天电影点亮群众夜生活",
+      "summary": "据搜狐网页面，甘肃武威：公益露天电影点亮群众夜生活。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "搜狐网"
+        ]
+      },
+      "content": {
+        "overview": "据搜狐网页面，甘肃武威：公益露天电影点亮群众夜生活。 甘肃武威：公益露天电影点亮群众夜生活 搜狐网",
+        "key_points": [
+          "据搜狐网页面，甘肃武威：公益露天电影点亮群众夜生活。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T22:53:06+08:00",
+            "event": "据搜狐网页面，甘肃武威：公益露天电影点亮群众夜生活。",
+            "source_ids": [
+              "S17dbeacd1573f6473f36"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGl6S3FwT3JzRm5uVHB4OWwwYXRncVpvREFjeWN1Q0tYZkJoS09SUzhFYksyeGVfQlFWYThDaHE5ekFUa01OWUNDeWw3VlJ6ODJhZ25LUWtrQmp4YzdWMU1USGF1c1VDT09maEVCNnhXTnZ3MHJoWWxLRkNqRU5XS1V3MHhEYWNk?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S17dbeacd1573f6473f36"
+      ],
+      "sources": [
+        {
+          "source_id": "S17dbeacd1573f6473f36",
+          "platform": "搜狐网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "甘肃武威：公益露天电影点亮群众夜生活",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGl6S3FwT3JzRm5uVHB4OWwwYXRncVpvREFjeWN1Q0tYZkJoS09SUzhFYksyeGVfQlFWYThDaHE5ekFUa01OWUNDeWw3VlJ6ODJhZ25LUWtrQmp4YzdWMU1USGF1c1VDT09maEVCNnhXTnZ3MHJoWWxLRkNqRU5XS1V3MHhEYWNk?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:7a15ffb33623e6507a7749f774677863d6771a4dfdbb40b317d7754c21e16d63",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "甘肃武威：公益露天电影点亮群众夜生活 搜狐网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Ff620084c5913203a9a",
+          "statement": "据搜狐网页面，甘肃武威：公益露天电影点亮群众夜生活。",
+          "source_ids": [
+            "S17dbeacd1573f6473f36"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-1e9483107a135320",
+      "topic": "Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'",
+      "summary": "据Film Focus Online页面，Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "Film Focus Online"
+        ]
+      },
+      "content": {
+        "overview": "据Film Focus Online页面，Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'。 Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger' Film Focus Online",
+        "key_points": [
+          "据Film Focus Online页面，Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T22:34:48+08:00",
+            "event": "据Film Focus Online页面，Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'。",
+            "source_ids": [
+              "S624394d5dc4a5409b848"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGdDRmVDcUFzWjgxTktZME9rMmIzYzBxczRiS0VqTWlqRC1IdS1NSHF0RjBFaUxlUDdLV09RNGYyaVRLcGFyQWlwSkd2OXNfX0RGanBtNE9sbDN2RFI3eWI5LWZUaVZpR1B6dldTNmRvVlRsZjFOMXB5a0I0NmNZLThjQnhWOHk2T2J1WkFfTUszdmpvZnA5c29ZSWtlOXU1U3J2WkJzbEp6LWJ2ZUZseVV0eUk?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S624394d5dc4a5409b848"
+      ],
+      "sources": [
+        {
+          "source_id": "S624394d5dc4a5409b848",
+          "platform": "Film Focus Online",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGdDRmVDcUFzWjgxTktZME9rMmIzYzBxczRiS0VqTWlqRC1IdS1NSHF0RjBFaUxlUDdLV09RNGYyaVRLcGFyQWlwSkd2OXNfX0RGanBtNE9sbDN2RFI3eWI5LWZUaVZpR1B6dldTNmRvVlRsZjFOMXB5a0I0NmNZLThjQnhWOHk2T2J1WkFfTUszdmpvZnA5c29ZSWtlOXU1U3J2WkJzbEp6LWJ2ZUZseVV0eUk?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:9bd726919d34964bbadf16c8c5829543545bf47429d727939055503134f2034a",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger' Film Focus Online",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F1e9483107a135320da",
+          "statement": "据Film Focus Online页面，Tom Cruise Must Digg or Die in First Trailer for Alejandro G. Iñárritu's 'Digger'。",
+          "source_ids": [
+            "S624394d5dc4a5409b848"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-809bfeb2a3537464",
+      "topic": "Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall",
+      "summary": "据Chattanoogan.com Breaking News页面，Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 71,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "Chattanoogan.com Breaking News"
+        ]
+      },
+      "content": {
+        "overview": "据Chattanoogan.com Breaking News页面，Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall。 Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall Chattanoogan.com Breaking News",
+        "key_points": [
+          "据Chattanoogan.com Breaking News页面，Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T22:18:21+08:00",
+            "event": "据Chattanoogan.com Breaking News页面，Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall。",
+            "source_ids": [
+              "S6dec3b4b06622ce754e2"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdUNERDlzWlVYSDlCei1LZG9sVjFHaXJQckJSTlRxdkJHdFlvMUdrRVEtdTV3czI3a2xwWDlLTEU1NE94aEVqemwyeWN5Y3pHTW90RERJLXlCR2lFcERUMzZJUEllNlktVFRxQWRELWpsV2QzQjRhUHZoUWctV3RTNmh5Vkx3cVZ2Y2Rv?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S6dec3b4b06622ce754e2"
+      ],
+      "sources": [
+        {
+          "source_id": "S6dec3b4b06622ce754e2",
+          "platform": "Chattanoogan.com Breaking News",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdUNERDlzWlVYSDlCei1LZG9sVjFHaXJQckJSTlRxdkJHdFlvMUdrRVEtdTV3czI3a2xwWDlLTEU1NE94aEVqemwyeWN5Y3pHTW90RERJLXlCR2lFcERUMzZJUEllNlktVFRxQWRELWpsV2QzQjRhUHZoUWctV3RTNmh5Vkx3cVZ2Y2Rv?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:6ab38c4c254d5fb49bf2f35a6bed022b3cfdea26d70b81cfee6055e6f8cbee0d",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall Chattanoogan.com Breaking News",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F809bfeb2a353746425",
+          "statement": "据Chattanoogan.com Breaking News页面，Tennessee Aquarium Is A Premiere Odyssey Site After 70mm Film Projector Reinstall。",
+          "source_ids": [
+            "S6dec3b4b06622ce754e2"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-ac6f64f23cc3ee3f",
+      "topic": "‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date",
+      "summary": "据Movie Vine页面，‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 71,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "Movie Vine"
+        ]
+      },
+      "content": {
+        "overview": "据Movie Vine页面，‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date。 ‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date Movie Vine",
+        "key_points": [
+          "据Movie Vine页面，‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:59:35+08:00",
+            "event": "据Movie Vine页面，‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date。",
+            "source_ids": [
+              "S7c85dc59a1e172afc70a"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcFEta3JvR0JaOTVfWWdBSzBFNUlXcVZMVzNCR2tXYkhHUHVLVXg4dkc2SWROaXMyb090QVNHUEQyY05abXczY1pleXRyZ1RBTHZBcDBqZklWSXp2eUpFYlFsV2c2dDZGWFQwaXF0bWphTHJkNGlkZUEzQzg0OXZLdzVJanZrY2luSkFBSnRsVXpqNktnZmJRQUROM3kyMy1Dczc4bnBYMlFUUU0xNnc?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S7c85dc59a1e172afc70a"
+      ],
+      "sources": [
+        {
+          "source_id": "S7c85dc59a1e172afc70a",
+          "platform": "Movie Vine",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcFEta3JvR0JaOTVfWWdBSzBFNUlXcVZMVzNCR2tXYkhHUHVLVXg4dkc2SWROaXMyb090QVNHUEQyY05abXczY1pleXRyZ1RBTHZBcDBqZklWSXp2eUpFYlFsV2c2dDZGWFQwaXF0bWphTHJkNGlkZUEzQzg0OXZLdzVJanZrY2luSkFBSnRsVXpqNktnZmJRQUROM3kyMy1Dczc4bnBYMlFUUU0xNnc?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:d7ee6deb9a8b4359f6cbc8215fa9b77fc65ff52b8c661bbaf6833d8596212d87",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date Movie Vine",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fac6f64f23cc3ee3fad",
+          "statement": "据Movie Vine页面，‘Digger’ Satirical Dark Comedy Film Stars Tom Cruise – Trailer and Release Date。",
+          "source_ids": [
+            "S7c85dc59a1e172afc70a"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-3ff4b308c01d6af8",
+      "topic": "Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer",
+      "summary": "据FirstShowing.net页面，Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 71,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "FirstShowing.net"
+        ]
+      },
+      "content": {
+        "overview": "据FirstShowing.net页面，Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer。 Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer FirstShowing.net",
+        "key_points": [
+          "据FirstShowing.net页面，Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:42:03+08:00",
+            "event": "据FirstShowing.net页面，Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer。",
+            "source_ids": [
+              "S989cfd0ce855cde2b232"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVV94ZEtNMURWVnlLNGtHUmQzWm93OVJaMzdyNnJ5OGZwUGM1eTBTanJfZDNVWjM2VVRIcGI1YU9PVFFzSEROVjhtbzJHQjlMSVREQnF5aDRSVml1LWVDUjdyV01BMDRGeEQ5LXZZQ1B1U3VLUGJfajJjU251QlpsRXoyaXU4N2FSczdLZ0JlcnR3Z0pNZDlETkdUdXlqYnc1cFdV?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S989cfd0ce855cde2b232"
+      ],
+      "sources": [
+        {
+          "source_id": "S989cfd0ce855cde2b232",
+          "platform": "FirstShowing.net",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVV94ZEtNMURWVnlLNGtHUmQzWm93OVJaMzdyNnJ5OGZwUGM1eTBTanJfZDNVWjM2VVRIcGI1YU9PVFFzSEROVjhtbzJHQjlMSVREQnF5aDRSVml1LWVDUjdyV01BMDRGeEQ5LXZZQ1B1U3VLUGJfajJjU251QlpsRXoyaXU4N2FSczdLZ0JlcnR3Z0pNZDlETkdUdXlqYnc1cFdV?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:ef2a79957f8fa196dda451061028fb8e59a61ff7b4810ce55c307eb3d2f365eb",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer FirstShowing.net",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F3ff4b308c01d6af8db",
+          "statement": "据FirstShowing.net页面，Renate Reinsve & Helene Bjørneby in Norwegian Film 'Butterfly' Trailer。",
+          "source_ids": [
+            "S989cfd0ce855cde2b232"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-5faeec32160e0a11",
+      "topic": "Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger",
+      "summary": "据People.com页面，Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 71,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "People.com"
+        ]
+      },
+      "content": {
+        "overview": "据People.com页面，Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger。 Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger People.com",
+        "key_points": [
+          "据People.com页面，Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:32:43+08:00",
+            "event": "据People.com页面，Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger。",
+            "source_ids": [
+              "Sc91b2a929d864fc6529a"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiowFBVV95cUxORl8weDFhOUdKNzJmNGZ4cW9pWGRUQjBYYmUtMFkzSjJkWmZWRXRfeHdUSnloajFyRnRFc0dnSnVxc0pNV2JDX0hqZkluU1FIYUV2bGl5OWVyaFZ3THVFQTJ0VGYxX0dQNnV0eERZNmNKS3FadmVqNDUzZkxUV3p1RGVyNENIdmZfalBMWmp0dnBnV1JOQzN3RS1xT2RLQnVjOHBR?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sc91b2a929d864fc6529a"
+      ],
+      "sources": [
+        {
+          "source_id": "Sc91b2a929d864fc6529a",
+          "platform": "People.com",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORl8weDFhOUdKNzJmNGZ4cW9pWGRUQjBYYmUtMFkzSjJkWmZWRXRfeHdUSnloajFyRnRFc0dnSnVxc0pNV2JDX0hqZkluU1FIYUV2bGl5OWVyaFZ3THVFQTJ0VGYxX0dQNnV0eERZNmNKS3FadmVqNDUzZkxUV3p1RGVyNENIdmZfalBMWmp0dnBnV1JOQzN3RS1xT2RLQnVjOHBR?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:45fe240d7e599391f94d36266f96a47d95aa2830bd2b37c602238c7097be3107",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger People.com",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F5faeec32160e0a119d",
+          "statement": "据People.com页面，Tom Cruise Is Unrecognizable in His Wild New Role in the First Trailer for Director Alejandro Iñárritu’s Digger。",
+          "source_ids": [
+            "Sc91b2a929d864fc6529a"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-9ee0fd9765f1d883",
+      "topic": "【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标",
+      "summary": "据流媒体网页面，【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "流媒体网"
+        ]
+      },
+      "content": {
+        "overview": "据流媒体网页面，【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标。 【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标 流媒体网",
+        "key_points": [
+          "据流媒体网页面，【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:16:00+08:00",
+            "event": "据流媒体网页面，【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标。",
+            "source_ids": [
+              "S8c914d94884320e3b132"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMia0FVX3lxTE54X2JTZXljSTB5WHNoczVfRnNtNE1WdTN3TndJNTF3bzNBdUJ3YzNKRXdDM1g5UWNLZE42TXh0bThSUHBOdXBiNzhMaEwwTVdlUVN1Q2NPM3pYNEJHcjVaTXRQTFp5YkdFMzI0?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S8c914d94884320e3b132"
+      ],
+      "sources": [
+        {
+          "source_id": "S8c914d94884320e3b132",
+          "platform": "流媒体网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54X2JTZXljSTB5WHNoczVfRnNtNE1WdTN3TndJNTF3bzNBdUJ3YzNKRXdDM1g5UWNLZE42TXh0bThSUHBOdXBiNzhMaEwwTVdlUVN1Q2NPM3pYNEJHcjVaTXRQTFp5YkdFMzI0?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:b052845c12a798f14602f45c58d36adbf9899ee6d079a38d4162e3262189993a",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标 流媒体网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F9ee0fd9765f1d883c0",
+          "statement": "据流媒体网页面，【观察】“短”剧如何“长”青?——这场评析会为微短剧精品创作划出新坐标。",
+          "source_ids": [
+            "S8c914d94884320e3b132"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-f8c80046f56fa32f",
+      "topic": "综艺股份：2026年上半年净利同比预增136.23%",
+      "summary": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "东方财富"
+        ]
+      },
+      "content": {
+        "overview": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。 综艺股份：2026年上半年净利同比预增136.23% 东方财富",
+        "key_points": [
+          "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:06:51+08:00",
+            "event": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+            "source_ids": [
+              "Sa353e8db0e134eaf1d9e"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUUZBYTJocFlxODNnOUduQ1RoS1FXSEgxUkY1V0tUZVVOSFNWZEU1OWZNLTMtMWtsTkFKZkZuTEpuenpkcXR4ZmtYZVVyd0Q2bHVyRHlfZW1PTU14Y2FTcDRkYUk?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sa353e8db0e134eaf1d9e"
+      ],
+      "sources": [
+        {
+          "source_id": "Sa353e8db0e134eaf1d9e",
+          "platform": "东方财富",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "综艺股份：2026年上半年净利同比预增136.23%",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FUUZBYTJocFlxODNnOUduQ1RoS1FXSEgxUkY1V0tUZVVOSFNWZEU1OWZNLTMtMWtsTkFKZkZuTEpuenpkcXR4ZmtYZVVyd0Q2bHVyRHlfZW1PTU14Y2FTcDRkYUk?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:45953fc4eac416f7c92e4a4acc1f9e8292e898c8aa1ee485663a4826e2a62c3e",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "综艺股份：2026年上半年净利同比预增136.23% 东方财富",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Ff8c80046f56fa32fde",
+          "statement": "据东方财富页面，综艺股份：2026年上半年净利同比预增136.23%。",
+          "source_ids": [
+            "Sa353e8db0e134eaf1d9e"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-5ab1c4f42c5b2ecc",
+      "topic": "Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger",
+      "summary": "据The Film Stage页面，Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "The Film Stage"
+        ]
+      },
+      "content": {
+        "overview": "据The Film Stage页面，Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger。 Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger The Film Stage",
+        "key_points": [
+          "据The Film Stage页面，Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:06:01+08:00",
+            "event": "据The Film Stage页面，Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger。",
+            "source_ids": [
+              "S2f4538b9f012c633247c"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ01xNko2aHFnaUY5cVB5YlBVMkFsUTQ5Y3ZQRlRlZkFwanE3SzBmMVRuWTNKMTFMa0J5TlNsVll3bVV2b2EzMGd2SHdicDdmWU1lX2NyTVV3UjFpc0ItSnhYNzFPWjJUOUR0ZWJOUkFPSzlWT2VqMjZpblJRTno1Yk4xUlRYYktIWjEwdTU4dlN0UWx4N09uaVlGSVVnOXMwUnlNQXZUVUlobEVkeFE?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S2f4538b9f012c633247c"
+      ],
+      "sources": [
+        {
+          "source_id": "S2f4538b9f012c633247c",
+          "platform": "The Film Stage",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ01xNko2aHFnaUY5cVB5YlBVMkFsUTQ5Y3ZQRlRlZkFwanE3SzBmMVRuWTNKMTFMa0J5TlNsVll3bVV2b2EzMGd2SHdicDdmWU1lX2NyTVV3UjFpc0ItSnhYNzFPWjJUOUR0ZWJOUkFPSzlWT2VqMjZpblJRTno1Yk4xUlRYYktIWjEwdTU4dlN0UWx4N09uaVlGSVVnOXMwUnlNQXZUVUlobEVkeFE?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:484132c9dc0ac0dd300ad8021ca8686417762f3e7166baff8faa691ddb47b4b9",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger The Film Stage",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F5ab1c4f42c5b2ecc86",
+          "statement": "据The Film Stage页面，Tom Cruise Needs to Save the World in First Trailer for Alejandro G. Iñárritu’s Digger。",
+          "source_ids": [
+            "S2f4538b9f012c633247c"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-ba36cd83a7d2e1b0",
+      "topic": "Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem",
+      "summary": "据SlashFilm页面，Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "SlashFilm"
+        ]
+      },
+      "content": {
+        "overview": "据SlashFilm页面，Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem。 Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem SlashFilm",
+        "key_points": [
+          "据SlashFilm页面，Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:02:28+08:00",
+            "event": "据SlashFilm页面，Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem。",
+            "source_ids": [
+              "S76beb12a1f592545cb2e"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OZUllTkZ1WDFzLXRfY1EzZXU5Rk9QQTYzTmlhMnVHVllQWXJ1YlN0QWFXX0VPY25QYmtZeHFXdkNNdlllOVNZdVlScUUxVmRITVZhb3o5Smk5aFhKNk1mVkVNczlNNzE3bUtTSkNyNERPY1hm?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S76beb12a1f592545cb2e"
+      ],
+      "sources": [
+        {
+          "source_id": "S76beb12a1f592545cb2e",
+          "platform": "SlashFilm",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OZUllTkZ1WDFzLXRfY1EzZXU5Rk9QQTYzTmlhMnVHVllQWXJ1YlN0QWFXX0VPY25QYmtZeHFXdkNNdlllOVNZdVlScUUxVmRITVZhb3o5Smk5aFhKNk1mVkVNczlNNzE3bUtTSkNyNERPY1hm?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:10b3d8a8b931f432fe68dea8cce14f6ba58a2b73f9309f5ec5c858b4040d6266",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem SlashFilm",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fba36cd83a7d2e1b057",
+          "statement": "据SlashFilm页面，Digger Trailer: Tom Cruise Has To Save The World Again, But This Time, He's The Problem。",
+          "source_ids": [
+            "S76beb12a1f592545cb2e"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-8c03277fff9dbe20",
+      "topic": "‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy",
+      "summary": "据Variety页面，‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "Variety"
+        ]
+      },
+      "content": {
+        "overview": "据Variety页面，‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy。 ‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy Variety",
+        "key_points": [
+          "据Variety页面，‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T21:00:00+08:00",
+            "event": "据Variety页面，‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy。",
+            "source_ids": [
+              "S3141ae1be5cd05694584"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcTI2Wk5DaUJlTFE0eHNxVmZwM2VMaGw3MVlpSFJVRVlBZFhnY0c5WWhhMFNBdXBDVHo3M3JveXJKdjlYd3BFSW1SVFF3WkliMW1aVUNoLUc4eTlKZW9WaGJNa05ZX2dRempDR0wxQ05QR3F6dmhxdXpfWHBzdzdHMUhXZWpnUlIwNFUzLV91QzJRaWVYRjZWZC1MSWdueXM?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S3141ae1be5cd05694584"
+      ],
+      "sources": [
+        {
+          "source_id": "S3141ae1be5cd05694584",
+          "platform": "Variety",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcTI2Wk5DaUJlTFE0eHNxVmZwM2VMaGw3MVlpSFJVRVlBZFhnY0c5WWhhMFNBdXBDVHo3M3JveXJKdjlYd3BFSW1SVFF3WkliMW1aVUNoLUc4eTlKZW9WaGJNa05ZX2dRempDR0wxQ05QR3F6dmhxdXpfWHBzdzdHMUhXZWpnUlIwNFUzLV91QzJRaWVYRjZWZC1MSWdueXM?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:bbfa2c569479f239ae0b9052b7f718887dc9380161511bd509116eba471feee1",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy Variety",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F8c03277fff9dbe20ab",
+          "statement": "据Variety页面，‘Digger’ Trailer: Tom Cruise Transforms Into an Eccentric Billionaire Facing an Eco-Disaster in Alejandro G. Iñárritu’s Absurdist Comedy。",
+          "source_ids": [
+            "S3141ae1be5cd05694584"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-5482a70062c0cfab",
+      "topic": "从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿",
+      "summary": "据荆楚网页面，从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "荆楚网"
+        ]
+      },
+      "content": {
+        "overview": "据荆楚网页面，从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿。 从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿 荆楚网",
+        "key_points": [
+          "据荆楚网页面，从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T20:47:00+08:00",
+            "event": "据荆楚网页面，从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿。",
+            "source_ids": [
+              "S7020f431645c8f8cfbbe"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMickFVX3lxTE1TU0YybzV2U0kySTdiQkJDOEhidVJzTGhSaVVNS3N3UEl5UGdNbzVmUHZMU05yTDNXSEZjMVJvRFZjSlNsY0ZGZ05nOW1TZElVVkphOUxSMUFMNHZpRGliMHBMTDVSazAtbklEVkdzN0w0Zw?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S7020f431645c8f8cfbbe"
+      ],
+      "sources": [
+        {
+          "source_id": "S7020f431645c8f8cfbbe",
+          "platform": "荆楚网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TU0YybzV2U0kySTdiQkJDOEhidVJzTGhSaVVNS3N3UEl5UGdNbzVmUHZMU05yTDNXSEZjMVJvRFZjSlNsY0ZGZ05nOW1TZElVVkphOUxSMUFMNHZpRGliMHBMTDVSazAtbklEVkdzN0w0Zw?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:fd02506104d84a3b895cf16da9282a983a15a79006e7ad39e3affb584244462a",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿 荆楚网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F5482a70062c0cfabd4",
+          "statement": "据荆楚网页面，从“欠星爷一张电影票”到“星爷欠我一张电影票” 工作日第一天《功夫女足》单日票房破亿。",
+          "source_ids": [
+            "S7020f431645c8f8cfbbe"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-0bfead2537439a8c",
+      "topic": "港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍",
+      "summary": "据证券时报页面，港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 70,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "证券时报"
+        ]
+      },
+      "content": {
+        "overview": "据证券时报页面，港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍。 港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍 证券时报",
+        "key_points": [
+          "据证券时报页面，港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T20:47:00+08:00",
+            "event": "据证券时报页面，港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍。",
+            "source_ids": [
+              "S9176fda9ac384941a747"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wOHhjSGxOQlJoelE5YU5LekxlUEhxWFA2Z2I1NVF4WG9wQTdKZ045c2lPWWZ5YWRZM1VkRHVobGlsVURMRVJ0UGhISVVtaUtEbWhBMmw3YkwzR3Ux?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S9176fda9ac384941a747"
+      ],
+      "sources": [
+        {
+          "source_id": "S9176fda9ac384941a747",
+          "platform": "证券时报",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wOHhjSGxOQlJoelE5YU5LekxlUEhxWFA2Z2I1NVF4WG9wQTdKZ045c2lPWWZ5YWRZM1VkRHVobGlsVURMRVJ0UGhISVVtaUtEbWhBMmw3YkwzR3Ux?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:56a1822d92400cc32c431c084fda769b3177069a207754adb1d3ee45594b768d",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍 证券时报",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F0bfead2537439a8c1b",
+          "statement": "据证券时报页面，港股上市公司密集发布业绩预告！环康集团、兆易创新预增超10倍。",
+          "source_ids": [
+            "S9176fda9ac384941a747"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-6e63d4ec5213818f",
+      "topic": "Sam Neill: A versatile actor whose roles went far beyond Jurassic Park",
+      "summary": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+      "category": "celebrity",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 69,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "bbc.co.uk"
+        ]
+      },
+      "content": {
+        "overview": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。 The actor, who has died aged 78, built up a long string of screen credits over a five-decade career.",
+        "key_points": [
+          "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T20:10:38+08:00",
+            "event": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+            "source_ids": [
+              "S563cb1553114a8f9b277"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      "source_ids": [
+        "S563cb1553114a8f9b277"
+      ],
+      "sources": [
+        {
+          "source_id": "S563cb1553114a8f9b277",
+          "platform": "bbc.co.uk",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Sam Neill: A versatile actor whose roles went far beyond Jurassic Park",
+          "url": "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:cb5a756d56059920aa1bf669f527419c099736cc9bfe1c180d78d6220c025ed3",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "The actor, who has died aged 78, built up a long string of screen credits over a five-decade career.",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F6e63d4ec5213818fd8",
+          "statement": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+          "source_ids": [
+            "S563cb1553114a8f9b277"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-86d46e23b8beb42a",
+      "topic": "口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”",
+      "summary": "据川观新闻页面，口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 69,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "川观新闻"
+        ]
+      },
+      "content": {
+        "overview": "据川观新闻页面，口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”。 口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖” 川观新闻",
+        "key_points": [
+          "据川观新闻页面，口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T19:25:00+08:00",
+            "event": "据川观新闻页面，口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”。",
+            "source_ids": [
+              "Sacd3ba29c9544b91004a"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aYWNzeEVrUlJCYmJIdEozT0VCNzAyd2FKelNrN3B1U2NoUG9fejdQcVhPUy04YjRnaFQ1cEZTNzdmZDNFdkZmYkFpbW1fdw?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sacd3ba29c9544b91004a"
+      ],
+      "sources": [
+        {
+          "source_id": "Sacd3ba29c9544b91004a",
+          "platform": "川观新闻",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aYWNzeEVrUlJCYmJIdEozT0VCNzAyd2FKelNrN3B1U2NoUG9fejdQcVhPUy04YjRnaFQ1cEZTNzdmZDNFdkZmYkFpbW1fdw?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:873b28695dfe9c861f98873ed73d726ac34089388bbb0fb66001f1765e2ed205",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖” 川观新闻",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F86d46e23b8beb42a4a",
+          "statement": "据川观新闻页面，口碑分化热度不减 电影《功夫女足》成暑期档“敲门砖”。",
+          "source_ids": [
+            "Sacd3ba29c9544b91004a"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-74de12b9dc128b3b",
+      "topic": "Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’",
+      "summary": "据theguardian.com页面，Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 68,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "theguardian.com"
+        ]
+      },
+      "content": {
+        "overview": "据theguardian.com页面，Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’。 The actor, who has died aged 78, recently answered Guardian readers’ questions about missing out on James Bond, the true terrors of Jurassic Park and why he called his prize cow Helena Bonham Carter Peter Bradshaw on Sam Neill A life in pictures ‘A true gentleman’: actors, directors and leaders pay tribute to Sam Neill Obituary Neill interviewed in 2023 , 2024 and 2026 Did you consult a canine expert about how best to regress into a dog in Dean Spanley? WomanofWolfville There was no consultation. I’ve studied dogs – wittingly or unwittingly – over the years, so the portrayal came from that. I’ve had dogs all my life. I understand them better than I do people. I had a Staffy for 15 years. The",
+        "key_points": [
+          "据theguardian.com页面，Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T19:08:36+08:00",
+            "event": "据theguardian.com页面，Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’。",
+            "source_ids": [
+              "S0270713b59f2b7a9afb8"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://www.theguardian.com/film/2026/jul/13/sam-neill-final-interview-readers-question-jurassic-park"
+        ]
+      },
+      "source_ids": [
+        "S0270713b59f2b7a9afb8"
+      ],
+      "sources": [
+        {
+          "source_id": "S0270713b59f2b7a9afb8",
+          "platform": "theguardian.com",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’",
+          "url": "https://www.theguardian.com/film/2026/jul/13/sam-neill-final-interview-readers-question-jurassic-park",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:6d1feb8ea2e9c4fd5a9442ed11cc4e3091f7dbe65c1208f229eb8c7da99862a6",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "The actor, who has died aged 78, recently answered Guardian readers’ questions about missing out on James Bond, the true terrors of Jurassic Park and why he called his prize cow Helena Bonham Carter Peter Bradshaw on Sam Neill A life in pictures ‘A true gentleman’: actors, directors and leaders pay tribute to Sam Neill Obituary Neill interviewed in 2023 , 2024 and 2026 Did you consult a canine expert about how best to regress into a dog in Dean Spanley? WomanofWolfville There was no consultation. I’ve studied dogs – wittingly or unwittingly – over the years, so the portrayal came from that. I’ve had dogs all my life. I understand them better than I do people. I had a Staffy for 15 years. They are the most expressive of dogs – every flicker of guilt or pleasure is written all over their faces. If I had to leave, my dog wouldn’t take it well. I’d pack in secret – if she saw a suitcase, she’d plunge into despair. When I returned, she’d walk right past me and shun me as punishment. I’d think: “Are you ever going to forgive me?” Continue reading...",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F74de12b9dc128b3b76",
+          "statement": "据theguardian.com页面，Sam Neill’s final interview: ‘I’d like to think that, in life, I’m a goodie’。",
+          "source_ids": [
+            "S0270713b59f2b7a9afb8"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-44e89cae51bd4364",
+      "topic": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动",
+      "summary": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
+      "category": "entertainment_event",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 68,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "武汉纺织大学"
+        ]
+      },
+      "content": {
+        "overview": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。 传媒学院师生赴长沙竖店短剧影视城开展实习实践活动 武汉纺织大学",
+        "key_points": [
+          "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T18:38:13+08:00",
+            "event": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
+            "source_ids": [
+              "Sbab8777a8d4e1ba93530"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MWEhWUmJwYzM4cmh4b2JjcjlOd0ozWmZtQzNRSFNPUE52dGd4eUZQNFg3U3BidGp0cTE5am5FeXIzVkpYeEZYWkpPRU5kSWJ1VlJLT0FFWQ?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sbab8777a8d4e1ba93530"
+      ],
+      "sources": [
+        {
+          "source_id": "Sbab8777a8d4e1ba93530",
+          "platform": "武汉纺织大学",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MWEhWUmJwYzM4cmh4b2JjcjlOd0ozWmZtQzNRSFNPUE52dGd4eUZQNFg3U3BidGp0cTE5am5FeXIzVkpYeEZYWkpPRU5kSWJ1VlJLT0FFWQ?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:ea05dce20d28fb8f2953136167830224c3929ce3ae4dd53950a908dff134b339",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "传媒学院师生赴长沙竖店短剧影视城开展实习实践活动 武汉纺织大学",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F44e89cae51bd43647e",
+          "statement": "据武汉纺织大学页面，传媒学院师生赴长沙竖店短剧影视城开展实习实践活动。",
+          "source_ids": [
+            "Sbab8777a8d4e1ba93530"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-3bfb9baaf35f3b67",
+      "topic": "直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper",
+      "summary": "据thepaper.cn页面，直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 68,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "thepaper.cn"
+        ]
+      },
+      "content": {
+        "overview": "据thepaper.cn页面，直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper。 直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper thepaper.cn",
+        "key_points": [
+          "据thepaper.cn页面，直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T18:35:06+08:00",
+            "event": "据thepaper.cn页面，直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper。",
+            "source_ids": [
+              "S252952cb30d275d7e87b"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40LWVXUFRaVmVKNldyem9CTTNSNnVNNEU3c2lteUNMeHBKU0tpV0Q2YjB2aUp4SHVnU0VnYk9UeDI1NUt4a2hDNi0ycTJsLWJHYjZNdVhUYVo0LWkwVlE?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S252952cb30d275d7e87b"
+      ],
+      "sources": [
+        {
+          "source_id": "S252952cb30d275d7e87b",
+          "platform": "thepaper.cn",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40LWVXUFRaVmVKNldyem9CTTNSNnVNNEU3c2lteUNMeHBKU0tpV0Q2YjB2aUp4SHVnU0VnYk9UeDI1NUt4a2hDNi0ycTJsLWJHYjZNdVhUYVo0LWkwVlE?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:d0a1fb93d2d9a91e71b48a3d6e965f4454709a1fe2213364ac5538aeb789a830",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper thepaper.cn",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F3bfb9baaf35f3b670b",
+          "statement": "据thepaper.cn页面，直播预告丨台风“巴威”，威力不减！澎湃新闻多路“追风小队”直击抗台防汛第一线_上直播_澎湃新闻-The Paper。",
+          "source_ids": [
+            "S252952cb30d275d7e87b"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-d71d4ee08a53e503",
+      "topic": "Hide The Kids – Horror FilM Buddy Gets Teaser Trailer",
+      "summary": "据SciFiNow页面，Hide The Kids – Horror FilM Buddy Gets Teaser Trailer。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 67,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "SciFiNow"
+        ]
+      },
+      "content": {
+        "overview": "据SciFiNow页面，Hide The Kids – Horror FilM Buddy Gets Teaser Trailer。 Hide The Kids – Horror FilM Buddy Gets Teaser Trailer SciFiNow",
+        "key_points": [
+          "据SciFiNow页面，Hide The Kids – Horror FilM Buddy Gets Teaser Trailer。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T18:00:19+08:00",
+            "event": "据SciFiNow页面，Hide The Kids – Horror FilM Buddy Gets Teaser Trailer。",
+            "source_ids": [
+              "S3c5b8d1bd4146c61221a"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpSnlNa2xoN3dsN25GSmVIWC1RYURSU3ZzcFJLT2pxeVI3N1g4THhjOENPbkVEa1gyWmFXc09NTEM2cHpnMF9xV0MtcjVYd29oUzU3djNBU3R3UnVDWThvRjZrMA?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S3c5b8d1bd4146c61221a"
+      ],
+      "sources": [
+        {
+          "source_id": "S3c5b8d1bd4146c61221a",
+          "platform": "SciFiNow",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Hide The Kids – Horror FilM Buddy Gets Teaser Trailer",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpSnlNa2xoN3dsN25GSmVIWC1RYURSU3ZzcFJLT2pxeVI3N1g4THhjOENPbkVEa1gyWmFXc09NTEM2cHpnMF9xV0MtcjVYd29oUzU3djNBU3R3UnVDWThvRjZrMA?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:bd0cdc012efeb79c5714ffea3dd90744d2e62dc8eaec46de969472f97bc982ae",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Hide The Kids – Horror FilM Buddy Gets Teaser Trailer SciFiNow",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fd71d4ee08a53e50364",
+          "statement": "据SciFiNow页面，Hide The Kids – Horror FilM Buddy Gets Teaser Trailer。",
+          "source_ids": [
+            "S3c5b8d1bd4146c61221a"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-6df33430237696a0",
+      "topic": "兴安盟3000余场红色电影送到群众家门口",
+      "summary": "据央广网页面，兴安盟3000余场红色电影送到群众家门口。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "央广网"
+        ]
+      },
+      "content": {
+        "overview": "据央广网页面，兴安盟3000余场红色电影送到群众家门口。 兴安盟3000余场红色电影送到群众家门口 央广网",
+        "key_points": [
+          "据央广网页面，兴安盟3000余场红色电影送到群众家门口。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:18:34+08:00",
+            "event": "据央广网页面，兴安盟3000余场红色电影送到群众家门口。",
+            "source_ids": [
+              "Se36897bc983cd8617575"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUdGpuampOV1NsenV3SVlNSzBDY1RtcGEwUy1Ca051MERBSzNmVjk3S1JJeFhLX2tVOVZuYlJ0RnN5NzBEM1UzdjdUMnZ6YW5YLXBWdjN6TmtjcFo2b1RpNGFUdlBYSWZoNHNsNy1STUlfQk0?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Se36897bc983cd8617575"
+      ],
+      "sources": [
+        {
+          "source_id": "Se36897bc983cd8617575",
+          "platform": "央广网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "兴安盟3000余场红色电影送到群众家门口",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUdGpuampOV1NsenV3SVlNSzBDY1RtcGEwUy1Ca051MERBSzNmVjk3S1JJeFhLX2tVOVZuYlJ0RnN5NzBEM1UzdjdUMnZ6YW5YLXBWdjN6TmtjcFo2b1RpNGFUdlBYSWZoNHNsNy1STUlfQk0?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:63be5b179ed67eaf3394adcd0b8763daf3599ff719e20e2c94e1b768b69eafef",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "兴安盟3000余场红色电影送到群众家门口 央广网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F6df33430237696a08c",
+          "statement": "据央广网页面，兴安盟3000余场红色电影送到群众家门口。",
+          "source_ids": [
+            "Se36897bc983cd8617575"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-6f4d1a36a04e79a6",
+      "topic": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会",
+      "summary": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "大江网"
+        ]
+      },
+      "content": {
+        "overview": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。 工商银行宜春分行举行第四届“最美家庭” 颁奖晚会 大江网",
+        "key_points": [
+          "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:11:00+08:00",
+            "event": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+            "source_ids": [
+              "S2a4ed6705c307710d1a5"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ualR0ZzVrZmx5ZVhOSTRWTnF4YmxETWI0cS1LbUM4My0xX0xjV0lESFlYcHhSU0F0LUpqLVZpeFV4dHN5cmNmTzE2dVMyT3cxakRwRUN3VVVOaEFaXzR2c2JfQmpJYTcxUXpWQw?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S2a4ed6705c307710d1a5"
+      ],
+      "sources": [
+        {
+          "source_id": "S2a4ed6705c307710d1a5",
+          "platform": "大江网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ualR0ZzVrZmx5ZVhOSTRWTnF4YmxETWI0cS1LbUM4My0xX0xjV0lESFlYcHhSU0F0LUpqLVZpeFV4dHN5cmNmTzE2dVMyT3cxakRwRUN3VVVOaEFaXzR2c2JfQmpJYTcxUXpWQw?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:7cc81523e6a36c282a45890d6d1aebb415822d343f5097be5c01d66e345bf65c",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "工商银行宜春分行举行第四届“最美家庭” 颁奖晚会 大江网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F6f4d1a36a04e79a6ab",
+          "statement": "据大江网页面，工商银行宜春分行举行第四届“最美家庭” 颁奖晚会。",
+          "source_ids": [
+            "S2a4ed6705c307710d1a5"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-ecbf46b7b0c4171f",
+      "topic": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告",
+      "summary": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "中财网"
+        ]
+      },
+      "content": {
+        "overview": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。 [业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告 中财网",
+        "key_points": [
+          "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:10:46+08:00",
+            "event": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+            "source_ids": [
+              "S0c6bcdf0346db2683273"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YazlrV0JtdVRKU3IwVG5LZHJLREtHTm11RU9Sa3FfTjduZ3o2MzJMTV9hTGhGbmxIZmpsZmRBYVBmcFpQNkxfdWNRaURGbjIyTGRjNEdn?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S0c6bcdf0346db2683273"
+      ],
+      "sources": [
+        {
+          "source_id": "S0c6bcdf0346db2683273",
+          "platform": "中财网",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YazlrV0JtdVRKU3IwVG5LZHJLREtHTm11RU9Sa3FfTjduZ3o2MzJMTV9hTGhGbmxIZmpsZmRBYVBmcFpQNkxfdWNRaURGbjIyTGRjNEdn?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:9ea82192325575ce2f21c5d6a1fdc9e7b4c7be092539076805c32308996ffdf1",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告 中财网",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fecbf46b7b0c4171f40",
+          "statement": "据中财网页面，[业绩预告]综艺股份(600770):综艺股份2026年半年度业绩预增公告。",
+          "source_ids": [
+            "S0c6bcdf0346db2683273"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-04224247f0946215",
+      "topic": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会",
+      "summary": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+      "category": "variety",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "rmzxw.com.cn"
+        ]
+      },
+      "content": {
+        "overview": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。 “新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会 rmzxw.com.cn",
+        "key_points": [
+          "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T17:02:00+08:00",
+            "event": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+            "source_ids": [
+              "Sf2092e0810d642e4a349"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XOU1WZy1lclpBZzJDUGlPWFV4VjNYRU5HSmtzeWI3Wk04RWVjU2dKNjE5UllHenlRcVhWMXdFTWxtQ0xDYkwzbTVrVldPa1hXNTdXSnJhM3c1bFc2LXJob2l1YVRjclZM?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sf2092e0810d642e4a349"
+      ],
+      "sources": [
+        {
+          "source_id": "Sf2092e0810d642e4a349",
+          "platform": "rmzxw.com.cn",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XOU1WZy1lclpBZzJDUGlPWFV4VjNYRU5HSmtzeWI3Wk04RWVjU2dKNjE5UllHenlRcVhWMXdFTWxtQ0xDYkwzbTVrVldPa1hXNTdXSnJhM3c1bFc2LXJob2l1YVRjclZM?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:3b153e4467efdbd8f4f5bfbe20c8d3e35c210ac58edcf2950351d9cf2b85cea5",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会 rmzxw.com.cn",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F04224247f0946215a1",
+          "statement": "据rmzxw.com.cn页面，“新”之所向，扬帆起航！十六化建举行2026届新员工入职培训结业报告暨文艺晚会。",
+          "source_ids": [
+            "Sf2092e0810d642e4a349"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-69dc74f422820e2f",
+      "topic": "《特种兵学校》微短剧项目发布会在石家庄举办",
+      "summary": "据heb.chinanews.com.cn页面，《特种兵学校》微短剧项目发布会在石家庄举办。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "heb.chinanews.com.cn"
+        ]
+      },
+      "content": {
+        "overview": "据heb.chinanews.com.cn页面，《特种兵学校》微短剧项目发布会在石家庄举办。 《特种兵学校》微短剧项目发布会在石家庄举办 heb.chinanews.com.cn",
+        "key_points": [
+          "据heb.chinanews.com.cn页面，《特种兵学校》微短剧项目发布会在石家庄举办。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T16:59:26+08:00",
+            "event": "据heb.chinanews.com.cn页面，《特种兵学校》微短剧项目发布会在石家庄举办。",
+            "source_ids": [
+              "Sf55cdb281c598fa34f93"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJSXBQUzRobXZEVlBFQlpiOElqdlUwZkc3RXRSdnNoX2FLcDhkNmlLYzJLOWxhZ1NNb0JzYlMwcW1lSlItLVpvT0hiVk5hS1RZT21zcElDMFVzVU9BVHJ1MG9PMWhEdGl1?oc=5"
+        ]
+      },
+      "source_ids": [
+        "Sf55cdb281c598fa34f93"
+      ],
+      "sources": [
+        {
+          "source_id": "Sf55cdb281c598fa34f93",
+          "platform": "heb.chinanews.com.cn",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "《特种兵学校》微短剧项目发布会在石家庄举办",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJSXBQUzRobXZEVlBFQlpiOElqdlUwZkc3RXRSdnNoX2FLcDhkNmlLYzJLOWxhZ1NNb0JzYlMwcW1lSlItLVpvT0hiVk5hS1RZT21zcElDMFVzVU9BVHJ1MG9PMWhEdGl1?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:93965ed45a9a5bca6d358d766a6ba96b7e9dbf1bfe79dd9cee5bc7471d36107a",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "《特种兵学校》微短剧项目发布会在石家庄举办 heb.chinanews.com.cn",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F69dc74f422820e2f99",
+          "statement": "据heb.chinanews.com.cn页面，《特种兵学校》微短剧项目发布会在石家庄举办。",
+          "source_ids": [
+            "Sf55cdb281c598fa34f93"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-a2830d273dd9fa2d",
+      "topic": "明星讨债，导演跑路，内部人士独家爆料",
+      "summary": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+      "category": "celebrity",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 65,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "inewsweek.cn"
+        ]
+      },
+      "content": {
+        "overview": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。 明星讨债，导演跑路，内部人士独家爆料 inewsweek.cn",
+        "key_points": [
+          "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T16:24:00+08:00",
+            "event": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+            "source_ids": [
+              "S81302f55e034818deedf"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcHZkM2dwa0kyM0U4WjNRcWJJSXlXbUxHTnFWTmZBT3l3d0tBRXZzX1BYZVlESUZZOXpQa0JQaUhnUWh1cFlQc3lVaDI0cHM5UVZkMno0M2FMY2tMaUE?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S81302f55e034818deedf"
+      ],
+      "sources": [
+        {
+          "source_id": "S81302f55e034818deedf",
+          "platform": "inewsweek.cn",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "明星讨债，导演跑路，内部人士独家爆料",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcHZkM2dwa0kyM0U4WjNRcWJJSXlXbUxHTnFWTmZBT3l3d0tBRXZzX1BYZVlESUZZOXpQa0JQaUhnUWh1cFlQc3lVaDI0cHM5UVZkMno0M2FMY2tMaUE?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:b295470c101fe1df41e341a96f30f3b2805e2362de6b4bb4999a1ec4dcb37312",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "明星讨债，导演跑路，内部人士独家爆料 inewsweek.cn",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fa2830d273dd9fa2dea",
+          "statement": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+          "source_ids": [
+            "S81302f55e034818deedf"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    }
+  ]
+}

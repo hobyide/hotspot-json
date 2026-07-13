@@ -1,1 +1,303 @@
-{"schema_version":"1.2","feed":"celebrity","generated_at":"2026-07-13T18:00:00+08:00","timezone":"Asia/Shanghai","window_hours":24,"pipeline":{"source_store":"data/sources.json","facts_required":true,"citation_validation":"passed"},"items":[],"source_status":[{"platform":"The Guardian","status":"ok","item_count":6,"checked_at":"2026-07-13T18:00:00+08:00","error":null},{"platform":"Configured structured trend platforms","status":"degraded","item_count":0,"checked_at":"2026-07-13T18:00:00+08:00","error":"未取得稳定结构化榜单，已使用可靠媒体搜索补源"}],"cleanup":{"last_run_at":"2026-07-12T23:00:00+08:00","status":"completed","mode":"archive_then_expire","last_archive_at":"2026-07-12T23:00:00+08:00"}}
+{
+  "schema_version": "1.2",
+  "generated_at": "2026-07-13T23:24:38+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "pipeline": {
+    "source_store": "data/sources.json",
+    "facts_required": true,
+    "citation_validation": "passed"
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 19,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 24,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 4,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 5,
+      "checked_at": "2026-07-13T23:24:38+08:00",
+      "error": null
+    }
+  ],
+  "cleanup": {
+    "last_run_at": "2026-07-12T23:00:00+08:00",
+    "status": "completed",
+    "mode": "archive_then_expire",
+    "last_archive_at": "2026-07-12T23:00:00+08:00"
+  },
+  "feed": "celebrity",
+  "items": [
+    {
+      "id": "20260713-6e63d4ec5213818f",
+      "topic": "Sam Neill: A versatile actor whose roles went far beyond Jurassic Park",
+      "summary": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+      "category": "celebrity",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 69,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "bbc.co.uk"
+        ]
+      },
+      "content": {
+        "overview": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。 The actor, who has died aged 78, built up a long string of screen credits over a five-decade career.",
+        "key_points": [
+          "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T20:10:38+08:00",
+            "event": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+            "source_ids": [
+              "S563cb1553114a8f9b277"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      "source_ids": [
+        "S563cb1553114a8f9b277"
+      ],
+      "sources": [
+        {
+          "source_id": "S563cb1553114a8f9b277",
+          "platform": "bbc.co.uk",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "Sam Neill: A versatile actor whose roles went far beyond Jurassic Park",
+          "url": "https://www.bbc.co.uk/news/articles/cx2wrvqq9rlo?at_medium=RSS&at_campaign=rss",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:cb5a756d56059920aa1bf669f527419c099736cc9bfe1c180d78d6220c025ed3",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "The actor, who has died aged 78, built up a long string of screen credits over a five-decade career.",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F6e63d4ec5213818fd8",
+          "statement": "据bbc.co.uk页面，Sam Neill: A versatile actor whose roles went far beyond Jurassic Park。",
+          "source_ids": [
+            "S563cb1553114a8f9b277"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260713-a2830d273dd9fa2d",
+      "topic": "明星讨债，导演跑路，内部人士独家爆料",
+      "summary": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+      "category": "celebrity",
+      "language": "zh-CN",
+      "region": "CN",
+      "hot_score": 65,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-13T23:24:38+08:00",
+      "last_seen_at": "2026-07-13T23:24:38+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "inewsweek.cn"
+        ]
+      },
+      "content": {
+        "overview": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。 明星讨债，导演跑路，内部人士独家爆料 inewsweek.cn",
+        "key_points": [
+          "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-13T16:24:00+08:00",
+            "event": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+            "source_ids": [
+              "S81302f55e034818deedf"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcHZkM2dwa0kyM0U4WjNRcWJJSXlXbUxHTnFWTmZBT3l3d0tBRXZzX1BYZVlESUZZOXpQa0JQaUhnUWh1cFlQc3lVaDI0cHM5UVZkMno0M2FMY2tMaUE?oc=5"
+        ]
+      },
+      "source_ids": [
+        "S81302f55e034818deedf"
+      ],
+      "sources": [
+        {
+          "source_id": "S81302f55e034818deedf",
+          "platform": "inewsweek.cn",
+          "source_type": "search_fallback",
+          "rank": null,
+          "heat_raw": null,
+          "title": "明星讨债，导演跑路，内部人士独家爆料",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lcHZkM2dwa0kyM0U4WjNRcWJJSXlXbUxHTnFWTmZBT3l3d0tBRXZzX1BYZVlESUZZOXpQa0JQaUhnUWh1cFlQc3lVaDI0cHM5UVZkMno0M2FMY2tMaUE?oc=5",
+          "captured_at": "2026-07-13T23:24:38+08:00",
+          "content_hash": "sha256:b295470c101fe1df41e341a96f30f3b2805e2362de6b4bb4999a1ec4dcb37312",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "明星讨债，导演跑路，内部人士独家爆料 inewsweek.cn",
+            "excerpt": null,
+            "language": "zh-CN",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-13T23:24:38+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "Fa2830d273dd9fa2dea",
+          "statement": "据inewsweek.cn页面，明星讨债，导演跑路，内部人士独家爆料。",
+          "source_ids": [
+            "S81302f55e034818deedf"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    }
+  ]
+}
