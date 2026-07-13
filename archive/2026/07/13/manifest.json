@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "archive_date": "2026-07-13",
+  "archived_at": "2026-07-13T23:01:37+08:00",
+  "timezone": "Asia/Shanghai",
+  "event_schema_version": "1.2",
+  "source_schema_version": "1.0",
+  "paths": {
+    "events": "archive/2026/07/13/events.json",
+    "sources": "archive/2026/07/13/sources.json",
+    "source_event_file": "data/latest.json",
+    "source_store_file": "data/sources.json"
+  },
+  "counts": {
+    "events": 6,
+    "sources": 1,
+    "referenced_source_ids": 1,
+    "expired_events_removed": 0,
+    "expired_sources_removed": 0,
+    "expired_archives_removed": 0,
+    "expired_failed_logs_removed": 0
+  },
+  "validation": {
+    "json_parse": "passed",
+    "event_schema": "passed",
+    "source_schema": "passed",
+    "source_id_referential_integrity": "passed",
+    "file_size_limit": "passed"
+  },
+  "content_digest": {
+    "algorithm": "sha256",
+    "event_snapshot_basis": "exact data/latest.json blob at archive time",
+    "source_snapshot_hashes": [
+      "sha256:2091f0a8107d5a22aa42ec3f5156a561eefc799bf2cbd504ff20ddf5bb2d50be"
+    ]
+  }
+}
