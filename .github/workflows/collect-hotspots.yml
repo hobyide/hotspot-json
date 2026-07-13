@@ -7,6 +7,7 @@ on:
     paths:
       - "scripts/collect_hotspots.py"
       - "scripts/quality_gate.py"
+      - "scripts/sensitive_gate.py"
       - "config/runtime-sources.json"
       - "config/health-gate.json"
       - "schema/**"
@@ -50,9 +51,14 @@ jobs:
         if: steps.collect.outcome == 'success'
         run: python scripts/quality_gate.py
 
+      - name: Apply sensitive-claim evidence gate
+        id: sensitive
+        if: steps.quality.outcome == 'success'
+        run: python scripts/sensitive_gate.py
+
       - name: Verify JSON, schemas and publishability
         id: verify
-        if: steps.quality.outcome == 'success'
+        if: steps.sensitive.outcome == 'success'
         run: |
           python - <<'PY'
           import json
@@ -106,6 +112,8 @@ jobs:
               raise SystemExit("overall validation is not passed")
           if validation.get("content_quality") != "passed":
               raise SystemExit("semantic content-quality validation is not passed")
+          if validation.get("sensitive_claims") != "passed":
+              raise SystemExit("sensitive-claim validation is not passed")
           if not publishability.get("can_publish", False):
               raise SystemExit("feed is not publishable")
           if publishability.get("publishable_event_count", 0) != len(documents["data/latest.json"].get("items", [])):
@@ -121,6 +129,7 @@ jobs:
               "status": status.get("status"),
               "publishability": publishability,
               "quality_gate": status.get("quality_gate", {}),
+              "sensitive_gate": status.get("sensitive_gate", {}),
           }, ensure_ascii=False))
           PY
 
@@ -134,11 +143,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git commit -m "data: refresh quality-gated entertainment hotspots"
+          git commit -m "data: refresh fully gated entertainment hotspots"
           git push
 
       - name: Reject unvalidated output
-        if: steps.collect.outcome == 'failure' || steps.quality.outcome == 'failure' || steps.verify.outcome == 'failure'
+        if: steps.collect.outcome == 'failure' || steps.quality.outcome == 'failure' || steps.sensitive.outcome == 'failure' || steps.verify.outcome == 'failure'
         run: |
           echo "Collector output was not committed because one or more mandatory gates failed."
           exit 1
