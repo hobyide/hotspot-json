@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "timezone": "Asia/Shanghai",
+  "principle": "Overall pipeline health is determined by whether the feed is usable for downstream writing, not by whether every ranking endpoint succeeded.",
+  "overall_status_values": ["ready", "partial", "failed"],
+  "ready": {
+    "can_publish": true,
+    "minimum_events": 5,
+    "minimum_distinct_publishers": 3,
+    "minimum_publishable_facts": 3,
+    "maximum_single_publisher_share": 0.45,
+    "maximum_feed_age_hours": 30,
+    "required_checks": [
+      "json_parse_passed",
+      "schema_passed",
+      "source_reference_integrity_passed",
+      "fact_support_passed",
+      "deduplication_passed"
+    ]
+  },
+  "partial": {
+    "can_publish": true,
+    "minimum_events": 3,
+    "minimum_distinct_publishers": 2,
+    "minimum_publishable_facts": 2,
+    "maximum_single_publisher_share": 0.67,
+    "maximum_feed_age_hours": 36,
+    "required_mode": "attributed_writing_only",
+    "forbidden_topics": [
+      "relationship_claims",
+      "privacy_claims",
+      "legal_accusations",
+      "injury_or_death_claims",
+      "minor_related_claims",
+      "serious_negative_controversies"
+    ]
+  },
+  "failed": {
+    "can_publish": false,
+    "conditions_any": [
+      "no_valid_current_feed_and_no_valid_cached_feed",
+      "json_or_schema_failure",
+      "broken_source_references",
+      "all_candidate_facts_unsupported",
+      "feed_older_than_36_hours_without_refresh"
+    ]
+  },
+  "warning_only_conditions": [
+    "one_or_more_structured_rankings_unavailable",
+    "one_or_more_fixed_pages_blocked",
+    "some_sources_timed_out",
+    "engagement_or_rank_missing",
+    "single_source_non_sensitive_event_with_explicit_attribution"
+  ],
+  "anti_fake_health_rules": {
+    "one_article_split_into_many_events_counts_as_one_source": true,
+    "multiple_urls_from_the_same_syndicated_copy_count_as_one_independent_source": true,
+    "publisher_diversity_is_required": true,
+    "missing_rank_or_engagement_must_be_null_not_estimated": true,
+    "status_ready_must_not_be_set_only_to_bypass_downstream_gate": true
+  },
+  "downstream_gate": {
+    "primary_field": "publishability.can_publish",
+    "secondary_fields": [
+      "publishability.mode",
+      "publishability.publishable_event_count",
+      "publishability.distinct_publisher_count",
+      "validation.overall"
+    ],
+    "must_not_block_when": "overall status is partial but publishability.can_publish is true",
+    "must_block_when": "publishability.can_publish is false or validation.overall is failed"
+  }
+}
