@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Concrete machine-readable endpoints used by the collector. Abstract source names in config/sources.json are policy only and must not be treated as executable adapters.",
+  "request": {
+    "timeout_seconds": 20,
+    "retry_count": 3,
+    "retry_backoff_seconds": [2, 5, 10],
+    "user_agent": "hotspot-json/1.0 (+https://github.com/hobyide/hotspot-json)"
+  },
+  "source_groups": [
+    {
+      "id": "cn_drama_google_news",
+      "name": "Google News 中文剧集聚合",
+      "format": "rss",
+      "region": "CN",
+      "tier": "tier_4_search_fallback",
+      "url": "https://news.google.com/rss/search?q=(%E7%94%B5%E8%A7%86%E5%89%A7%20OR%20%E7%BD%91%E5%89%A7%20OR%20%E7%9F%AD%E5%89%A7%20OR%20%E5%AE%9A%E6%A1%A3%20OR%20%E5%BC%80%E6%9C%BA%20OR%20%E6%9D%80%E9%9D%92)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "categories": ["drama"],
+      "max_items": 20
+    },
+    {
+      "id": "cn_variety_google_news",
+      "name": "Google News 中文综艺聚合",
+      "format": "rss",
+      "region": "CN",
+      "tier": "tier_4_search_fallback",
+      "url": "https://news.google.com/rss/search?q=(%E7%BB%BC%E8%89%BA%20OR%20%E7%9C%9F%E4%BA%BA%E7%A7%80%20OR%20%E6%99%9A%E4%BC%9A%20OR%20%E8%8A%82%E7%9B%AE%E5%AE%98%E5%AE%A3)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "categories": ["variety"],
+      "max_items": 20
+    },
+    {
+      "id": "cn_entertainment_google_news",
+      "name": "Google News 中文娱乐聚合",
+      "format": "rss",
+      "region": "CN",
+      "tier": "tier_4_search_fallback",
+      "url": "https://news.google.com/rss/search?q=(%E5%A8%B1%E4%B9%90%20OR%20%E6%98%8E%E6%98%9F%20OR%20%E7%94%B5%E5%BD%B1%20OR%20%E9%A2%84%E5%91%8A%20OR%20%E5%AE%98%E5%AE%A3)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "categories": ["celebrity", "industry", "entertainment_event"],
+      "max_items": 25
+    },
+    {
+      "id": "global_entertainment_google_news",
+      "name": "Google News 全球影视娱乐聚合",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_4_search_fallback",
+      "url": "https://news.google.com/rss/search?q=(film%20OR%20television%20OR%20series%20OR%20entertainment)%20(announcement%20OR%20trailer%20OR%20premiere%20OR%20casting)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "categories": ["drama", "variety", "celebrity", "industry", "entertainment_event"],
+      "max_items": 25
+    },
+    {
+      "id": "bbc_entertainment",
+      "name": "BBC Entertainment & Arts RSS",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "categories": ["drama", "variety", "celebrity", "industry", "entertainment_event"],
+      "max_items": 15
+    },
+    {
+      "id": "guardian_tv",
+      "name": "The Guardian TV & Radio RSS",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://www.theguardian.com/tv-and-radio/rss",
+      "categories": ["drama", "variety"],
+      "max_items": 12
+    },
+    {
+      "id": "guardian_film",
+      "name": "The Guardian Film RSS",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://www.theguardian.com/film/rss",
+      "categories": ["drama", "industry", "entertainment_event"],
+      "max_items": 12
+    },
+    {
+      "id": "variety",
+      "name": "Variety RSS",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://variety.com/feed/",
+      "categories": ["drama", "variety", "celebrity", "industry", "entertainment_event"],
+      "max_items": 15
+    },
+    {
+      "id": "deadline",
+      "name": "Deadline RSS",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://deadline.com/feed/",
+      "categories": ["drama", "variety", "celebrity", "industry", "entertainment_event"],
+      "max_items": 15
+    }
+  ],
+  "browser_search_fallbacks": [
+    "近24小时 电视剧 官宣 定档 开机 杀青",
+    "近24小时 综艺 真人秀 晚会 官宣",
+    "近24小时 明星 作品动态 公开活动",
+    "latest film television entertainment announcement trailer casting"
+  ],
+  "selection": {
+    "target_items": 12,
+    "hard_max_items": 30,
+    "max_items_per_publisher": 4,
+    "max_single_publisher_share": 0.45,
+    "minimum_distinct_publishers": 3,
+    "never_split_one_source_article_into_multiple_independent_hotspots": true
+  }
+}
