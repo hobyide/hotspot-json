@@ -1,1 +1,84 @@
-{"schema_version":"1.2","generated_at":"2026-07-14T18:02:02+08:00","timezone":"Asia/Shanghai","window_hours":24,"pipeline":{"source_store":"data/sources.json","facts_required":true,"citation_validation":"passed"},"source_status":[{"platform":"Runtime RSS endpoints","status":"not_checked","item_count":0,"checked_at":null,"error":"GitHub connector runtime could not directly execute RSS requests; browser search fallback completed and the validated cache was selectively retained."},{"platform":"Browser search fallback","status":"ok","item_count":5,"checked_at":"2026-07-14T18:02:02+08:00","error":null}],"cleanup":{"last_run_at":"2026-07-13T23:01:37+08:00","status":"completed","mode":"archive_then_expire","last_archive_at":"2026-07-13T23:01:37+08:00"},"feed":"celebrity","items":[]}
+{
+  "schema_version": "1.2",
+  "generated_at": "2026-07-15T04:20:30+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "pipeline": {
+    "source_store": "data/sources.json",
+    "facts_required": true,
+    "citation_validation": "passed"
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 18,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 25,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 22,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 1,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 6,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 8,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    }
+  ],
+  "cleanup": {
+    "last_run_at": "2026-07-13T23:01:37+08:00",
+    "status": "completed",
+    "mode": "archive_then_expire",
+    "last_archive_at": "2026-07-13T23:01:37+08:00"
+  },
+  "feed": "celebrity",
+  "items": []
+}

@@ -1,1 +1,412 @@
-{"schema_version":"1.2","generated_at":"2026-07-14T18:02:02+08:00","timezone":"Asia/Shanghai","window_hours":24,"pipeline":{"source_store":"data/sources.json","facts_required":true,"citation_validation":"passed"},"source_status":[{"platform":"Runtime RSS endpoints","status":"not_checked","item_count":0,"checked_at":null,"error":"GitHub connector runtime could not directly execute RSS requests; browser search fallback completed and the validated cache was selectively retained."},{"platform":"Browser search fallback","status":"ok","item_count":5,"checked_at":"2026-07-14T18:02:02+08:00","error":null}],"cleanup":{"last_run_at":"2026-07-13T23:01:37+08:00","status":"completed","mode":"archive_then_expire","last_archive_at":"2026-07-13T23:01:37+08:00"},"feed":"all","items":[{"id":"20260714-1ed8d9aaf78a78cb","topic":"Jimmy Fallon与Seth Meyers继续暑期晚间节目播出","summary":"据 Variety 报道，Jimmy Fallon 与 Seth Meyers 将在美国电视暑期淡季继续播出晚间节目。","category":"variety","language":"zh-CN","region":"GLOBAL","hot_score":72,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-13T23:20:00+08:00","last_seen_at":"2026-07-14T18:02:02+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["The Tonight Show","Late Night with Seth Meyers"],"celebrities":["Jimmy Fallon","Seth Meyers"],"organizations":["NBC","Variety"]},"content":{"overview":"据 Variety 报道，Jimmy Fallon 与 Seth Meyers 将在美国电视暑期淡季继续播出晚间节目。","key_points":["据 Variety 报道，Jimmy Fallon 与 Seth Meyers 将在电视暑期淡季继续播出晚间节目。","排名、互动量和未获来源支持的细节均未估算。"],"timeline":[{"time":"2026-07-13T23:20:00+08:00","event":"variety.com 发布相关报道。","source_ids":["S77b2d5c863e99efa9f26"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://variety.com/2026/tv/news/nbc-jimmy-fallon-seth-meyers-late-night-boost-summer-tv-1236809641/"]},"source_ids":["S77b2d5c863e99efa9f26"],"sources":[{"source_id":"S77b2d5c863e99efa9f26","platform":"variety.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"NBC’s Best Chance to Boost Jimmy Fallon, Seth Meyers May Come During TV’s Slow Summer Cycle","url":"https://variety.com/2026/tv/news/nbc-jimmy-fallon-seth-meyers-late-night-boost-summer-tv-1236809641/","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:5914e86bc37ca6b071ab2e8f46255ad3cb48918f47d5b91e126cc02cd5d7e0ed","content":{"mode":"summary_only","text":null,"summary":"Variety reported that Jimmy Fallon and Seth Meyers begin several weeks of summer late-night broadcasts.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}}],"facts":[{"fact_id":"Fb89542c4eafae9de02","statement":"据 Variety 报道，Jimmy Fallon 与 Seth Meyers 将在电视暑期淡季继续播出晚间节目。","source_ids":["S77b2d5c863e99efa9f26"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["copyright_restriction","single_source"],"media":{"images":[],"videos":[]}},{"id":"20260714-139314ce79494995","topic":"《Carrie》八集剧集公布现代化改编方向","summary":"People 与 Entertainment Weekly 均报道，Mike Flanagan 为 Prime Video 制作的八集《Carrie》剧集将更新至数字时代语境，并重新设计经典舞会段落。","category":"drama","language":"zh-CN","region":"GLOBAL","hot_score":78,"heat_signals":{"independent_source_count":2,"official_source_count":0,"cross_platform_count":2,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-14T10:00:00+08:00","last_seen_at":"2026-07-14T18:02:02+08:00","trend":{"status":"rising","cross_platform_count":2},"entities":{"shows":["Carrie"],"celebrities":["Mike Flanagan","Summer H. Howell"],"organizations":["Prime Video","People","Entertainment Weekly"]},"content":{"overview":"People 与 Entertainment Weekly 均报道，Mike Flanagan 为 Prime Video 制作的八集《Carrie》剧集将更新至数字时代语境，并重新设计经典舞会段落。","key_points":["People 与 Entertainment Weekly 均报道，《Carrie》将被改编为 Prime Video 八集剧集，并采用现代数字时代背景。","排名、互动量和未获来源支持的细节均未估算。"],"timeline":[{"time":"2026-07-14T10:00:00+08:00","event":"people.com 发布相关报道。","source_ids":["S5f98c502bdeb5e364637"]},{"time":"2026-07-14T10:00:00+08:00","event":"ew.com 发布相关报道。","source_ids":["S6e7b4d8a83725e0950c0"]}]},"verification":{"status":"confirmed","level":4,"official_source_ids":[],"evidence_urls":["https://people.com/carrie-tv-show-prom-scene-completely-different-12018573","https://ew.com/carrie-tv-series-first-look-mike-flanagan-modern-twist-exclusive-12015053"]},"source_ids":["S5f98c502bdeb5e364637","S6e7b4d8a83725e0950c0"],"sources":[{"source_id":"S5f98c502bdeb5e364637","platform":"people.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"Carrie TV Series' Prom Scene Will Be Completely Different, Says Showrunner Mike Flanagan","url":"https://people.com/carrie-tv-show-prom-scene-completely-different-12018573","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:af6e8a8c8a83459587ba08b9cfb21dab1f3e9ff9b7bbb4e249e591108cd8d069","content":{"mode":"summary_only","text":null,"summary":"People reported that Prime Video’s eight-episode Carrie series will use a substantially reworked prom sequence.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}},{"source_id":"S6e7b4d8a83725e0950c0","platform":"ew.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"Carrie exclusive first look: How Mike Flanagan gives the Stephen King classic a modern TV twist","url":"https://ew.com/carrie-tv-series-first-look-mike-flanagan-modern-twist-exclusive-12015053","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:1f3f3c741d59849006e4586d506d1f7135d01b30b76bf7e105e14450c6da4a71","content":{"mode":"summary_only","text":null,"summary":"Entertainment Weekly reported that Mike Flanagan’s eight-episode Carrie series updates the story for the digital age.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}}],"facts":[{"fact_id":"F2db2d8d56b27507a14","statement":"People 与 Entertainment Weekly 均报道，《Carrie》将被改编为 Prime Video 八集剧集，并采用现代数字时代背景。","source_ids":["S5f98c502bdeb5e364637","S6e7b4d8a83725e0950c0"],"evidence_status":"cross_confirmed","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260714-e0b1b65c3b323b58","topic":"Tom Cruise新片《Digger》发布首支预告","summary":"The Guardian 与 Times of India 均报道，《Digger》首支预告已经发布，Tom Cruise 在 Alejandro González Iñárritu 执导的黑色喜剧中以明显不同的造型出演。","category":"drama","language":"zh-CN","region":"GLOBAL","hot_score":82,"heat_signals":{"independent_source_count":2,"official_source_count":0,"cross_platform_count":2,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-14T09:00:00+08:00","last_seen_at":"2026-07-14T18:02:02+08:00","trend":{"status":"rising","cross_platform_count":2},"entities":{"shows":["Digger"],"celebrities":["Tom Cruise","Alejandro González Iñárritu"],"organizations":["Warner Bros","The Guardian","Times of India"]},"content":{"overview":"The Guardian 与 Times of India 均报道，《Digger》首支预告已经发布，Tom Cruise 在 Alejandro González Iñárritu 执导的黑色喜剧中以明显不同的造型出演。","key_points":["The Guardian 与 Times of India 均报道，《Digger》首支预告已发布，Tom Cruise 在片中饰演一名富有且处境失控的人物。","排名、互动量和未获来源支持的细节均未估算。"],"timeline":[{"time":"2026-07-14T09:00:00+08:00","event":"theguardian.com 发布相关报道。","source_ids":["S187b5724bfa63dea0c8a"]},{"time":"2026-07-14T12:00:00+08:00","event":"timesofindia.indiatimes.com 发布相关报道。","source_ids":["Sdf7e6ac6e99c6d376bf5"]}]},"verification":{"status":"confirmed","level":4,"official_source_ids":[],"evidence_urls":["https://www.theguardian.com/film/2026/jul/13/tom-cruise-digger-trailer-transformation-alejandro-gonzalez-inarritu-film","https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/digger-trailer-tom-cruise-is-the-most-powerful-man-in-the-world-with-a-potbelly-in-this-new-dark-comedy/articleshow/132378656.cms"]},"source_ids":["S187b5724bfa63dea0c8a","Sdf7e6ac6e99c6d376bf5"],"sources":[{"source_id":"S187b5724bfa63dea0c8a","platform":"theguardian.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"Tom Cruise unveils remarkable transformation in Digger trailer: 'I've never had something that could challenge me in this way'","url":"https://www.theguardian.com/film/2026/jul/13/tom-cruise-digger-trailer-transformation-alejandro-gonzalez-inarritu-film","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:a8de27f8e96822fd4700659cf17e7681f14d1effeda9e5a793cfd6db88ded474","content":{"mode":"summary_only","text":null,"summary":"The Guardian reported that the first Digger trailer shows Tom Cruise in a transformed role in Alejandro González Iñárritu’s comedy-drama, due in October.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}},{"source_id":"Sdf7e6ac6e99c6d376bf5","platform":"timesofindia.indiatimes.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"'Digger' trailer: Tom Cruise is the 'most powerful man in the world' with a potbelly in this new dark comedy","url":"https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/digger-trailer-tom-cruise-is-the-most-powerful-man-in-the-world-with-a-potbelly-in-this-new-dark-comedy/articleshow/132378656.cms","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:b37ad11e3ce58f259fea574f6a183605f2fed715d278830a9c87973c66497606","content":{"mode":"summary_only","text":null,"summary":"The Times of India reported that the newly released Digger trailer presents Tom Cruise as an eccentric billionaire in a dark comedy.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}}],"facts":[{"fact_id":"F08a16cc668345cdcfb","statement":"The Guardian 与 Times of India 均报道，《Digger》首支预告已发布，Tom Cruise 在片中饰演一名富有且处境失控的人物。","source_ids":["S187b5724bfa63dea0c8a","Sdf7e6ac6e99c6d376bf5"],"evidence_status":"cross_confirmed","fact_type":"release","can_use_as_fact":true}],"conflicts":[],"risk_flags":["copyright_restriction"],"media":{"images":[],"videos":[]}},{"id":"20260714-b07ca5687d6db4de","topic":"2026日间艾美奖公布首批提名","summary":"据 Entertainment Weekly 报道，2026 年日间艾美奖公布了首批提名，包括剧情类主演和日间谈话节目相关奖项。","category":"entertainment_event","language":"zh-CN","region":"GLOBAL","hot_score":74,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-14T12:00:00+08:00","last_seen_at":"2026-07-14T18:02:02+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":[],"celebrities":["Stacy Haiduk","Eric Braeden"],"organizations":["Daytime Emmy Awards","Entertainment Weekly"]},"content":{"overview":"据 Entertainment Weekly 报道，2026 年日间艾美奖公布了首批提名，包括剧情类主演和日间谈话节目相关奖项。","key_points":["据 Entertainment Weekly 报道，2026 年日间艾美奖已公布首批剧情类主演和日间谈话节目相关提名。","排名、互动量和未获来源支持的细节均未估算。"],"timeline":[{"time":"2026-07-14T12:00:00+08:00","event":"ew.com 发布相关报道。","source_ids":["S5f0ab0615e59c8b6fdb8"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://ew.com/daytime-emmy-nominations-2026-12018364"]},"source_ids":["S5f0ab0615e59c8b6fdb8"],"sources":[{"source_id":"S5f0ab0615e59c8b6fdb8","platform":"ew.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"Daytime Emmys reveal first nominees for 2026, including Best Actress and Best Actor in a Drama Series","url":"https://ew.com/daytime-emmy-nominations-2026-12018364","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:07a95257f6a7b73316091e4c6f1e6df2ff05d6285ea574808df68f5f0ba6920d","content":{"mode":"summary_only","text":null,"summary":"Entertainment Weekly reported the first announced nominees for the 2026 Daytime Emmy Awards, including lead drama performers and talk categories.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}}],"facts":[{"fact_id":"Fd72aa74e4fd59289c5","statement":"据 Entertainment Weekly 报道，2026 年日间艾美奖已公布首批剧情类主演和日间谈话节目相关提名。","source_ids":["S5f0ab0615e59c8b6fdb8"],"evidence_status":"single_source","fact_type":"other","can_use_as_fact":true}],"conflicts":[],"risk_flags":["copyright_restriction","single_source"],"media":{"images":[],"videos":[]}},{"id":"20260714-c0bcb1b71f20e853","topic":"《Dancing With the Stars: The Next Pro》首播","summary":"据 Page Six 报道，《Dancing With the Stars: The Next Pro》于 7 月 13 日在 ABC 首播，12 名参赛者竞争成为主系列的新职业舞者。","category":"variety","language":"zh-CN","region":"GLOBAL","hot_score":73,"heat_signals":{"independent_source_count":1,"official_source_count":0,"cross_platform_count":1,"best_rank":null,"spread_velocity":null,"engagement":{"likes":null,"comments":null,"shares":null,"views":null}},"first_seen_at":"2026-07-14T08:00:00+08:00","last_seen_at":"2026-07-14T18:02:02+08:00","trend":{"status":"new","cross_platform_count":1},"entities":{"shows":["Dancing With the Stars: The Next Pro"],"celebrities":["Robert Irwin","Mark Ballas","Shirley Ballas"],"organizations":["ABC","Page Six"]},"content":{"overview":"据 Page Six 报道，《Dancing With the Stars: The Next Pro》于 7 月 13 日在 ABC 首播，12 名参赛者竞争成为主系列的新职业舞者。","key_points":["据 Page Six 报道，《Dancing With the Stars: The Next Pro》于 7 月 13 日在 ABC 首播，并设置 12 名参赛者竞争职业席位。","排名、互动量和未获来源支持的细节均未估算。"],"timeline":[{"time":"2026-07-14T08:00:00+08:00","event":"pagesix.com 发布相关报道。","source_ids":["S8c65fc8db9f73ac029ee"]}]},"verification":{"status":"reported","level":2,"official_source_ids":[],"evidence_urls":["https://pagesix.com/2026/07/13/entertainment/how-to-watch-dancing-with-the-stars-the-next-pro-for-free/"]},"source_ids":["S8c65fc8db9f73ac029ee"],"sources":[{"source_id":"S8c65fc8db9f73ac029ee","platform":"pagesix.com","source_type":"industry_media","rank":null,"heat_raw":null,"title":"How to watch 'Dancing With the Stars: The Next Pro' for free: Time, cast","url":"https://pagesix.com/2026/07/13/entertainment/how-to-watch-dancing-with-the-stars-the-next-pro-for-free/","captured_at":"2026-07-14T18:02:02+08:00","content_hash":"sha256:19bb9b4ef7b4358ca1ede5af1b77c6009f0d9ee0402e2d2fb84c48d0a06246b2","content":{"mode":"summary_only","text":null,"summary":"Page Six reported that Dancing With the Stars: The Next Pro premiered July 13 on ABC with 12 contestants competing for a professional slot.","excerpt":null,"language":"en","license":{"status":"unknown","name":null,"url":null},"retrieved_at":"2026-07-14T18:02:02+08:00"}}],"facts":[{"fact_id":"F046702fbb6fd028553","statement":"据 Page Six 报道，《Dancing With the Stars: The Next Pro》于 7 月 13 日在 ABC 首播，并设置 12 名参赛者竞争职业席位。","source_ids":["S8c65fc8db9f73ac029ee"],"evidence_status":"single_source","fact_type":"broadcast","can_use_as_fact":true}],"conflicts":[],"risk_flags":["copyright_restriction","single_source"],"media":{"images":[],"videos":[]}}]}
+{
+  "schema_version": "1.2",
+  "generated_at": "2026-07-15T04:20:30+08:00",
+  "timezone": "Asia/Shanghai",
+  "window_hours": 24,
+  "pipeline": {
+    "source_store": "data/sources.json",
+    "facts_required": true,
+    "citation_validation": "passed"
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 18,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 25,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 22,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 1,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 6,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 8,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    }
+  ],
+  "cleanup": {
+    "last_run_at": "2026-07-13T23:01:37+08:00",
+    "status": "completed",
+    "mode": "archive_then_expire",
+    "last_archive_at": "2026-07-13T23:01:37+08:00"
+  },
+  "feed": "all",
+  "items": [
+    {
+      "id": "20260715-411a4277991e774a",
+      "topic": "‘Far Cry’ FX Series Casts Steve Buscemi",
+      "summary": "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 72,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-15T04:20:30+08:00",
+      "last_seen_at": "2026-07-15T04:20:30+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "variety.com"
+        ]
+      },
+      "content": {
+        "overview": "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。 The “Far Cry” TV series is building out its cast with the addition of Steve Buscemi. Variety has learned that Buscemi will star in the series adaptation of the hit video game franchise alongside star and co-creator Rob Mac and previously announced cast member Lizzy Caplan. The series was first reported to be set up […]",
+        "key_points": [
+          "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-15T04:00:00+08:00",
+            "event": "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。",
+            "source_ids": [
+              "S1ba60c17549b5c4fda2e"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/"
+        ]
+      },
+      "source_ids": [
+        "S1ba60c17549b5c4fda2e"
+      ],
+      "sources": [
+        {
+          "source_id": "S1ba60c17549b5c4fda2e",
+          "platform": "variety.com",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "‘Far Cry’ FX Series Casts Steve Buscemi",
+          "url": "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/",
+          "captured_at": "2026-07-15T04:20:30+08:00",
+          "content_hash": "sha256:837e62d54153d07caf507d63096be4d2c575e8e879f930cdfa7fe840062e7f70",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "The “Far Cry” TV series is building out its cast with the addition of Steve Buscemi. Variety has learned that Buscemi will star in the series adaptation of the hit video game franchise alongside star and co-creator Rob Mac and previously announced cast member Lizzy Caplan. The series was first reported to be set up […]",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-15T04:20:30+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F411a4277991e774a27",
+          "statement": "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。",
+          "source_ids": [
+            "S1ba60c17549b5c4fda2e"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260715-08da2e463f39e44e",
+      "topic": "BBC 'working hard' on future of Doctor Who, new BBC director general says",
+      "summary": "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。",
+      "category": "drama",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 69,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-15T04:20:30+08:00",
+      "last_seen_at": "2026-07-15T04:20:30+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "bbc.co.uk"
+        ]
+      },
+      "content": {
+        "overview": "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。 The sci-fi series currently faces an uncertain future after its annual Christmas special was axed for the second year in a row.",
+        "key_points": [
+          "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-15T01:03:49+08:00",
+            "event": "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。",
+            "source_ids": [
+              "Se94c8ed32078e2279fa8"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://www.bbc.co.uk/news/articles/cdejez0zlpno?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      "source_ids": [
+        "Se94c8ed32078e2279fa8"
+      ],
+      "sources": [
+        {
+          "source_id": "Se94c8ed32078e2279fa8",
+          "platform": "bbc.co.uk",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "BBC 'working hard' on future of Doctor Who, new BBC director general says",
+          "url": "https://www.bbc.co.uk/news/articles/cdejez0zlpno?at_medium=RSS&at_campaign=rss",
+          "captured_at": "2026-07-15T04:20:30+08:00",
+          "content_hash": "sha256:3a1a01c350a76d361456182a6b4d49e2da245cac823bb24d5598b0e8a18300a0",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "The sci-fi series currently faces an uncertain future after its annual Christmas special was axed for the second year in a row.",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-15T04:20:30+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F08da2e463f39e44edb",
+          "statement": "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。",
+          "source_ids": [
+            "Se94c8ed32078e2279fa8"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "20260715-6cc053c523ccb75e",
+      "topic": "‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history",
+      "summary": "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。",
+      "category": "entertainment_event",
+      "language": "zh-CN",
+      "region": "GLOBAL",
+      "hot_score": 66,
+      "heat_signals": {
+        "independent_source_count": 1,
+        "official_source_count": 0,
+        "cross_platform_count": 1,
+        "best_rank": null,
+        "spread_velocity": null,
+        "engagement": {
+          "likes": null,
+          "comments": null,
+          "shares": null,
+          "views": null
+        }
+      },
+      "first_seen_at": "2026-07-15T04:20:30+08:00",
+      "last_seen_at": "2026-07-15T04:20:30+08:00",
+      "trend": {
+        "status": "new",
+        "cross_platform_count": 1
+      },
+      "entities": {
+        "shows": [],
+        "celebrities": [],
+        "organizations": [
+          "theguardian.com"
+        ]
+      },
+      "content": {
+        "overview": "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。 Project a Black Planet: Film, a new season of screenings at the Barbican in London exemplifies how the movement was an act of solidarity, resistance and fierce creativity Algiers, 1969. What had, for seven years, been the metropolis of a newly independent country became, over the course of 12 days in July, the cosmopolitan centre of an entire continent. That summer, Algeria played host to the first Pan-African Cultural festival (Panaf) and the capital’s streets were transformed into a vista of energising performers, flanked by placards announcing each country’s delegation: Ethiopia, Liberia, Mali. Picture an Olympics-style opening ceremony, then discard it, for the images captured in William",
+        "key_points": [
+          "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。",
+          "当前未保存不可核验的排名或互动量。"
+        ],
+        "timeline": [
+          {
+            "time": "2026-07-14T22:19:21+08:00",
+            "event": "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。",
+            "source_ids": [
+              "S9262bf5e7beb4c10eb0b"
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "reported",
+        "level": 2,
+        "official_source_ids": [],
+        "evidence_urls": [
+          "https://www.theguardian.com/film/2026/jul/14/project-a-black-plane-film-barbican-pan-africanism"
+        ]
+      },
+      "source_ids": [
+        "S9262bf5e7beb4c10eb0b"
+      ],
+      "sources": [
+        {
+          "source_id": "S9262bf5e7beb4c10eb0b",
+          "platform": "theguardian.com",
+          "source_type": "industry_media",
+          "rank": null,
+          "heat_raw": null,
+          "title": "‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history",
+          "url": "https://www.theguardian.com/film/2026/jul/14/project-a-black-plane-film-barbican-pan-africanism",
+          "captured_at": "2026-07-15T04:20:30+08:00",
+          "content_hash": "sha256:36e2bd9a683deefcd168c460866d6c6a439cd447d31d780c02993f8f4ee80951",
+          "content": {
+            "mode": "summary_only",
+            "text": null,
+            "summary": "Project a Black Planet: Film, a new season of screenings at the Barbican in London exemplifies how the movement was an act of solidarity, resistance and fierce creativity Algiers, 1969. What had, for seven years, been the metropolis of a newly independent country became, over the course of 12 days in July, the cosmopolitan centre of an entire continent. That summer, Algeria played host to the first Pan-African Cultural festival (Panaf) and the capital’s streets were transformed into a vista of energising performers, flanked by placards announcing each country’s delegation: Ethiopia, Liberia, Mali. Picture an Olympics-style opening ceremony, then discard it, for the images captured in William Klein’s documentary of the event, The Pan-African Festival of Algiers, hint at the very dissolving of barriers between spectacle and spectator – an act that brings to life a quote, shown on screen, from Guinea’s first president Sékou Touré: “We must make this revolution with the people … and the songs will come.” Continue reading...",
+            "excerpt": null,
+            "language": "en",
+            "license": {
+              "status": "unknown",
+              "name": null,
+              "url": null
+            },
+            "retrieved_at": "2026-07-15T04:20:30+08:00"
+          }
+        }
+      ],
+      "facts": [
+        {
+          "fact_id": "F6cc053c523ccb75e49",
+          "statement": "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。",
+          "source_ids": [
+            "S9262bf5e7beb4c10eb0b"
+          ],
+          "evidence_status": "single_source",
+          "fact_type": "statement",
+          "can_use_as_fact": true
+        }
+      ],
+      "conflicts": [],
+      "risk_flags": [
+        "single_source",
+        "copyright_restriction"
+      ],
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    }
+  ]
+}

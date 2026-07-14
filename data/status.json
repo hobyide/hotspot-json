@@ -1,1 +1,210 @@
-{"schema_version":"2.0","project":"hobyide/hotspot-json","timezone":"Asia/Shanghai","status":"ready","last_check_at":"2026-07-14T18:02:02+08:00","next_check_at":"2026-07-15T00:00:00+08:00","publishability":{"can_publish":true,"mode":"full","publishable_event_count":5,"publishable_fact_count":5,"distinct_publisher_count":6,"max_single_publisher_share":0.2857,"primary_gate":"config/health-gate.json","semantic_quality_gate":"scripts/quality_gate.py","sensitive_evidence_gate":"scripts/sensitive_gate.py"},"validation":{"overall":"passed","json_parse":"passed","schema":"passed","source_reference_integrity":"passed","fact_support":"passed","deduplication":"passed","content_quality":"passed","sensitive_claims":"passed","errors":[]},"counts":{"all":5,"drama":2,"variety":2,"celebrity":0,"entertainment_events":1,"source_records":7,"distinct_publishers":6},"source_status":[{"platform":"Runtime RSS endpoints","status":"not_checked","item_count":0,"checked_at":null,"error":"GitHub connector runtime could not directly execute RSS requests; browser search fallback completed and the validated cache was selectively retained."},{"platform":"Browser search fallback","status":"ok","item_count":5,"checked_at":"2026-07-14T18:02:02+08:00","error":null}],"warnings":["Runtime RSS endpoints were not directly executable in the GitHub connector runtime; browser search fallback supplied fresh sources.","Missing ranks and engagement metrics remain null."],"errors":[],"content_model":"fresh_browser_search_plus_validated_cache_with_attribution","pipeline":{"runtime_sources":"config/runtime-sources.json","health_gate":"config/health-gate.json","source_store":"data/sources.json","event_schema":"schema/hotspot-v1.2.schema.json","source_schema":"schema/source-record.schema.json"},"quality_gate":{"removed_low_information_candidates":0,"kept_events_before_sensitive_clustering":5},"sensitive_gate":{"merged_cross_confirmed_groups":["Carrie modern adaptation","Digger trailer"],"removed_candidates":0,"kept_events":5,"rejections":[]},"cleanup":{"last_run_at":"2026-07-14T23:01:12+08:00","status":"completed","mode":"archive_then_expire","last_archive_at":"2026-07-14T23:01:12+08:00","archive_path":"archive/2026/07/14","expired_events_removed":0,"expired_sources_removed":0,"expired_archives_removed":0,"expired_failed_logs_removed":0}}
+{
+  "schema_version": "2.0",
+  "project": "hobyide/hotspot-json",
+  "timezone": "Asia/Shanghai",
+  "status": "partial",
+  "last_check_at": "2026-07-15T04:20:30+08:00",
+  "next_check_at": "2026-07-15T10:20:30+08:00",
+  "publishability": {
+    "can_publish": true,
+    "mode": "attributed_only",
+    "publishable_event_count": 3,
+    "publishable_fact_count": 3,
+    "distinct_publisher_count": 3,
+    "max_single_publisher_share": 0.3333,
+    "primary_gate": "config/health-gate.json",
+    "semantic_quality_gate": "scripts/quality_gate.py",
+    "sensitive_evidence_gate": "scripts/sensitive_gate.py"
+  },
+  "validation": {
+    "overall": "passed",
+    "json_parse": "passed",
+    "source_reference_integrity": "passed",
+    "fact_support": "passed",
+    "deduplication": "passed",
+    "errors": [],
+    "content_quality": "passed",
+    "sensitive_claims": "passed"
+  },
+  "counts": {
+    "all": 3,
+    "drama": 2,
+    "variety": 0,
+    "celebrity": 0,
+    "entertainment_events": 1,
+    "source_records": 3,
+    "distinct_publishers": 3
+  },
+  "source_status": [
+    {
+      "platform": "Google News 中文剧集聚合",
+      "status": "ok",
+      "item_count": 20,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文综艺聚合",
+      "status": "ok",
+      "item_count": 18,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "item_count": 25,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "item_count": 22,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "item_count": 1,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "The Guardian Film RSS",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Variety RSS",
+      "status": "ok",
+      "item_count": 6,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "platform": "Deadline RSS",
+      "status": "ok",
+      "item_count": 8,
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    }
+  ],
+  "warnings": [
+    "quality_gate: removed 26 low-information candidates and kept 4",
+    "sensitive_gate: merged 0 cross-confirmed groups and removed 1 insufficiently verified candidates"
+  ],
+  "errors": [],
+  "content_model": "multi_source_rss_plus_news_aggregation_with_attribution",
+  "pipeline": {
+    "runtime_sources": "config/runtime-sources.json",
+    "health_gate": "config/health-gate.json",
+    "source_store": "data/sources.json",
+    "event_schema": "schema/hotspot-v1.2.schema.json",
+    "source_schema": "schema/source-record.schema.json"
+  },
+  "quality_gate": {
+    "removed_low_information_candidates": 26,
+    "kept_events": 4,
+    "rejection_examples": [
+      {
+        "id": "20260715-8475bdc0c1ebc7d1",
+        "topic": "The New ‘Lord of the Rings’ Film Gets an Epic Filming Announcement",
+        "reasons": [
+          "no_action_and_no_detail",
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-6556c6a8d574de72",
+        "topic": "迪丽热巴在哪个综艺里即兴唱出“大魔王好无语”的歌词？",
+        "reasons": [
+          "no_action_and_no_detail",
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-a28f0d7b757a88a6",
+        "topic": "Massive trojan horse installed in NYC ahead of ‘The Odyssey' world premiere",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-58ba57a3903102e9",
+        "topic": "梦网科技：2026年半年度业绩预告",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-585ff457748b9b68",
+        "topic": "Fox Sets Fall Premiere Dates For ‘Best Medicine,’ ‘Doc’ & More As ‘Animal Control’ Joins Sunday Animation Block",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-a3fd793f0ddf33e5",
+        "topic": "Tony Gilroy’s new film ‘Behemoth!’ with Pedro Pascal – teaser trailer lands",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-bc65c1fbb99d4b31",
+        "topic": "Greece awaits Nolan’s ‘The Odyssey’ with anticipation despite casting controversy",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-efdde4b99c461513",
+        "topic": "The Vampire Lestat: One Night Only LIVE – Premiere Event Performance To Make Streaming Debut On AMC+ On August 23",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-613f528fc6af14df",
+        "topic": "A new North Texas-set series from ‘Duck Dynasty’ stars lands August release date",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260715-7b952174c24eb285",
+        "topic": "Odysseus: The Fall, an AI-generated film, unleashes a teaser trailer while trying to capitalize on hype for...",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      }
+    ]
+  },
+  "sensitive_gate": {
+    "merged_cross_confirmed_groups": [],
+    "removed_candidates": 1,
+    "kept_events": 3,
+    "rejections": [
+      {
+        "id": "20260715-8cc70460a4d03e85",
+        "topic": "Steve Buscemi Joins FX Anthology Series ‘Far Cry’ From Noah Hawley & Rob Mac",
+        "matched_categories": [
+          "death"
+        ],
+        "verification_status": "reported",
+        "independent_source_count": 1
+      }
+    ]
+  }
+}
