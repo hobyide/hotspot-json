@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "archive_date": "2026-07-14",
+  "archived_at": "2026-07-14T23:01:12+08:00",
+  "timezone": "Asia/Shanghai",
+  "event_schema_version": "1.2",
+  "source_schema_version": "1.0",
+  "paths": {
+    "events": "archive/2026/07/14/events.json",
+    "sources": "archive/2026/07/14/sources.json",
+    "source_event_file": "data/latest.json",
+    "source_store_file": "data/sources.json"
+  },
+  "counts": {
+    "events": 5,
+    "sources": 7,
+    "referenced_source_ids": 7,
+    "expired_events_removed": 0,
+    "expired_sources_removed": 0,
+    "expired_archives_removed": 0,
+    "expired_failed_logs_removed": 0
+  },
+  "validation": {
+    "json_parse": "passed",
+    "event_schema": "passed",
+    "source_schema": "passed",
+    "source_id_referential_integrity": "passed",
+    "file_size_limit": "passed"
+  },
+  "content_digest": {
+    "algorithm": "sha256",
+    "event_snapshot_basis": "exact data/latest.json blob at archive time",
+    "source_snapshot_hashes": [
+      "sha256:5914e86bc37ca6b071ab2e8f46255ad3cb48918f47d5b91e126cc02cd5d7e0ed",
+      "sha256:af6e8a8c8a83459587ba08b9cfb21dab1f3e9ff9b7bbb4e249e591108cd8d069",
+      "sha256:1f3f3c741d59849006e4586d506d1f7135d01b30b76bf7e105e14450c6da4a71",
+      "sha256:a8de27f8e96822fd4700659cf17e7681f14d1effeda9e5a793cfd6db88ded474",
+      "sha256:b37ad11e3ce58f259fea574f6a183605f2fed715d278830a9c87973c66497606",
+      "sha256:07a95257f6a7b73316091e4c6f1e6df2ff05d6285ea574808df68f5f0ba6920d",
+      "sha256:19bb9b4ef7b4358ca1ede5af1b77c6009f0d9ee0402e2d2fb84c48d0a06246b2"
+    ]
+  }
+}
