@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-07-16T03:57:21+08:00",
+  "generated_at": "2026-07-16T06:02:50+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
   "pipeline": {
@@ -12,78 +12,78 @@
     {
       "platform": "Google News 中文剧集聚合",
       "status": "ok",
-      "item_count": 19,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 20,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文综艺聚合",
       "status": "ok",
       "item_count": 15,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文娱乐聚合",
       "status": "ok",
       "item_count": 23,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 全球影视娱乐聚合",
       "status": "ok",
       "item_count": 22,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 可靠影视媒体定向聚合",
       "status": "ok",
-      "item_count": 9,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 7,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 可靠电视节目媒体定向聚合",
       "status": "ok",
-      "item_count": 11,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 9,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "BBC Entertainment & Arts RSS",
       "status": "ok",
       "item_count": 3,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "The Guardian TV & Radio RSS",
       "status": "ok",
       "item_count": 0,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "The Guardian Film RSS",
       "status": "ok",
       "item_count": 4,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Variety RSS",
       "status": "ok",
-      "item_count": 4,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 5,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Deadline RSS",
       "status": "ok",
       "item_count": 3,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     }
   ],
@@ -96,9 +96,9 @@
   "feed": "drama",
   "items": [
     {
-      "id": "20260716-6997629a7eb17017",
-      "topic": "Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor",
-      "summary": "据variety.com页面，Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor。",
+      "id": "20260716-2a2c56878825502e",
+      "topic": "Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’",
+      "summary": "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。",
       "category": "drama",
       "language": "zh-CN",
       "region": "GLOBAL",
@@ -116,8 +116,8 @@
           "views": null
         }
       },
-      "first_seen_at": "2026-07-16T03:57:21+08:00",
-      "last_seen_at": "2026-07-16T03:57:21+08:00",
+      "first_seen_at": "2026-07-16T06:02:50+08:00",
+      "last_seen_at": "2026-07-16T06:02:50+08:00",
       "trend": {
         "status": "new",
         "cross_platform_count": 1
@@ -130,17 +130,17 @@
         ]
       },
       "content": {
-        "overview": "据variety.com页面，Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor。 French President Emmanuel Macron honored five major figures in international cinema at a ceremony held at the Élysée Palace in Paris on July 15: Illumination founder and CEO Chris Meledandri, the producer behind the “Despicable Me” and “Minions” movies — the highest-grossing animated franchise of all time, with more than $5.7 billion at the global […]",
+        "overview": "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。 The upcoming Netflix drama “The Roman” has added five new cast members, Variety has learned. The show, which is set in the world of Las Vegas casinos, has cast Vincent D’Onofrio (“Daredevil: Born Again,” “The Beauty”) and Kate Mara (“A Teacher,” “Imperfect Women”) in series regular roles. Clancy Brown (“I Will Find You,” “The Penguin”) […]",
         "key_points": [
-          "据variety.com页面，Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor。",
+          "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。",
           "当前未保存不可核验的排名或互动量。"
         ],
         "timeline": [
           {
-            "time": "2026-07-16T03:12:33+08:00",
-            "event": "据variety.com页面，Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor。",
+            "time": "2026-07-16T06:00:00+08:00",
+            "event": "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。",
             "source_ids": [
-              "S460c56dc491822508a65"
+              "S0f980096e036c1963090"
             ]
           }
         ]
@@ -150,27 +150,27 @@
         "level": 2,
         "official_source_ids": [],
         "evidence_urls": [
-          "https://variety.com/2026/film/global/meledandri-lucas-foster-sigourney-weaver-france-legion-honor-1236811954/"
+          "https://variety.com/2026/tv/news/vincent-donofrio-kate-mara-clancy-brown-netflix-vegas-roman-1236812086/"
         ]
       },
       "source_ids": [
-        "S460c56dc491822508a65"
+        "S0f980096e036c1963090"
       ],
       "sources": [
         {
-          "source_id": "S460c56dc491822508a65",
+          "source_id": "S0f980096e036c1963090",
           "platform": "variety.com",
           "source_type": "industry_media",
           "rank": null,
           "heat_raw": null,
-          "title": "Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor",
-          "url": "https://variety.com/2026/film/global/meledandri-lucas-foster-sigourney-weaver-france-legion-honor-1236811954/",
-          "captured_at": "2026-07-16T03:57:21+08:00",
-          "content_hash": "sha256:be65d4b0c774a143b3be8c6294fa973af386b2a9af931140b5ee2d7ba9e5b2ae",
+          "title": "Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’",
+          "url": "https://variety.com/2026/tv/news/vincent-donofrio-kate-mara-clancy-brown-netflix-vegas-roman-1236812086/",
+          "captured_at": "2026-07-16T06:02:50+08:00",
+          "content_hash": "sha256:1b9ac41538a9c6e26f93024e48a1246795897721ad24087a4e109b0f4045774a",
           "content": {
             "mode": "summary_only",
             "text": null,
-            "summary": "French President Emmanuel Macron honored five major figures in international cinema at a ceremony held at the Élysée Palace in Paris on July 15: Illumination founder and CEO Chris Meledandri, the producer behind the “Despicable Me” and “Minions” movies — the highest-grossing animated franchise of all time, with more than $5.7 billion at the global […]",
+            "summary": "The upcoming Netflix drama “The Roman” has added five new cast members, Variety has learned. The show, which is set in the world of Las Vegas casinos, has cast Vincent D’Onofrio (“Daredevil: Born Again,” “The Beauty”) and Kate Mara (“A Teacher,” “Imperfect Women”) in series regular roles. Clancy Brown (“I Will Find You,” “The Penguin”) […]",
             "excerpt": null,
             "language": "en",
             "license": {
@@ -178,16 +178,16 @@
               "name": null,
               "url": null
             },
-            "retrieved_at": "2026-07-16T03:57:21+08:00"
+            "retrieved_at": "2026-07-16T06:02:50+08:00"
           }
         }
       ],
       "facts": [
         {
-          "fact_id": "F6997629a7eb17017dd",
-          "statement": "据variety.com页面，Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor。",
+          "fact_id": "F2a2c56878825502e93",
+          "statement": "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。",
           "source_ids": [
-            "S460c56dc491822508a65"
+            "S0f980096e036c1963090"
           ],
           "evidence_status": "single_source",
           "fact_type": "statement",
@@ -211,7 +211,7 @@
       "category": "drama",
       "language": "zh-CN",
       "region": "GLOBAL",
-      "hot_score": 70,
+      "hot_score": 68,
       "heat_signals": {
         "independent_source_count": 1,
         "official_source_count": 0,
@@ -225,8 +225,8 @@
           "views": null
         }
       },
-      "first_seen_at": "2026-07-16T03:57:21+08:00",
-      "last_seen_at": "2026-07-16T03:57:21+08:00",
+      "first_seen_at": "2026-07-16T06:02:50+08:00",
+      "last_seen_at": "2026-07-16T06:02:50+08:00",
       "trend": {
         "status": "new",
         "cross_platform_count": 1
@@ -274,7 +274,7 @@
           "heat_raw": null,
           "title": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown",
           "url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
-          "captured_at": "2026-07-16T03:57:21+08:00",
+          "captured_at": "2026-07-16T06:02:50+08:00",
           "content_hash": "sha256:d79cca70b36225b26ea39f4b67f06bc443c89a88892389b6eccd5ef1678f9f46",
           "content": {
             "mode": "summary_only",
@@ -287,7 +287,7 @@
               "name": null,
               "url": null
             },
-            "retrieved_at": "2026-07-16T03:57:21+08:00"
+            "retrieved_at": "2026-07-16T06:02:50+08:00"
           }
         }
       ],
@@ -320,7 +320,7 @@
       "category": "drama",
       "language": "zh-CN",
       "region": "GLOBAL",
-      "hot_score": 69,
+      "hot_score": 66,
       "heat_signals": {
         "independent_source_count": 1,
         "official_source_count": 0,
@@ -334,8 +334,8 @@
           "views": null
         }
       },
-      "first_seen_at": "2026-07-16T03:57:21+08:00",
-      "last_seen_at": "2026-07-16T03:57:21+08:00",
+      "first_seen_at": "2026-07-16T06:02:50+08:00",
+      "last_seen_at": "2026-07-16T06:02:50+08:00",
       "trend": {
         "status": "new",
         "cross_platform_count": 1
@@ -383,7 +383,7 @@
           "heat_raw": null,
           "title": "A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard",
           "url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
-          "captured_at": "2026-07-16T03:57:21+08:00",
+          "captured_at": "2026-07-16T06:02:50+08:00",
           "content_hash": "sha256:591e86eb22f7e22429770f81c44eb7bd73109bca5af38bff7c431a752d2a9e40",
           "content": {
             "mode": "summary_only",
@@ -396,7 +396,7 @@
               "name": null,
               "url": null
             },
-            "retrieved_at": "2026-07-16T03:57:21+08:00"
+            "retrieved_at": "2026-07-16T06:02:50+08:00"
           }
         }
       ],

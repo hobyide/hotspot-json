@@ -3,8 +3,8 @@
   "project": "hobyide/hotspot-json",
   "timezone": "Asia/Shanghai",
   "status": "partial",
-  "last_check_at": "2026-07-16T03:57:21+08:00",
-  "next_check_at": "2026-07-16T09:57:21+08:00",
+  "last_check_at": "2026-07-16T06:02:50+08:00",
+  "next_check_at": "2026-07-16T12:02:50+08:00",
   "publishability": {
     "can_publish": true,
     "mode": "attributed_only",
@@ -39,78 +39,78 @@
     {
       "platform": "Google News 中文剧集聚合",
       "status": "ok",
-      "item_count": 19,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 20,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文综艺聚合",
       "status": "ok",
       "item_count": 15,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文娱乐聚合",
       "status": "ok",
       "item_count": 23,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 全球影视娱乐聚合",
       "status": "ok",
       "item_count": 22,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 可靠影视媒体定向聚合",
       "status": "ok",
-      "item_count": 9,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 7,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Google News 可靠电视节目媒体定向聚合",
       "status": "ok",
-      "item_count": 11,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 9,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "BBC Entertainment & Arts RSS",
       "status": "ok",
       "item_count": 3,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "The Guardian TV & Radio RSS",
       "status": "ok",
       "item_count": 0,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "The Guardian Film RSS",
       "status": "ok",
       "item_count": 4,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Variety RSS",
       "status": "ok",
-      "item_count": 4,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "item_count": 5,
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     },
     {
       "platform": "Deadline RSS",
       "status": "ok",
       "item_count": 3,
-      "checked_at": "2026-07-16T03:57:21+08:00",
+      "checked_at": "2026-07-16T06:02:50+08:00",
       "error": null
     }
   ],
@@ -132,76 +132,73 @@
     "kept_events": 4,
     "rejection_examples": [
       {
-        "id": "20260716-cb0078f1ee0ba0b9",
-        "topic": "口碑逆袭！《地球超新鲜2》吊打第一季的真相：好综艺不靠剧本",
+        "id": "20260716-8662f23eb8c6083f",
+        "topic": "爆款短剧《好一个乖乖女》遭韩方一比一复制",
         "reasons": [
           "no_action_and_no_detail",
           "summary_repeats_title_only"
         ]
       },
       {
-        "id": "20260716-6a61881689cc1ec7",
-        "topic": "美职棒全明星赛美联完胜国联 村上宗隆中途登场",
+        "id": "20260716-ee2441371cb5e42c",
+        "topic": "Lucky Premiere Recap: Anya Taylor-Joy Runs For Her Life After A Heist Gone Wrong — Grade It!",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-1e10ed9ac28d8bbc",
+        "topic": "'Avatar Aang: The Last Airbender' Sets Limited Movie Theater Release",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-8f2b6e4ef1c74222",
+        "topic": "Casting News: Steve Buscemi Joins FX's Far Cry, This Is Us Star's Apple TV Thriller, And More",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-f65bf17f36f652fc",
+        "topic": "Matt Damon reveals the insane piece of advice Sean Penn gave him about his daughters dating",
         "reasons": [
           "no_action_and_no_detail",
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-7cefccf03df9c72d",
+        "topic": "Movies and TV shows casting this week in Los Angeles",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-f9062a9445099dbc",
+        "topic": "Movies and TV shows casting this week in Miami",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-9bfeaa9b8c8129d1",
+        "topic": "Movies and TV shows casting this week in Seattle",
+        "reasons": [
+          "summary_repeats_title_only"
+        ]
+      },
+      {
+        "id": "20260716-d4d9326830014562",
+        "topic": "Movies and TV shows casting this week in Pittsburgh",
+        "reasons": [
           "summary_repeats_title_only"
         ]
       },
       {
         "id": "20260716-a515d73c2bd8e70f",
         "topic": "Photos: ‘The Odyssey’ Red Carpet Premiere In NYC Includes Nolan, Zendaya, Damon And Hathaway",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-68c9b79bbca7cded",
-        "topic": "Netflix Debuts Chilling Official Trailer for 'The Whisper Man' Starring Robert De Niro and Adam Scott",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-4c29eb7abb445c25",
-        "topic": "‘Filipiñana’ Trailer: Something Sinister Lurks Beneath a Philippine Country Club in Darkly Funny Sundance Winner",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-741a73570f495be7",
-        "topic": "1元票房，带动0.8元商圈配套消费！电影之外，“好戏”才刚开始→",
-        "reasons": [
-          "no_action_and_no_detail",
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-b507bdea437957fa",
-        "topic": "Behind the scenes: Elizabethton High School class stars in Amazon Prime series \"Murder 101\"",
-        "reasons": [
-          "no_action_and_no_detail",
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-7523918ead5d2039",
-        "topic": "Ian Somerhalder reveals the ‘controversial’ reason he ‘pulled the plug’ on his acting career",
-        "reasons": [
-          "no_action_and_no_detail",
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-cabb9c8509d05e67",
-        "topic": "Official Trailer for Powerful Doc 'American Doctor' About Saving Lives",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260716-72ea23670cdb0ed6",
-        "topic": "In brief: ‘The Whisper Man’ trailer and more",
         "reasons": [
           "summary_repeats_title_only"
         ]
@@ -214,8 +211,8 @@
     "kept_events": 3,
     "rejections": [
       {
-        "id": "20260716-feac4651c4edeebb",
-        "topic": "Ella Anderson Joins Hulu Legal Drama ‘Conviction’",
+        "id": "20260716-984ff7db027f30f3",
+        "topic": "‘Stuart Fails To Save The Universe’ Stars Kevin Sussman & Lauren Lapkus Talk Sci-Fi ‘Big Bang’ Spinoff With “Reluctant Hero” At Center & Romance",
         "matched_categories": [
           "death"
         ],
