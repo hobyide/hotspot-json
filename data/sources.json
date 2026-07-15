@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-15T04:20:30+08:00",
+  "generated_at": "2026-07-16T03:57:21+08:00",
   "timezone": "Asia/Shanghai",
   "records": [
     {
-      "source_id": "S1ba60c17549b5c4fda2e",
-      "title": "‘Far Cry’ FX Series Casts Steve Buscemi",
-      "url": "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/",
-      "normalized_url": "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/",
+      "source_id": "S460c56dc491822508a65",
+      "title": "Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor",
+      "url": "https://variety.com/2026/film/global/meledandri-lucas-foster-sigourney-weaver-france-legion-honor-1236811954/",
+      "normalized_url": "https://variety.com/2026/film/global/meledandri-lucas-foster-sigourney-weaver-france-legion-honor-1236811954/",
       "source": "variety.com",
       "source_type": "industry_media",
       "tier": "tier_3_industry_media",
       "author": null,
-      "published_at": "2026-07-15T04:00:00+08:00",
-      "fetched_at": "2026-07-15T04:20:30+08:00",
-      "content_hash": "sha256:837e62d54153d07caf507d63096be4d2c575e8e879f930cdfa7fe840062e7f70",
+      "published_at": "2026-07-16T03:12:33+08:00",
+      "fetched_at": "2026-07-16T03:57:21+08:00",
+      "content_hash": "sha256:be65d4b0c774a143b3be8c6294fa973af386b2a9af931140b5ee2d7ba9e5b2ae",
       "fetch_status": "success",
       "rank": null,
       "heat_raw": null,
       "content": {
         "mode": "summary_only",
         "text": null,
-        "summary": "The “Far Cry” TV series is building out its cast with the addition of Steve Buscemi. Variety has learned that Buscemi will star in the series adaptation of the hit video game franchise alongside star and co-creator Rob Mac and previously announced cast member Lizzy Caplan. The series was first reported to be set up […]",
+        "summary": "French President Emmanuel Macron honored five major figures in international cinema at a ceremony held at the Élysée Palace in Paris on July 15: Illumination founder and CEO Chris Meledandri, the producer behind the “Despicable Me” and “Minions” movies — the highest-grossing animated franchise of all time, with more than $5.7 billion at the global […]",
         "excerpt": null,
         "language": "en",
         "license": {
@@ -30,7 +30,7 @@
           "url": null
         },
         "key_facts": [
-          "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。"
+          "据variety.com页面，Chris Meledandri, George Lucas, Jodie Foster and Sigourney Weaver Receive France’s Prestigious Legion of Honor。"
         ]
       },
       "media": {
@@ -39,24 +39,24 @@
       }
     },
     {
-      "source_id": "Se94c8ed32078e2279fa8",
-      "title": "BBC 'working hard' on future of Doctor Who, new BBC director general says",
-      "url": "https://www.bbc.co.uk/news/articles/cdejez0zlpno?at_medium=RSS&at_campaign=rss",
-      "normalized_url": "https://www.bbc.co.uk/news/articles/cdejez0zlpno?at_medium=RSS&at_campaign=rss",
+      "source_id": "S2e4fdc05ce268418dad8",
+      "title": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown",
+      "url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
+      "normalized_url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
       "source": "bbc.co.uk",
       "source_type": "industry_media",
       "tier": "tier_3_industry_media",
       "author": null,
-      "published_at": "2026-07-15T01:03:49+08:00",
-      "fetched_at": "2026-07-15T04:20:30+08:00",
-      "content_hash": "sha256:3a1a01c350a76d361456182a6b4d49e2da245cac823bb24d5598b0e8a18300a0",
+      "published_at": "2026-07-16T01:08:33+08:00",
+      "fetched_at": "2026-07-16T03:57:21+08:00",
+      "content_hash": "sha256:d79cca70b36225b26ea39f4b67f06bc443c89a88892389b6eccd5ef1678f9f46",
       "fetch_status": "success",
       "rank": null,
       "heat_raw": null,
       "content": {
         "mode": "summary_only",
         "text": null,
-        "summary": "The sci-fi series currently faces an uncertain future after its annual Christmas special was axed for the second year in a row.",
+        "summary": "The UFO comedy film is a debut from director Simon Ryninks who was inspired by his west Wales roots.",
         "excerpt": null,
         "language": "en",
         "license": {
@@ -65,7 +65,7 @@
           "url": null
         },
         "key_facts": [
-          "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。"
+          "据bbc.co.uk页面，Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown。"
         ]
       },
       "media": {
@@ -74,24 +74,24 @@
       }
     },
     {
-      "source_id": "S9262bf5e7beb4c10eb0b",
-      "title": "‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history",
-      "url": "https://www.theguardian.com/film/2026/jul/14/project-a-black-plane-film-barbican-pan-africanism",
-      "normalized_url": "https://www.theguardian.com/film/2026/jul/14/project-a-black-plane-film-barbican-pan-africanism",
+      "source_id": "S13a25a8b044d02be0bf1",
+      "title": "A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard",
+      "url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
+      "normalized_url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
       "source": "theguardian.com",
       "source_type": "industry_media",
       "tier": "tier_3_industry_media",
       "author": null,
-      "published_at": "2026-07-14T22:19:21+08:00",
-      "fetched_at": "2026-07-15T04:20:30+08:00",
-      "content_hash": "sha256:36e2bd9a683deefcd168c460866d6c6a439cd447d31d780c02993f8f4ee80951",
+      "published_at": "2026-07-16T00:00:01+08:00",
+      "fetched_at": "2026-07-16T03:57:21+08:00",
+      "content_hash": "sha256:591e86eb22f7e22429770f81c44eb7bd73109bca5af38bff7c431a752d2a9e40",
       "fetch_status": "success",
       "rank": null,
       "heat_raw": null,
       "content": {
         "mode": "summary_only",
         "text": null,
-        "summary": "Project a Black Planet: Film, a new season of screenings at the Barbican in London exemplifies how the movement was an act of solidarity, resistance and fierce creativity Algiers, 1969. What had, for seven years, been the metropolis of a newly independent country became, over the course of 12 days in July, the cosmopolitan centre of an entire continent. That summer, Algeria played host to the first Pan-African Cultural festival (Panaf) and the capital’s streets were transformed into a vista of energising performers, flanked by placards announcing each country’s delegation: Ethiopia, Liberia, Mali. Picture an Olympics-style opening ceremony, then discard it, for the images captured in William Klein’s documentary of the event, The Pan-African Festival of Algiers, hint at the very dissolving of barriers between spectacle and spectator – an act that brings to life a quote, shown on screen, from Guinea’s first president Sékou Touré: “We must make this revolution with the people … and the songs will come.” Continue reading...",
+        "summary": "Matt Damon’s sensitive and repentant Odysseus might come as a surprise to Homer, likewise some significant omissions concerning the poem’s female characters Peter Bradshaw’s five star review It would be easy to think that the Odyssey, Homer’s epic poem composed over 2,500 years ago, is all about Odysseus. It’s called the Odyssey, after all. It opens with the invocation to the Muse, “Tell me about a complicated man” – pulling no punches about the poem’s theme. This is, on the surface of things, an epic about a man coming home, a return voyage that spans fluorescent fantasy worlds and yawns across 10 years in the wake of the fall of Troy; a one-hero clash with monsters and princesses, giants and whirlpools, the fight to reclaim his place as king of Ithaca, and as the hero of an epic of his own. But the point about an epic is that it also contains multitudes. There is much that is epic about Christopher Nolan’s latest film. For those familiar with Nolan’s work, that hardly comes as a surprise. It’s a long watch, coming in at just under three hours. It reckons with the breadth of the Odyssean legend, from the sack of Troy all the way to Odysseus’s return, and seamlessly juggles the epi",
         "excerpt": null,
         "language": "en",
         "license": {
@@ -100,7 +100,7 @@
           "url": null
         },
         "key_facts": [
-          "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。"
+          "据theguardian.com页面，A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard。"
         ]
       },
       "media": {
@@ -113,55 +113,67 @@
     {
       "source": "Google News 中文剧集聚合",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "Google News 中文综艺聚合",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "Google News 中文娱乐聚合",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "Google News 全球影视娱乐聚合",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 可靠影视媒体定向聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T03:57:21+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 可靠电视节目媒体定向聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "BBC Entertainment & Arts RSS",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "The Guardian TV & Radio RSS",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "The Guardian Film RSS",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "Variety RSS",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     },
     {
       "source": "Deadline RSS",
       "status": "ok",
-      "checked_at": "2026-07-15T04:20:30+08:00",
+      "checked_at": "2026-07-16T03:57:21+08:00",
       "error": null
     }
   ]
