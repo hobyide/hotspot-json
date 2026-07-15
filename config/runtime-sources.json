@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "timezone": "Asia/Shanghai",
   "purpose": "Concrete machine-readable endpoints used by the collector. Abstract source names in config/sources.json are policy only and must not be treated as executable adapters.",
   "request": {
@@ -48,6 +48,26 @@
       "url": "https://news.google.com/rss/search?q=(film%20OR%20television%20OR%20series%20OR%20entertainment)%20(announcement%20OR%20trailer%20OR%20premiere%20OR%20casting)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
       "categories": ["drama", "variety", "celebrity", "industry", "entertainment_event"],
       "max_items": 25
+    },
+    {
+      "id": "trusted_tv_film_announcements",
+      "name": "Google News 可靠影视媒体定向聚合",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://news.google.com/rss/search?q=(site%3Avariety.com%20OR%20site%3Adeadline.com%20OR%20site%3Aew.com%20OR%20site%3Ahollywoodreporter.com)%20(casts%20OR%20trailer%20OR%20premiere%20OR%20renewed%20OR%20release%20date)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "categories": ["drama", "variety", "celebrity", "industry", "entertainment_event"],
+      "max_items": 25
+    },
+    {
+      "id": "trusted_tv_programming_announcements",
+      "name": "Google News 可靠电视节目媒体定向聚合",
+      "format": "rss",
+      "region": "GLOBAL",
+      "tier": "tier_3_industry_media",
+      "url": "https://news.google.com/rss/search?q=(site%3Avariety.com%20OR%20site%3Adeadline.com%20OR%20site%3Aew.com)%20(TV%20show%20OR%20reality%20OR%20awards%20OR%20host%20OR%20cast)%20(announces%20OR%20sets%20OR%20reveals%20OR%20returns)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "categories": ["variety", "celebrity", "entertainment_event"],
+      "max_items": 20
     },
     {
       "id": "bbc_entertainment",
@@ -104,7 +124,8 @@
     "近24小时 电视剧 官宣 定档 开机 杀青",
     "近24小时 综艺 真人秀 晚会 官宣",
     "近24小时 明星 作品动态 公开活动",
-    "latest film television entertainment announcement trailer casting"
+    "latest film television entertainment announcement trailer casting",
+    "site:variety.com OR site:deadline.com OR site:ew.com latest TV film casting trailer premiere"
   ],
   "selection": {
     "target_items": 12,
