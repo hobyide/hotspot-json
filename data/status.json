@@ -4,7 +4,7 @@
   "timezone": "Asia/Shanghai",
   "status": "partial",
   "last_check_at": "2026-07-15T04:20:30+08:00",
-  "next_check_at": "2026-07-15T10:20:30+08:00",
+  "next_check_at": "2026-07-16T00:00:00+08:00",
   "publishability": {
     "can_publish": true,
     "mode": "attributed_only",
@@ -22,9 +22,9 @@
     "source_reference_integrity": "passed",
     "fact_support": "passed",
     "deduplication": "passed",
-    "errors": [],
     "content_quality": "passed",
-    "sensitive_claims": "passed"
+    "sensitive_claims": "passed",
+    "errors": []
   },
   "counts": {
     "all": 3,
@@ -36,69 +36,15 @@
     "distinct_publishers": 3
   },
   "source_status": [
-    {
-      "platform": "Google News 中文剧集聚合",
-      "status": "ok",
-      "item_count": 20,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "Google News 中文综艺聚合",
-      "status": "ok",
-      "item_count": 18,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "Google News 中文娱乐聚合",
-      "status": "ok",
-      "item_count": 25,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "Google News 全球影视娱乐聚合",
-      "status": "ok",
-      "item_count": 22,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "BBC Entertainment & Arts RSS",
-      "status": "ok",
-      "item_count": 1,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "The Guardian TV & Radio RSS",
-      "status": "ok",
-      "item_count": 0,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "The Guardian Film RSS",
-      "status": "ok",
-      "item_count": 2,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "Variety RSS",
-      "status": "ok",
-      "item_count": 6,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    },
-    {
-      "platform": "Deadline RSS",
-      "status": "ok",
-      "item_count": 8,
-      "checked_at": "2026-07-15T04:20:30+08:00",
-      "error": null
-    }
+    {"platform":"Google News 中文剧集聚合","status":"ok","item_count":20,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"Google News 中文综艺聚合","status":"ok","item_count":18,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"Google News 中文娱乐聚合","status":"ok","item_count":25,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"Google News 全球影视娱乐聚合","status":"ok","item_count":22,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"BBC Entertainment & Arts RSS","status":"ok","item_count":1,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"The Guardian TV & Radio RSS","status":"ok","item_count":0,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"The Guardian Film RSS","status":"ok","item_count":2,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"Variety RSS","status":"ok","item_count":6,"checked_at":"2026-07-15T04:20:30+08:00","error":null},
+    {"platform":"Deadline RSS","status":"ok","item_count":8,"checked_at":"2026-07-15T04:20:30+08:00","error":null}
   ],
   "warnings": [
     "quality_gate: removed 26 low-information candidates and kept 4",
@@ -113,98 +59,17 @@
     "event_schema": "schema/hotspot-v1.2.schema.json",
     "source_schema": "schema/source-record.schema.json"
   },
-  "quality_gate": {
-    "removed_low_information_candidates": 26,
-    "kept_events": 4,
-    "rejection_examples": [
-      {
-        "id": "20260715-8475bdc0c1ebc7d1",
-        "topic": "The New ‘Lord of the Rings’ Film Gets an Epic Filming Announcement",
-        "reasons": [
-          "no_action_and_no_detail",
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-6556c6a8d574de72",
-        "topic": "迪丽热巴在哪个综艺里即兴唱出“大魔王好无语”的歌词？",
-        "reasons": [
-          "no_action_and_no_detail",
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-a28f0d7b757a88a6",
-        "topic": "Massive trojan horse installed in NYC ahead of ‘The Odyssey' world premiere",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-58ba57a3903102e9",
-        "topic": "梦网科技：2026年半年度业绩预告",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-585ff457748b9b68",
-        "topic": "Fox Sets Fall Premiere Dates For ‘Best Medicine,’ ‘Doc’ & More As ‘Animal Control’ Joins Sunday Animation Block",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-a3fd793f0ddf33e5",
-        "topic": "Tony Gilroy’s new film ‘Behemoth!’ with Pedro Pascal – teaser trailer lands",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-bc65c1fbb99d4b31",
-        "topic": "Greece awaits Nolan’s ‘The Odyssey’ with anticipation despite casting controversy",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-efdde4b99c461513",
-        "topic": "The Vampire Lestat: One Night Only LIVE – Premiere Event Performance To Make Streaming Debut On AMC+ On August 23",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-613f528fc6af14df",
-        "topic": "A new North Texas-set series from ‘Duck Dynasty’ stars lands August release date",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      },
-      {
-        "id": "20260715-7b952174c24eb285",
-        "topic": "Odysseus: The Fall, an AI-generated film, unleashes a teaser trailer while trying to capitalize on hype for...",
-        "reasons": [
-          "summary_repeats_title_only"
-        ]
-      }
-    ]
-  },
-  "sensitive_gate": {
-    "merged_cross_confirmed_groups": [],
-    "removed_candidates": 1,
-    "kept_events": 3,
-    "rejections": [
-      {
-        "id": "20260715-8cc70460a4d03e85",
-        "topic": "Steve Buscemi Joins FX Anthology Series ‘Far Cry’ From Noah Hawley & Rob Mac",
-        "matched_categories": [
-          "death"
-        ],
-        "verification_status": "reported",
-        "independent_source_count": 1
-      }
-    ]
+  "cleanup": {
+    "last_run_at": "2026-07-15T23:00:42+08:00",
+    "status": "completed",
+    "mode": "archive_then_expire",
+    "last_archive_at": "2026-07-15T23:00:42+08:00",
+    "archive_path": "archive/2026/07/15",
+    "archived_events": 3,
+    "archived_sources": 3,
+    "expired_events_removed": 0,
+    "expired_sources_removed": 0,
+    "expired_archives_removed": 0,
+    "expired_failed_logs_removed": 0
   }
 }

@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-15T04:20:30+08:00",
+  "timezone": "Asia/Shanghai",
+  "records": [
+    {
+      "source_id": "S1ba60c17549b5c4fda2e",
+      "title": "‘Far Cry’ FX Series Casts Steve Buscemi",
+      "url": "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/",
+      "normalized_url": "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/",
+      "source": "variety.com",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-15T04:00:00+08:00",
+      "fetched_at": "2026-07-15T04:20:30+08:00",
+      "content_hash": "sha256:837e62d54153d07caf507d63096be4d2c575e8e879f930cdfa7fe840062e7f70",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "The “Far Cry” TV series is building out its cast with the addition of Steve Buscemi. Variety has learned that Buscemi will star in the series adaptation of the hit video game franchise alongside star and co-creator Rob Mac and previously announced cast member Lizzy Caplan. The series was first reported to be set up […]",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据variety.com页面，‘Far Cry’ FX Series Casts Steve Buscemi。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "source_id": "Se94c8ed32078e2279fa8",
+      "title": "BBC 'working hard' on future of Doctor Who, new BBC director general says",
+      "url": "https://www.bbc.co.uk/news/articles/cdejez0zlpno?at_medium=RSS&at_campaign=rss",
+      "normalized_url": "https://www.bbc.co.uk/news/articles/cdejez0zlpno?at_medium=RSS&at_campaign=rss",
+      "source": "bbc.co.uk",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-15T01:03:49+08:00",
+      "fetched_at": "2026-07-15T04:20:30+08:00",
+      "content_hash": "sha256:3a1a01c350a76d361456182a6b4d49e2da245cac823bb24d5598b0e8a18300a0",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "The sci-fi series currently faces an uncertain future after its annual Christmas special was axed for the second year in a row.",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据bbc.co.uk页面，BBC 'working hard' on future of Doctor Who, new BBC director general says。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "source_id": "S9262bf5e7beb4c10eb0b",
+      "title": "‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history",
+      "url": "https://www.theguardian.com/film/2026/jul/14/project-a-black-plane-film-barbican-pan-africanism",
+      "normalized_url": "https://www.theguardian.com/film/2026/jul/14/project-a-black-plane-film-barbican-pan-africanism",
+      "source": "theguardian.com",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-14T22:19:21+08:00",
+      "fetched_at": "2026-07-15T04:20:30+08:00",
+      "content_hash": "sha256:36e2bd9a683deefcd168c460866d6c6a439cd447d31d780c02993f8f4ee80951",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "Project a Black Planet: Film, a new season of screenings at the Barbican in London exemplifies how the movement was an act of solidarity, resistance and fierce creativity Algiers, 1969. What had, for seven years, been the metropolis of a newly independent country became, over the course of 12 days in July, the cosmopolitan centre of an entire continent. That summer, Algeria played host to the first Pan-African Cultural festival (Panaf) and the capital’s streets were transformed into a vista of energising performers, flanked by placards announcing each country’s delegation: Ethiopia, Liberia, Mali. Picture an Olympics-style opening ceremony, then discard it, for the images captured in William Klein’s documentary of the event, The Pan-African Festival of Algiers, hint at the very dissolving of barriers between spectacle and spectator – an act that brings to life a quote, shown on screen, from Guinea’s first president Sékou Touré: “We must make this revolution with the people … and the songs will come.” Continue reading...",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据theguardian.com页面，‘It wasn’t a dream, it was a threat’: the film festival celebrating pan-Africanism’s rich and complex history。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    }
+  ],
+  "source_status": [
+    {
+      "source": "Google News 中文剧集聚合",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 中文综艺聚合",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "The Guardian Film RSS",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "Variety RSS",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    },
+    {
+      "source": "Deadline RSS",
+      "status": "ok",
+      "checked_at": "2026-07-15T04:20:30+08:00",
+      "error": null
+    }
+  ]
+}
