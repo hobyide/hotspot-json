@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "timezone": "Asia/Shanghai",
   "purpose": "Concrete machine-readable endpoints used by the collector. Abstract source names in config/sources.json are policy only and must not be treated as executable adapters.",
   "request": {
@@ -15,6 +15,7 @@
     {"id":"global_entertainment_google_news","name":"Google News 全球影视娱乐聚合","format":"rss","region":"GLOBAL","tier":"tier_4_search_fallback","url":"https://news.google.com/rss/search?q=(film%20OR%20television%20OR%20series%20OR%20entertainment)%20(announcement%20OR%20trailer%20OR%20premiere%20OR%20casting)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen","categories":["drama","variety","celebrity","industry","entertainment_event"],"max_items":25},
     {"id":"trusted_tv_film_announcements","name":"Google News 可靠影视媒体定向聚合","format":"rss","region":"GLOBAL","tier":"tier_3_industry_media","url":"https://news.google.com/rss/search?q=(site%3Avariety.com%20OR%20site%3Adeadline.com%20OR%20site%3Aew.com%20OR%20site%3Ahollywoodreporter.com)%20(casts%20OR%20trailer%20OR%20premiere%20OR%20renewed%20OR%20release%20date)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen","categories":["drama","variety","celebrity","industry","entertainment_event"],"max_items":25},
     {"id":"trusted_tv_programming_announcements","name":"Google News 可靠电视节目媒体定向聚合","format":"rss","region":"GLOBAL","tier":"tier_3_industry_media","url":"https://news.google.com/rss/search?q=(site%3Avariety.com%20OR%20site%3Adeadline.com%20OR%20site%3Aew.com)%20(TV%20show%20OR%20reality%20OR%20awards%20OR%20host%20OR%20cast)%20(announces%20OR%20sets%20OR%20reveals%20OR%20returns)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen","categories":["variety","celebrity","entertainment_event"],"max_items":20},
+    {"id":"trusted_awards_reality_announcements","name":"Google News 可靠颁奖礼与真人秀定向聚合","format":"rss","region":"GLOBAL","tier":"tier_3_industry_media","url":"https://news.google.com/rss/search?q=(site%3Avariety.com%20OR%20site%3Adeadline.com%20OR%20site%3Aew.com%20OR%20site%3Ahollywoodreporter.com)%20(awards%20OR%20reality%20OR%20competition%20OR%20host%20OR%20presenters%20OR%20nominees)%20(announces%20OR%20reveals%20OR%20sets%20OR%20returns%20OR%20premieres)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen","categories":["variety","celebrity","entertainment_event"],"max_items":20},
     {"id":"bbc_entertainment","name":"BBC Entertainment & Arts RSS","format":"rss","region":"GLOBAL","tier":"tier_3_industry_media","url":"https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml","categories":["drama","variety","celebrity","industry","entertainment_event"],"max_items":15},
     {"id":"guardian_tv","name":"The Guardian TV & Radio RSS","format":"rss","region":"GLOBAL","tier":"tier_3_industry_media","url":"https://www.theguardian.com/tv-and-radio/rss","categories":["drama","variety"],"max_items":12},
     {"id":"guardian_film","name":"The Guardian Film RSS","format":"rss","region":"GLOBAL","tier":"tier_3_industry_media","url":"https://www.theguardian.com/film/rss","categories":["drama","industry","entertainment_event"],"max_items":12},
@@ -27,7 +28,8 @@
     "近24小时 明星 新作 公开活动 官方",
     "latest film television entertainment announcement trailer casting past 24 hours",
     "site:variety.com OR site:deadline.com OR site:ew.com latest TV film casting trailer premiere past 24 hours",
-    "site:variety.com OR site:deadline.com OR site:hollywoodreporter.com TV series reality show cast trailer premiere past 24 hours"
+    "site:variety.com OR site:deadline.com OR site:hollywoodreporter.com TV series reality show cast trailer premiere past 24 hours",
+    "site:variety.com OR site:deadline.com OR site:ew.com OR site:hollywoodreporter.com awards reality host nominees premiere past 24 hours"
   ],
   "selection": {
     "target_items": 12,
