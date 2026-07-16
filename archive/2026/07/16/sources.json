@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-16T06:02:50+08:00",
+  "timezone": "Asia/Shanghai",
+  "records": [
+    {
+      "source_id": "S0f980096e036c1963090",
+      "title": "Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’",
+      "url": "https://variety.com/2026/tv/news/vincent-donofrio-kate-mara-clancy-brown-netflix-vegas-roman-1236812086/",
+      "normalized_url": "https://variety.com/2026/tv/news/vincent-donofrio-kate-mara-clancy-brown-netflix-vegas-roman-1236812086/",
+      "source": "variety.com",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-16T06:00:00+08:00",
+      "fetched_at": "2026-07-16T06:02:50+08:00",
+      "content_hash": "sha256:1b9ac41538a9c6e26f93024e48a1246795897721ad24087a4e109b0f4045774a",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "The upcoming Netflix drama “The Roman” has added five new cast members, Variety has learned. The show, which is set in the world of Las Vegas casinos, has cast Vincent D’Onofrio (“Daredevil: Born Again,” “The Beauty”) and Kate Mara (“A Teacher,” “Imperfect Women”) in series regular roles. Clancy Brown (“I Will Find You,” “The Penguin”) […]",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "source_id": "S2e4fdc05ce268418dad8",
+      "title": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown",
+      "url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
+      "normalized_url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
+      "source": "bbc.co.uk",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-16T01:08:33+08:00",
+      "fetched_at": "2026-07-16T06:02:50+08:00",
+      "content_hash": "sha256:d79cca70b36225b26ea39f4b67f06bc443c89a88892389b6eccd5ef1678f9f46",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "The UFO comedy film is a debut from director Simon Ryninks who was inspired by his west Wales roots.",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据bbc.co.uk页面，Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "source_id": "S13a25a8b044d02be0bf1",
+      "title": "A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard",
+      "url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
+      "normalized_url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
+      "source": "theguardian.com",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-16T00:00:01+08:00",
+      "fetched_at": "2026-07-16T06:02:50+08:00",
+      "content_hash": "sha256:591e86eb22f7e22429770f81c44eb7bd73109bca5af38bff7c431a752d2a9e40",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "Matt Damon’s sensitive and repentant Odysseus might come as a surprise to Homer, likewise some significant omissions concerning the poem’s female characters Peter Bradshaw’s five star review It would be easy to think that the Odyssey, Homer’s epic poem composed over 2,500 years ago, is all about Odysseus. It’s called the Odyssey, after all. It opens with the invocation to the Muse, “Tell me about a complicated man” – pulling no punches about the poem’s theme. This is, on the surface of things, an epic about a man coming home, a return voyage that spans fluorescent fantasy worlds and yawns across 10 years in the wake of the fall of Troy; a one-hero clash with monsters and princesses, giants and whirlpools, the fight to reclaim his place as king of Ithaca, and as the hero of an epic of his own. But the point about an epic is that it also contains multitudes. There is much that is epic about Christopher Nolan’s latest film. For those familiar with Nolan’s work, that hardly comes as a surprise. It’s a long watch, coming in at just under three hours. It reckons with the breadth of the Odyssean legend, from the sack of Troy all the way to Odysseus’s return, and seamlessly juggles the epi",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据theguardian.com页面，A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    }
+  ],
+  "source_status": [
+    {
+      "source": "Google News 中文剧集聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 中文综艺聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 中文娱乐聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 全球影视娱乐聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 可靠影视媒体定向聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 可靠电视节目媒体定向聚合",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "BBC Entertainment & Arts RSS",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "The Guardian TV & Radio RSS",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "The Guardian Film RSS",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Variety RSS",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    },
+    {
+      "source": "Deadline RSS",
+      "status": "ok",
+      "checked_at": "2026-07-16T06:02:50+08:00",
+      "error": null
+    }
+  ]
+}
