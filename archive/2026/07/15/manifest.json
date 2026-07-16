@@ -2,15 +2,16 @@
   "schema_version": "1.0",
   "archive_date": "2026-07-15",
   "timezone": "Asia/Shanghai",
-  "created_at": "2026-07-15T23:00:42+08:00",
-  "source_feed_generated_at": "2026-07-15T04:20:30+08:00",
+  "created_at": "2026-07-16T11:09:55+08:00",
+  "source_feed_generated_at": "2026-07-16T06:02:50+08:00",
   "paths": {
     "events": "archive/2026/07/15/events.json",
     "sources": "archive/2026/07/15/sources.json"
   },
   "counts": {
     "events": 3,
-    "sources": 3
+    "sources": 3,
+    "referenced_source_count": 3
   },
   "validation": {
     "json_parse": "passed",
@@ -19,6 +20,7 @@
     "source_id_referential_integrity": "passed",
     "file_size": "passed"
   },
+  "content_summary_hash": "sha256:9eee2a8018b83e891d6ef4ef8cf2a48915cac01dd04de35bf4688cf9ac770790",
   "cleanup": {
     "expired_events_removed": 0,
     "expired_sources_removed": 0,
