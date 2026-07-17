@@ -21,6 +21,17 @@ ACTION_TERMS = (
     "cancelled", "returns", "return", "debut", "announces", "announced", "unveils",
     "passes", "joins", "wins", "nominated", "sets", "greenlights", "orders"
 )
+EVENT_SIGNAL_TERMS = ACTION_TERMS + (
+    "release date", "sets date", "official trailer", "season premiere", "series order",
+    "节目阵容", "正式公布", "确认出演", "公布名单"
+)
+EDITORIAL_PATTERNS = (
+    r"\bpoem\b", r"\bobituary\b", r"\btribute\b", r"\bprofile\b",
+    r"\binterview\b", r"\bq\s*&\s*a\b", r"\breview\b", r"\brecap\b",
+    r"\bexplainer\b", r"\bcolumn\b", r"\bopinion\b", r"\bremember(?:s|ing)?\b",
+    r"诗歌", r"悼文", r"纪念文", r"人物特写", r"专访", r"访谈", r"影评", r"剧评",
+    r"盘点", r"回顾", r"评论", r"观点", r"生活方式", r"幕后故事"
+)
 GENERIC_PREFIXES = (
     "综艺 ", "电视剧 ", "电影 ", "明星 ", "娱乐 ", "真人秀 ", "剧集 ",
     "variety ", "movie ", "tv ", "series "
@@ -60,6 +71,16 @@ def cjk_count(text: str) -> int:
 def has_action(title: str) -> bool:
     low = title.lower()
     return any(term.lower() in low for term in ACTION_TERMS)
+
+
+def has_event_signal(title: str, summary: str) -> bool:
+    text = f"{title} {summary}".lower()
+    return any(term.lower() in text for term in EVENT_SIGNAL_TERMS)
+
+
+def is_editorial(title: str, summary: str) -> bool:
+    text = f"{title} {summary}"
+    return any(re.search(pattern, text, flags=re.I) for pattern in EDITORIAL_PATTERNS)
 
 
 def source_summary(event: dict[str, Any]) -> str:
@@ -108,25 +129,24 @@ def quality_result(event: dict[str, Any]) -> tuple[bool, list[str]]:
 
     detail = residual_detail(title, summary, pub)
     action = has_action(title)
+    event_signal = has_event_signal(title, summary)
+    if is_editorial(title, summary) and not event_signal:
+        reasons.append("editorial_not_event")
     if not action and len(detail) < 45:
         reasons.append("no_action_and_no_detail")
-
     if any(title.lower().startswith(prefix.lower()) for prefix in GENERIC_PREFIXES):
         if not action and len(detail) < 60:
             reasons.append("generic_prefix_without_event")
-
     if summary and compact(summary).lower() in {
         title.lower(), f"{title} {pub}".lower(), f"{title}-{pub}".lower()
     }:
         reasons.append("summary_repeats_title_only")
-
     return not reasons, sorted(set(reasons))
 
 
 def balanced(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
     ordered = sorted(events, key=lambda e: (
-        float(e.get("hot_score", 0)),
-        e.get("last_seen_at", ""),
+        float(e.get("hot_score", 0)), e.get("last_seen_at", "")
     ), reverse=True)
     selected: list[dict[str, Any]] = []
     counts: Counter[str] = Counter()
@@ -159,32 +179,20 @@ def main() -> int:
 
     accepted = balanced(accepted)
     accepted_source_ids = {sid for event in accepted for sid in event.get("source_ids", [])}
-    records = [record for record in sources_store.get("records", [])
-               if record.get("source_id") in accepted_source_ids]
-
+    records = [r for r in sources_store.get("records", []) if r.get("source_id") in accepted_source_ids]
     publishers = Counter(publisher(event) for event in accepted)
     distinct = len(publishers)
     max_share = max(publishers.values(), default=0) / max(len(accepted), 1)
-    publishable_facts = sum(
-        1 for event in accepted for fact in event.get("facts", [])
-        if fact.get("can_use_as_fact")
-    )
+    publishable_facts = sum(1 for e in accepted for f in e.get("facts", []) if f.get("can_use_as_fact"))
 
     ready = len(accepted) >= 5 and distinct >= 3 and publishable_facts >= 3 and max_share <= 0.45
     partial = len(accepted) >= 3 and distinct >= 2 and publishable_facts >= 2 and max_share <= 0.67
     can_publish = ready or partial
     overall = "ready" if ready else "partial" if partial else "failed"
     mode = "full" if ready else "attributed_only" if partial else "blocked"
-
     if not can_publish:
-        report = {
-            "accepted": len(accepted),
-            "rejected": len(rejected),
-            "distinct_publishers": distinct,
-            "max_share": round(max_share, 4),
-            "examples": rejected[:10],
-        }
-        print(json.dumps(report, ensure_ascii=False, indent=2))
+        print(json.dumps({"accepted": len(accepted), "rejected": len(rejected), "distinct_publishers": distinct,
+                          "max_share": round(max_share, 4), "examples": rejected[:10]}, ensure_ascii=False, indent=2))
         raise SystemExit("semantic quality gate left no publishable feed")
 
     feed_map = {
@@ -192,10 +200,7 @@ def main() -> int:
         "drama": ("drama.json", lambda e: e.get("category") == "drama"),
         "variety": ("variety.json", lambda e: e.get("category") == "variety"),
         "celebrity": ("celebrity.json", lambda e: e.get("category") == "celebrity"),
-        "entertainment-events": (
-            "entertainment-events.json",
-            lambda e: e.get("category") == "entertainment_event",
-        ),
+        "entertainment-events": ("entertainment-events.json", lambda e: e.get("category") == "entertainment_event"),
     }
     for feed_name, (filename, predicate) in feed_map.items():
         payload = dict(latest)
@@ -205,47 +210,32 @@ def main() -> int:
 
     sources_store["records"] = records
     save(DATA / "sources.json", sources_store)
-
     status["status"] = overall
     status["publishability"] = {
-        "can_publish": True,
-        "mode": mode,
-        "publishable_event_count": len(accepted),
-        "publishable_fact_count": publishable_facts,
-        "distinct_publisher_count": distinct,
-        "max_single_publisher_share": round(max_share, 4),
-        "primary_gate": "config/health-gate.json",
+        "can_publish": True, "mode": mode, "publishable_event_count": len(accepted),
+        "publishable_fact_count": publishable_facts, "distinct_publisher_count": distinct,
+        "max_single_publisher_share": round(max_share, 4), "primary_gate": "config/health-gate.json",
         "semantic_quality_gate": "scripts/quality_gate.py",
     }
     status.setdefault("validation", {})["content_quality"] = "passed"
     status["validation"]["overall"] = "passed"
     status["counts"] = {
-        "all": len(accepted),
-        "drama": sum(e.get("category") == "drama" for e in accepted),
+        "all": len(accepted), "drama": sum(e.get("category") == "drama" for e in accepted),
         "variety": sum(e.get("category") == "variety" for e in accepted),
         "celebrity": sum(e.get("category") == "celebrity" for e in accepted),
         "entertainment_events": sum(e.get("category") == "entertainment_event" for e in accepted),
-        "source_records": len(records),
-        "distinct_publishers": distinct,
+        "source_records": len(records), "distinct_publishers": distinct,
     }
-    warnings = [warning for warning in status.get("warnings", [])
-                if not str(warning).startswith("quality_gate:")]
+    warnings = [w for w in status.get("warnings", []) if not str(w).startswith("quality_gate:")]
     warnings.append(f"quality_gate: removed {len(rejected)} low-information candidates and kept {len(accepted)}")
     status["warnings"] = warnings
     status["quality_gate"] = {
-        "removed_low_information_candidates": len(rejected),
-        "kept_events": len(accepted),
+        "removed_low_information_candidates": len(rejected), "kept_events": len(accepted),
         "rejection_examples": rejected[:10],
     }
     save(DATA / "status.json", status)
-
-    print(json.dumps({
-        "status": overall,
-        "kept": len(accepted),
-        "removed": len(rejected),
-        "publishers": distinct,
-        "max_share": round(max_share, 4),
-    }, ensure_ascii=False))
+    print(json.dumps({"status": overall, "kept": len(accepted), "removed": len(rejected),
+                      "publishers": distinct, "max_share": round(max_share, 4)}, ensure_ascii=False))
     return 0
 
 
