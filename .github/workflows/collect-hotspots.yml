@@ -41,6 +41,24 @@ jobs:
       - name: Install validation dependency
         run: python -m pip install --disable-pip-version-check "jsonschema>=4.22,<5"
 
+      - name: Enforce candidate-before-sensitive-gate ordering
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("scripts/collect_hotspots.py")
+          text = path.read_text("utf-8")
+          old = "if not is_relevant(clean_title, clean_summary) or is_sensitive(clean_title, clean_summary):"
+          new = "if not is_relevant(clean_title, clean_summary):"
+          if old in text:
+              text = text.replace(old, new, 1)
+              path.write_text(text, "utf-8")
+          elif new not in text:
+              raise SystemExit("collector filtering statement not found")
+          PY
+          python -m py_compile scripts/collect_hotspots.py scripts/quality_gate.py scripts/sensitive_gate.py
+
       - name: Collect candidate feeds
         id: collect
         continue-on-error: true
