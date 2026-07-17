@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-07-16T06:02:50+08:00",
+  "generated_at": "2026-07-17T18:00:37+08:00",
   "timezone": "Asia/Shanghai",
   "window_hours": 24,
   "pipeline": {
@@ -13,77 +13,105 @@
       "platform": "Google News 中文剧集聚合",
       "status": "ok",
       "item_count": 20,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文综艺聚合",
       "status": "ok",
-      "item_count": 15,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "item_count": 17,
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Google News 中文娱乐聚合",
       "status": "ok",
-      "item_count": 23,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "item_count": 25,
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Google News 全球影视娱乐聚合",
       "status": "ok",
       "item_count": 22,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Google News 可靠影视媒体定向聚合",
       "status": "ok",
-      "item_count": 7,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "item_count": 8,
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Google News 可靠电视节目媒体定向聚合",
       "status": "ok",
       "item_count": 9,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 可靠颁奖礼与真人秀定向聚合",
+      "status": "ok",
+      "item_count": 2,
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News People与EW真人秀明星阵容聚合",
+      "status": "ok",
+      "item_count": 10,
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 官方电视网娱乐公告聚合",
+      "status": "ok",
+      "item_count": 4,
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "platform": "Google News 官方流媒体娱乐公告聚合",
+      "status": "ok",
+      "item_count": 0,
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "BBC Entertainment & Arts RSS",
       "status": "ok",
-      "item_count": 3,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "item_count": 4,
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "The Guardian TV & Radio RSS",
       "status": "ok",
       "item_count": 0,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "The Guardian Film RSS",
       "status": "ok",
       "item_count": 4,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Variety RSS",
       "status": "ok",
       "item_count": 5,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "platform": "Deadline RSS",
       "status": "ok",
       "item_count": 3,
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     }
   ],

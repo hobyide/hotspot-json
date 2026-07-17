@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-16T06:02:50+08:00",
+  "generated_at": "2026-07-17T18:00:37+08:00",
   "timezone": "Asia/Shanghai",
   "records": [
     {
-      "source_id": "S0f980096e036c1963090",
-      "title": "Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’",
-      "url": "https://variety.com/2026/tv/news/vincent-donofrio-kate-mara-clancy-brown-netflix-vegas-roman-1236812086/",
-      "normalized_url": "https://variety.com/2026/tv/news/vincent-donofrio-kate-mara-clancy-brown-netflix-vegas-roman-1236812086/",
+      "source_id": "S1cbcf97a9a0d4ac29cb9",
+      "title": "‘Kung Fu Panda 3’ Studio Sets Global Release for ‘All Wishes Come True!’",
+      "url": "https://variety.com/2026/film/news/kung-fu-panda-3-studio-global-release-all-wishes-come-true-1236814439/",
+      "normalized_url": "https://variety.com/2026/film/news/kung-fu-panda-3-studio-global-release-all-wishes-come-true-1236814439/",
       "source": "variety.com",
       "source_type": "industry_media",
       "tier": "tier_3_industry_media",
       "author": null,
-      "published_at": "2026-07-16T06:00:00+08:00",
-      "fetched_at": "2026-07-16T06:02:50+08:00",
-      "content_hash": "sha256:1b9ac41538a9c6e26f93024e48a1246795897721ad24087a4e109b0f4045774a",
+      "published_at": "2026-07-17T18:00:00+08:00",
+      "fetched_at": "2026-07-17T18:00:37+08:00",
+      "content_hash": "sha256:8e30d98cf9eb078573270f37fa11d845c22edd7f559270edaa6d99756dd01970",
       "fetch_status": "success",
       "rank": null,
       "heat_raw": null,
       "content": {
         "mode": "summary_only",
         "text": null,
-        "summary": "The upcoming Netflix drama “The Roman” has added five new cast members, Variety has learned. The show, which is set in the world of Las Vegas casinos, has cast Vincent D’Onofrio (“Daredevil: Born Again,” “The Beauty”) and Kate Mara (“A Teacher,” “Imperfect Women”) in series regular roles. Clancy Brown (“I Will Find You,” “The Penguin”) […]",
+        "summary": "Pearl Studio’s animated comedy “All Wishes Come True!” will expand into international markets this summer following its July 24 China debut. Australia, New Zealand and Papua New Guinea will get the film first, on Aug. 13, with the U.S., Canada, the U.K., Ireland and the Netherlands following on Aug. 14. Belgium and Luxembourg round out […]",
         "excerpt": null,
         "language": "en",
         "license": {
@@ -30,7 +30,7 @@
           "url": null
         },
         "key_facts": [
-          "据variety.com页面，Vincent D’Onofrio, Kate Mara, Clancy Brown Among Five Cast in Netflix Las Vegas Drama ‘The Roman’。"
+          "据variety.com页面，‘Kung Fu Panda 3’ Studio Sets Global Release for ‘All Wishes Come True!’。"
         ]
       },
       "media": {
@@ -39,59 +39,24 @@
       }
     },
     {
-      "source_id": "S2e4fdc05ce268418dad8",
-      "title": "Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown",
-      "url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
-      "normalized_url": "https://www.bbc.co.uk/news/articles/c79y240e71po?at_medium=RSS&at_campaign=rss",
-      "source": "bbc.co.uk",
-      "source_type": "industry_media",
-      "tier": "tier_3_industry_media",
-      "author": null,
-      "published_at": "2026-07-16T01:08:33+08:00",
-      "fetched_at": "2026-07-16T06:02:50+08:00",
-      "content_hash": "sha256:d79cca70b36225b26ea39f4b67f06bc443c89a88892389b6eccd5ef1678f9f46",
-      "fetch_status": "success",
-      "rank": null,
-      "heat_raw": null,
-      "content": {
-        "mode": "summary_only",
-        "text": null,
-        "summary": "The UFO comedy film is a debut from director Simon Ryninks who was inspired by his west Wales roots.",
-        "excerpt": null,
-        "language": "en",
-        "license": {
-          "status": "unknown",
-          "name": null,
-          "url": null
-        },
-        "key_facts": [
-          "据bbc.co.uk页面，Michael Sheen stars in comedy about UFOs after claiming he saw one over hometown。"
-        ]
-      },
-      "media": {
-        "images": [],
-        "videos": []
-      }
-    },
-    {
-      "source_id": "S13a25a8b044d02be0bf1",
-      "title": "A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard",
-      "url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
-      "normalized_url": "https://www.theguardian.com/film/2026/jul/15/the-odyssey-christopher-nolan-classicists-verdict",
+      "source_id": "S51bbd4406b397896b79e",
+      "title": "‘Some fantastic mischief lurking just around the grin’: Sam Neill by Tara Fitzgerald – a poem",
+      "url": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem",
+      "normalized_url": "https://www.theguardian.com/film/2026/jul/17/sam-neill-tara-fitzgerald-poem",
       "source": "theguardian.com",
       "source_type": "industry_media",
       "tier": "tier_3_industry_media",
       "author": null,
-      "published_at": "2026-07-16T00:00:01+08:00",
-      "fetched_at": "2026-07-16T06:02:50+08:00",
-      "content_hash": "sha256:591e86eb22f7e22429770f81c44eb7bd73109bca5af38bff7c431a752d2a9e40",
+      "published_at": "2026-07-17T17:00:03+08:00",
+      "fetched_at": "2026-07-17T18:00:37+08:00",
+      "content_hash": "sha256:83242f881f45f7291f8ee49a9d987799f5dc96ff65b185f58dece61d0b96843a",
       "fetch_status": "success",
       "rank": null,
       "heat_raw": null,
       "content": {
         "mode": "summary_only",
         "text": null,
-        "summary": "Matt Damon’s sensitive and repentant Odysseus might come as a surprise to Homer, likewise some significant omissions concerning the poem’s female characters Peter Bradshaw’s five star review It would be easy to think that the Odyssey, Homer’s epic poem composed over 2,500 years ago, is all about Odysseus. It’s called the Odyssey, after all. It opens with the invocation to the Muse, “Tell me about a complicated man” – pulling no punches about the poem’s theme. This is, on the surface of things, an epic about a man coming home, a return voyage that spans fluorescent fantasy worlds and yawns across 10 years in the wake of the fall of Troy; a one-hero clash with monsters and princesses, giants and whirlpools, the fight to reclaim his place as king of Ithaca, and as the hero of an epic of his own. But the point about an epic is that it also contains multitudes. There is much that is epic about Christopher Nolan’s latest film. For those familiar with Nolan’s work, that hardly comes as a surprise. It’s a long watch, coming in at just under three hours. It reckons with the breadth of the Odyssean legend, from the sack of Troy all the way to Odysseus’s return, and seamlessly juggles the epi",
+        "summary": "Neill’s co-star in the 1994 comedy-drama Sirens remembers a man of rare beauty, generosity and delight By the time I met Sam He had already assumed a kind of mythic status in our household, playing Reilly on Ace of Spies. My stepfather was his boss. 11 years on and I get to work with him, Playing Norman Lindsay (wryly). He was Electric-minded Some fantastic mischief lurking just around the grin The twinkle of his eye An astronomical scintillation No time for Acting Too busy Being. Present (Before I knew what present even was) There for the other actor Made it seem so simple Really asked the question He could conjure anything Puckish So blessed to have had that time The proximity With the hope that something Might rub off Yes His softly softly take The first tasting of Two Paddocks Pinot noir On a gentle evening Chez lui (Another case of his generosity) The satisfying ritual of the swirling, the sniffing, the sipping, The glass half-full Raised To the life fully lived Fine unbuttoning of stories and some Past glories Never boastful Never cruel Only A delight at the sharing The wit and the wine and the Wrapping us all in his open embrace Us, being a shimmer of sirens, A bouquet of sh",
         "excerpt": null,
         "language": "en",
         "license": {
@@ -100,7 +65,77 @@
           "url": null
         },
         "key_facts": [
-          "据theguardian.com页面，A classicist’s verdict on Nolan’s Odyssey: a soulful hero flatters our times as women and nuance pushed overboard。"
+          "据theguardian.com页面，‘Some fantastic mischief lurking just around the grin’: Sam Neill by Tara Fitzgerald – a poem。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "source_id": "S1556dd09bfef64f69ac5",
+      "title": "The 85-year-old living in her own art installation",
+      "url": "https://www.bbc.co.uk/news/articles/crel1g1j957o?at_medium=RSS&at_campaign=rss",
+      "normalized_url": "https://www.bbc.co.uk/news/articles/crel1g1j957o?at_medium=RSS&at_campaign=rss",
+      "source": "bbc.co.uk",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-17T12:54:09+08:00",
+      "fetched_at": "2026-07-17T18:00:37+08:00",
+      "content_hash": "sha256:aa795a34a8429f37539c660dc755dc5523edeab76e7bbaaed607173d79ac73ee",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "After careers as a teacher, cookbook author and TV chef, Sue Kreitzman's life took a different path.",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据bbc.co.uk页面，The 85-year-old living in her own art installation。"
+        ]
+      },
+      "media": {
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "source_id": "Sbf6a0060ac21dbcd0f2a",
+      "title": "PVR Inox’s Sanjeev Kumar Bijli On India’s Box Office Recovery, Cinema Expansion & Cannes Acquisitions Haul",
+      "url": "https://deadline.com/2026/07/pvr-inox-sanjeev-kumar-bijli-the-odyssey-dhurandhar-cannes-1236983077/",
+      "normalized_url": "https://deadline.com/2026/07/pvr-inox-sanjeev-kumar-bijli-the-odyssey-dhurandhar-cannes-1236983077/",
+      "source": "deadline.com",
+      "source_type": "industry_media",
+      "tier": "tier_3_industry_media",
+      "author": null,
+      "published_at": "2026-07-17T11:00:00+08:00",
+      "fetched_at": "2026-07-17T18:00:37+08:00",
+      "content_hash": "sha256:fc4bfa9c5f6a9c6a206c782698ac95832ab46e26b4074604c48177d34cfcb3ac",
+      "fetch_status": "success",
+      "rank": null,
+      "heat_raw": null,
+      "content": {
+        "mode": "summary_only",
+        "text": null,
+        "summary": "EXCLUSIVE: India’s theatrical market is one of the few in Asia that has outstripped pre-pandemic revenues, despite the growth of streaming, the slowdown in the Hollywood pipeline and all the other factors that have hampered box office in other international territories. In 2025, box office reached a record-breaking $1.48BN, due to a string of Hindi […]",
+        "excerpt": null,
+        "language": "en",
+        "license": {
+          "status": "unknown",
+          "name": null,
+          "url": null
+        },
+        "key_facts": [
+          "据deadline.com页面，PVR Inox’s Sanjeev Kumar Bijli On India’s Box Office Recovery, Cinema Expansion & Cannes Acquisitions Haul。"
         ]
       },
       "media": {
@@ -113,67 +148,91 @@
     {
       "source": "Google News 中文剧集聚合",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Google News 中文综艺聚合",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Google News 中文娱乐聚合",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Google News 全球影视娱乐聚合",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Google News 可靠影视媒体定向聚合",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Google News 可靠电视节目媒体定向聚合",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 可靠颁奖礼与真人秀定向聚合",
+      "status": "ok",
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News People与EW真人秀明星阵容聚合",
+      "status": "ok",
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 官方电视网娱乐公告聚合",
+      "status": "ok",
+      "checked_at": "2026-07-17T18:00:37+08:00",
+      "error": null
+    },
+    {
+      "source": "Google News 官方流媒体娱乐公告聚合",
+      "status": "ok",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "BBC Entertainment & Arts RSS",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "The Guardian TV & Radio RSS",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "The Guardian Film RSS",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Variety RSS",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     },
     {
       "source": "Deadline RSS",
       "status": "ok",
-      "checked_at": "2026-07-16T06:02:50+08:00",
+      "checked_at": "2026-07-17T18:00:37+08:00",
       "error": null
     }
   ]
