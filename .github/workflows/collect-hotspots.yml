@@ -162,17 +162,17 @@ jobs:
           }, ensure_ascii=False))
           PY
 
-      - name: Commit only fully validated data
+      - name: Commit only fully validated data and persistent collector repair
         if: steps.verify.outcome == 'success'
         run: |
-          if git diff --quiet -- data; then
-            echo "No data changes"
+          if git diff --quiet -- data scripts/collect_hotspots.py; then
+            echo "No validated data or collector changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git commit -m "data: refresh fully gated entertainment hotspots"
+          git add data scripts/collect_hotspots.py
+          git commit -m "data: refresh gated hotspots and persist collector ordering"
           git push
 
       - name: Save diagnostics and reject unvalidated output
@@ -192,7 +192,7 @@ jobs:
               if [ -f "${file}" ]; then cat "${file}"; else echo "not generated"; fi
             done
           } > logs/last-gate-failure.txt
-          git restore --worktree --staged data || true
+          git restore --worktree --staged data scripts/collect_hotspots.py || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add logs/last-gate-failure.txt
